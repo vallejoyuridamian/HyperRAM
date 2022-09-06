@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>C:/Users/Damian/Desktop/advances_4_7/hyperram</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/advances_4_7/hyperram.vhd(10): </Dynamic>
+            <Dynamic>hram_interface</Dynamic>
+            <Navigation>c:/users/damian/desktop/advances_4_7/hyperram.vhd</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/advances_4_7/hyperram.vhd(54): </Dynamic>
+            <Dynamic>arc</Dynamic>
+            <Navigation>c:/users/damian/desktop/advances_4_7/hyperram.vhd</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/advances_4_7/hyperram_tb.vhd(4): </Dynamic>
+            <Dynamic>hyperram_tb</Dynamic>
+            <Navigation>c:/users/damian/desktop/advances_4_7/hyperram_tb.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/advances_4_7/hyperram_tb.vhd(21): </Dynamic>
+            <Dynamic>behavior</Dynamic>
+            <Navigation>c:/users/damian/desktop/advances_4_7/hyperram_tb.vhd</Navigation>
+            <Navigation>21</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/advances_4_7/clk_div_2.vhd(8): </Dynamic>
+            <Dynamic>clk_div_2</Dynamic>
+            <Navigation>c:/users/damian/desktop/advances_4_7/clk_div_2.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/advances_4_7/clk_div_2.vhd(18): </Dynamic>
+            <Dynamic>arc</Dynamic>
+            <Navigation>c:/users/damian/desktop/advances_4_7/clk_div_2.vhd</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/damian/desktop/advances_4_7/hyperram_tb.vhd(19): </Dynamic>
+            <Dynamic>hyperram_tb</Dynamic>
+            <Dynamic>behavior</Dynamic>
+            <Navigation>c:/users/damian/desktop/advances_4_7/hyperram_tb.vhd</Navigation>
+            <Navigation>19</Navigation>
+        </Message>
+        <Message>
+            <ID>35001757</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>rwds_out_dbg_test</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+</BaliMessageLog>

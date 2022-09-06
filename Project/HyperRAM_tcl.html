@@ -1,0 +1,269 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn220703095621"></A><B><U><big>pn220703095621</big></U></B>
+#Start recording tcl command: 7/2/2022 19:37:08
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+prj_project new -name "HyperRAM" -impl "hyperram" -dev LFE5U-25F-6MG285C -synthesis "lse"
+prj_project save
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram.vhd"
+prj_project save
+prj_project close
+#Stop recording: 7/3/2022 09:56:21
+
+
+
+<A name="pn220704000331"></A><B><U><big>pn220704000331</big></U></B>
+#Start recording tcl command: 7/3/2022 23:01:46
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.ldf"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/hyperramplusramsim.spf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.modelsim.vp"
+prj_run Map -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/hyperramplusramsim.spf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/Config-AC.v"
+prj_run Synthesis -impl hyperram
+prj_src remove "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/Config-AC.v"
+prj_run Synthesis -impl hyperram
+prj_run Map -impl hyperram
+prj_run PAR -impl hyperram
+prj_run Export -impl hyperram
+prj_run Export -impl hyperram
+prj_run Export -impl hyperram
+prj_run Export -impl hyperram
+prj_run Export -impl hyperram -task IBIS
+prj_run Export -impl hyperram -task TimingSimFileVlg
+prj_run Export -impl hyperram -task TimingSimFileVHD
+prj_run Export -impl hyperram -task Bitgen
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/Config-AC.v"
+prj_run Synthesis -impl hyperram
+prj_src remove "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/Config-AC.v"
+prj_run Synthesis -impl hyperram
+prj_run Map -impl hyperram -task MapVHDLSimFile
+prj_run Map -impl hyperram -task MapVerilogSimFile
+prj_run PAR -impl hyperram
+prj_run Map -impl hyperram -task MapTrace
+prj_src remove "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.modelsim.vp"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.modelsim.v"
+prj_run Synthesis -impl hyperram
+#Stop recording: 7/4/2022 00:03:31
+
+
+
+<A name="pn220704102305"></A><B><U><big>pn220704102305</big></U></B>
+#Start recording tcl command: 7/4/2022 08:35:24
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.ldf"
+prj_src remove "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.modelsim.v"
+launch_synplify_prj hyperram
+launch_synplify_prj hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram/rev_1/W958D8NBYA.modelsim.edn"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/hyperramplusramsim.spf"
+prj_run Map -impl hyperram
+prj_run Map -impl hyperram -task MapTrace
+prj_run PAR -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/hyperramplusramsim.spf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/hyperramplusramsim.spf"
+prj_run Synthesis -impl hyperram -task Lattice_Synthesis
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Map -impl hyperram
+prj_run PAR -impl hyperram
+launch_synplify_prj hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/hyperramplusramsim.spf"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run PAR -impl hyperram
+prj_run Export -impl hyperram -task TimingSimFileVHD
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/hyperramplusramsim.spf"
+prj_run Export -impl hyperram -task TimingSimFileVHD
+prj_run Export -impl hyperram -task TimingSimFileVHD
+prj_run Export -impl hyperram -task TimingSimFileVHD
+prj_run Export -impl hyperram -task TimingSimFileVHD -forceOne
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram -forceAll
+prj_project save
+prj_project close
+#Stop recording: 7/4/2022 10:23:05
+
+
+
+<A name="pn220704204758"></A><B><U><big>pn220704204758</big></U></B>
+#Start recording tcl command: 7/4/2022 11:09:58
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.ldf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramsim/hyperramsim.spf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramsim/hyperramsim.spf"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramsim/hyperramsim.spf"
+prj_src remove "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram/rev_1/W958D8NBYA.modelsim.edn"
+prj_src add "C:/modeltech64_2020.4/examples/hyperram/_lib.qdb"
+prj_src remove "C:/modeltech64_2020.4/examples/hyperram/_lib.qdb"
+launch_synplify_prj hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.modelsim.vp"
+launch_synplify_prj hyperram
+prj_src remove "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.modelsim.vp"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramsim/hyperramsim.spf"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramtest/hyperramtest.spf"
+#Stop recording: 7/4/2022 20:47:58
+
+
+
+<A name="pn220704204950"></A><B><U><big>pn220704204950</big></U></B>
+#Start recording tcl command: 7/4/2022 20:49:17
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+C:/Users/Damian/Desktop/Upwork/CamilaFPGA/advances_4_7
+HyperRAM
+#Start recording tcl command: 7/4/2022 20:49:46
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/advances_4_7; Project name: HyperRAM
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.ldf"
+prj_project saveas -name "HyperRAM" -dir "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/advances_4_7"
+#Stop recording: 7/4/2022 20:49:50
+
+
+
+<A name="pn220705201103"></A><B><U><big>pn220705201103</big></U></B>
+#Start recording tcl command: 7/5/2022 09:04:04
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.ldf"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+#Stop recording: 7/5/2022 20:11:03
+
+
+
+<A name="pn220706175907"></A><B><U><big>pn220706175907</big></U></B>
+#Start recording tcl command: 7/6/2022 08:07:57
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.ldf"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram -task Lattice_Synthesis
+prj_run Synthesis -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramtestbench/hyperramtestbench.spf"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram -task Lattice_Synthesis
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+#Stop recording: 7/6/2022 17:59:07
+
+
+
+<A name="pn220706202133"></A><B><U><big>pn220706202133</big></U></B>
+#Start recording tcl command: 7/6/2022 19:11:56
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.ldf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram_clean.vhd"
+#Stop recording: 7/6/2022 20:21:33
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

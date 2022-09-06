@@ -1,0 +1,11 @@
+|__hyper__lib__|syn_hyper_source|2|C:\lscc\diamond\3.5\synpbase\lib\vlog\hypermods.v|0|
+|__hyper__lib__|syn_hyper_connect|4|C:\lscc\diamond\3.5\synpbase\lib\vlog\hypermods.v|0|
+|snps_haps|capim|4|C:\lscc\diamond\3.5\synpbase\lib\vlog\umr_capim.v|0|
+|snps_haps|umr_clk_reset|0|C:\lscc\diamond\3.5\synpbase\lib\vlog\umr_capim.v|0|
+|snps_haps|capim_wp|2|C:\lscc\diamond\3.5\synpbase\lib\vlog\umr_capim.v|0|
+|snps_haps|SceMiMessageOutPort|1|C:\lscc\diamond\3.5\synpbase\lib\vlog\scemi_objects.v|0|
+|snps_haps|SceMiMessageInPort|1|C:\lscc\diamond\3.5\synpbase\lib\vlog\scemi_objects.v|0|
+|snps_haps|SceMiClockPort|7|C:\lscc\diamond\3.5\synpbase\lib\vlog\scemi_objects.v|0|
+|snps_haps|SceMiClockControl|1|C:\lscc\diamond\3.5\synpbase\lib\vlog\scemi_objects.v|0|
+|snps_haps|SceMiClockPortP|6|C:\lscc\diamond\3.5\synpbase\lib\vlog\scemi_objects.v|0|
+|work|W958D8NBYA|137|C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp|0|

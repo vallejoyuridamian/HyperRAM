@@ -1,0 +1,33 @@
+-- Clock divider
+-- divides the input clock by 2
+
+ENTITY clk_div_2 IS
+    PORT (
+        --inputs
+        clk_in : IN STD_LOGIC; --125MHz
+        reset : IN STD_LOGIC;
+        --outputs
+        clk_out: OUT STD_LOGIC;
+    );
+END clk_div_2;
+
+ARCHITECTURE arc OF clk_div_2 IS
+SIGNAL counter: integer:=1;
+SIGNAL clk_aux : std_logic := '0';
+BEGIN
+	PROCESS(clk_system, reset)
+	BEGIN
+	   IF(reset='1') THEN
+			 count<=1;
+			 clk_aux<='0';
+		ELSIF (clk_system'event and clk_system='1') THEN
+			 IF (counter > (2)) THEN
+				clk_aux <= not(clk_aux);
+				counter <= (others => '0');
+			 ELSE 
+				count <= count + 1;
+			 END IF;   
+	   END IF;
+	END PROCESS;
+clk_out <= clk_aux;
+END arc;

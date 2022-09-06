@@ -1,0 +1,6 @@
+#Start recording tcl command: 7/3/2022 10:23:56
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject; Project name: clkdivtwo
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clkdivtwo.ldf"
+prj_run Map -impl clkdivtwo
+prj_run Map -impl clkdivtwo
+#Stop recording: 7/3/2022 10:27:33

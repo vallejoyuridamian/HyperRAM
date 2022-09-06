@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "HyperRAM_hyperram.log"
+-o "HyperRAM_hyperram.csv"
+-pr "HyperRAM_hyperram.prf"

@@ -1,0 +1,12 @@
+Synopsys Netlist Linker, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+File C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\synwork\hyperram_comp.srs changed - recompiling
+@N: NF107 :|Selected library: work cell: W958D8NBYA view verilog as top level
+@N: NF107 :|Selected library: work cell: W958D8NBYA view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 04 09:57:33 2022
+
+###########################################################]

@@ -1,0 +1,7 @@
+5
+~E 1 "../../clk_div_2.vhd" 8 clk_div_2
+~A 1 "../../clk_div_2.vhd" 18 arc
+~E 1 "../../hyperram.vhd" 13 hram_interface
+~A 1 "../../hyperram.vhd" 45 arc
+~E 1 "../../hyperram_tb.vhd" 5 hyperram_tb
+~A 1 "../../hyperram_tb.vhd" 13 behavior

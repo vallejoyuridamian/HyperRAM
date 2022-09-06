@@ -1,0 +1,11 @@
+#--  Synopsys, Inc.
+#--  Version J-2015.03L
+#--  Project file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\memory_black_box\memory_black_box_syn.prd
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

@@ -1,0 +1,15 @@
+System Designer (TM) sd200912 158R.
+Copyright (C) 2007-2008, Synopsys Inc. All Rights Reserved.
+Run: Mon Jul 04 17:11:02 GMT 2022, on DESKTOP-990B5R6, by Damian.
+
+INFO: Install Path: C:\lscc\diamond\3.5\synpbase\system_designer\bin
+INFO: Run Path: C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\.
+INFO: Reading Synplify project file: C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\hyperram_syn.prj
+INFO: FPGA Vendor=Generic, Technology=ECP5U
+INFO: Reading Synplify project file: C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\hyperram_syn.prj
+INFO: FPGA Vendor=Generic, Technology=ECP5U
+INFO: Preparing project=try directory: C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram
+INFO: Loading library: C:\modeltech64_2020.4\examples\work
+INFO: Done loading total components: 0
+INFO: Total bus definitions: 0
+INFO: Total abstraction definitions: 0

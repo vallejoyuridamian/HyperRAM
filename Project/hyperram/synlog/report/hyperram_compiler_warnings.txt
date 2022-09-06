@@ -1,0 +1,115 @@
+@W::No top level Entity/Module specified, it is preferable that one is specified.
+@W: CD326 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":77:1:77:3|Port reset_n of entity work.hram_interface is unconnected
+@W: CD326 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":77:1:77:3|Port ready of entity work.hram_interface is unconnected
+@W: CD638 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":59:13:59:19|Signal nxstate is undriven 
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal byte_counter[2:0].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal state[0:0].
+@W: CL117 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Latch generated from process for signal CS_n; possible missing assignment in an if or case statement.
+@W: CL111 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|All reachable assignments to ready assign '0'; register removed by optimization
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[0:0].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[1:1].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[2:2].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[3:3].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[4:4].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[5:5].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[6:6].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[7:7].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[8:8].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[9:9].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[10:10].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[11:11].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[12:12].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[13:13].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[14:14].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[15:15].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[16:16].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[17:17].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[18:18].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[19:19].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[20:20].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[21:21].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[22:22].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[23:23].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[24:24].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[25:25].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[26:26].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[27:27].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[28:28].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[29:29].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[30:30].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[31:31].
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(28) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(27) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(26) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(25) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(24) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(20) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(19) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(18) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(17) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(16) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(12) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(11) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(10) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(9) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(8) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(4) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(3) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(2) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(1) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(0) to a constant 0
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(0)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(1)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(2)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(3)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(4)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(8)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(9)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(10)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(11)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(12)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(16)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(17)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(18)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(19)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(20)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(24)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(25)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(26)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(27)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(28)  
+@W: CL240 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":8:2:8:13|clk_out_test is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL158 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":37:8:37:11|Inout RWDS is unused
+

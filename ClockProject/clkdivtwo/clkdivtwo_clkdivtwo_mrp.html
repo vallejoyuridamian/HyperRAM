@@ -1,0 +1,373 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+       Lattice Mapping Report File for Design Module 'Tb_clock_divider'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a ECP5U -p LFE5U-25F -t CSFBGA285 -s 6 -oc Commercial
+     clkdivtwo_clkdivtwo.ngd -o clkdivtwo_clkdivtwo_map.ncd -pr
+     clkdivtwo_clkdivtwo.prf -mp clkdivtwo_clkdivtwo.mrp -lpf C:/Users/Damian/De
+     sktop/Upwork/CamilaFPGA/ClockProject/clkdivtwo/clkdivtwo_clkdivtwo.lpf -lpf
+     C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clkdivtwo.lpf -gui
+     -msgset C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/promote.xml
+     
+Target Vendor:  LATTICE
+Target Device:  LFE5U-25FCSFBGA285
+Target Performance:   6
+Mapper:  sa5p00,  version:  Diamond Version 3.5.0.102
+Mapped on:  07/03/22  12:04:20
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:     33 out of 24642 (0%)
+      PFU registers:           33 out of 24288 (0%)
+      PIO registers:            0 out of   354 (0%)
+   Number of SLICEs:        36 out of 12144 (0%)
+      SLICEs as Logic/ROM:     36 out of 12144 (0%)
+      SLICEs as RAM:            0 out of  9108 (0%)
+      SLICEs as Carry:         34 out of 12144 (0%)
+   Number of LUT4s:         70 out of 24288 (0%)
+      Number of logic LUTs:        2
+      Number of distributed RAM:   0 (0 LUT4s)
+      Number of ripple logic:     34 (68 LUT4s)
+      Number of shift registers:   0
+   Number of PIO sites used: 3 out of 118 (3%)
+   Number of block RAMs:  0 out of 56 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   DTR used :   No
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 4 (0%)
+   Number of Dynamic Bank Controller (BCLVDSOB):  0 out of 4 (0%)
+   Number of DCC:  0 out of 60 (0%)
+   Number of DCS:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DDRDLLs:  0 out of 4 (0%)
+   Number of CLKDIV:  0 out of 4 (0%)
+   Number of ECLKSYNC:  0 out of 10 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+   MULT18X18D          0
+   MULT9X9D            0
+
+   ALU54B              0
+   ALU24B              0
+   PRADD18A            0
+   PRADD9A             0
+   --------------------------------
+   Number of Used DSP MULT Sites:  0 out of 56 (0 %)
+   Number of Used DSP ALU Sites:  0 out of 28 (0 %)
+   Number of Used DSP PRADD Sites:  0 out of 56 (0 %)
+   Number of clocks:  1
+     Net clk_in_c: 18 loads, 18 rising, 0 falling (Driver: PIO clk_in )
+   Number of Clock Enables:  0
+   Number of LSRs:  1
+     Net n39: 16 loads, 16 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net n39: 18 loads
+     Net counter_21: 2 loads
+     Net counter_22: 2 loads
+     Net counter_23: 2 loads
+     Net counter_24: 2 loads
+     Net counter_25: 2 loads
+     Net counter_26: 2 loads
+     Net counter_27: 2 loads
+     Net counter_28: 2 loads
+     Net counter_29: 2 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+   No errors or warnings present.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| reset               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clk_in              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clk_out             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Signal n177 was merged into signal reset_c
+
+Signal n178 was merged into signal n39
+Signal VCC_net undriven or does not drive anything - clipped.
+Signal add_18_1/S1 undriven or does not drive anything - clipped.
+Signal add_18_1/S0 undriven or does not drive anything - clipped.
+Signal add_18_1/CI undriven or does not drive anything - clipped.
+Signal add_18_3/S1 undriven or does not drive anything - clipped.
+Signal add_18_3/S0 undriven or does not drive anything - clipped.
+Signal add_18_5/S1 undriven or does not drive anything - clipped.
+Signal add_18_5/S0 undriven or does not drive anything - clipped.
+Signal add_18_7/S1 undriven or does not drive anything - clipped.
+Signal add_18_7/S0 undriven or does not drive anything - clipped.
+Signal add_18_9/S1 undriven or does not drive anything - clipped.
+Signal add_18_9/S0 undriven or does not drive anything - clipped.
+Signal add_18_11/S1 undriven or does not drive anything - clipped.
+Signal add_18_11/S0 undriven or does not drive anything - clipped.
+Signal add_18_13/S1 undriven or does not drive anything - clipped.
+Signal add_18_13/S0 undriven or does not drive anything - clipped.
+Signal add_18_15/S1 undriven or does not drive anything - clipped.
+Signal add_18_15/S0 undriven or does not drive anything - clipped.
+Signal add_18_17/S1 undriven or does not drive anything - clipped.
+Signal add_18_17/S0 undriven or does not drive anything - clipped.
+Signal add_18_19/S1 undriven or does not drive anything - clipped.
+Signal add_18_19/S0 undriven or does not drive anything - clipped.
+Signal add_18_21/S1 undriven or does not drive anything - clipped.
+Signal add_18_21/S0 undriven or does not drive anything - clipped.
+Signal add_18_23/S1 undriven or does not drive anything - clipped.
+Signal add_18_23/S0 undriven or does not drive anything - clipped.
+Signal add_18_25/S1 undriven or does not drive anything - clipped.
+Signal add_18_25/S0 undriven or does not drive anything - clipped.
+Signal add_18_27/S1 undriven or does not drive anything - clipped.
+Signal add_18_27/S0 undriven or does not drive anything - clipped.
+Signal add_18_29/S1 undriven or does not drive anything - clipped.
+Signal add_18_29/S0 undriven or does not drive anything - clipped.
+Signal add_18_31/S1 undriven or does not drive anything - clipped.
+Signal add_18_31/S0 undriven or does not drive anything - clipped.
+Signal add_18_33/S0 undriven or does not drive anything - clipped.
+Signal add_18_33/CO undriven or does not drive anything - clipped.
+Signal _add_1_12_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal _add_1_12_add_4_1/CI undriven or does not drive anything - clipped.
+Signal _add_1_12_add_4_33/S1 undriven or does not drive anything - clipped.
+Signal _add_1_12_add_4_33/CO undriven or does not drive anything - clipped.
+Block i16_1_lut was optimized away.
+Block i17_1_lut was optimized away.
+Block sub_6_i2 was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+
+     
+
+
+
+<A name="mrp_gsr"></A><B><U><big>GSR Usage</big></U></B>
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+
+        of the design. The reset signal used for GSR control is 'reset_c'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components with synchronous local reset also reset by asynchronous GSR
+----------------------------------------------------------------------
+
+     These components have the GSR property set to ENABLED and the local reset
+     is synchronous. The components will respond to the synchronous local reset
+     and to the unrelated asynchronous reset signal 'reset_c' via the GSR
+     component.
+
+     Type and number of components of the type: 
+   Register = 31 
+
+     Type and instance name of component: 
+   Register : uut/counter_i2
+   Register : uut/counter_i3
+   Register : uut/counter_i4
+   Register : uut/counter_i5
+   Register : uut/counter_i6
+   Register : uut/counter_i7
+   Register : uut/counter_i8
+   Register : uut/counter_i9
+   Register : uut/counter_i10
+   Register : uut/counter_i11
+   Register : uut/counter_i12
+   Register : uut/counter_i13
+   Register : uut/counter_i14
+   Register : uut/counter_i15
+   Register : uut/counter_i16
+   Register : uut/counter_i17
+   Register : uut/counter_i18
+   Register : uut/counter_i19
+   Register : uut/counter_i20
+   Register : uut/counter_i21
+   Register : uut/counter_i22
+   Register : uut/counter_i23
+   Register : uut/counter_i24
+   Register : uut/counter_i25
+   Register : uut/counter_i26
+   Register : uut/counter_i27
+   Register : uut/counter_i28
+   Register : uut/counter_i29
+   Register : uut/counter_i30
+   Register : uut/counter_i31
+   Register : uut/counter_i1
+
+
+
+
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 36 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

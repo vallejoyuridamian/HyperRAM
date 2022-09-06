@@ -1,0 +1,521 @@
+#Build: Synplify Pro J-2015.03L, Build 030R, Apr 20 2015
+#install: C:\lscc\diamond\3.5\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-990B5R6
+
+#Implementation: hyperram
+
+Synopsys HDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N:Top-level is not specified. Trying to extract automatically...
+Synopsys VHDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.5\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":4:7:4:17|Top entity is set to hyperram_tb.
+VHDL syntax check successful!
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+# Mon Jul 04 09:11:34 2022
+
+###########################################################]
+Synopsys Verilog Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@I::"C:\lscc\diamond\3.5\synpbase\lib\lucent\ecp5u.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\lucent\pmi_def.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\vlog\hypermods.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\vlog\umr_capim.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\vlog\scemi_objects.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp"
+@I:"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\Config-AC.v"
+@W: Malformed decryption envelope in file 'C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp': No known key found in envelope
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+# Mon Jul 04 09:11:35 2022
+
+###########################################################]
+@N:"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":4:7:4:22|Top-level entity is set to work.hyperram_tb
+@N: CD720 :"C:\lscc\diamond\3.5\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":4:7:4:17|Top entity is set to hyperram_tb.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":4:7:4:17|Synthesizing work.hyperram_tb.behavior 
+@W: CD326 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":76:1:76:3|Port reset_n of entity work.hram_interface is unconnected
+@W: CD326 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":76:1:76:3|Port ready of entity work.hram_interface is unconnected
+@N: CD630 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":10:7:10:20|Synthesizing work.hram_interface.arc 
+@N: CD233 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":58:16:58:17|Using sequential encoding for type state_type
+@W: CD638 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":59:13:59:19|Signal nxstate is undriven 
+@N: CD630 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\clk_div_2.vhd":8:7:8:15|Synthesizing work.clk_div_2.arc 
+Post processing for work.clk_div_2.arc
+Post processing for work.hram_interface.arc
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal byte_counter[2:0].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal state[0:0].
+@W: CL117 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Latch generated from process for signal CS_n; possible missing assignment in an if or case statement.
+@W: CL111 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|All reachable assignments to ready assign '0'; register removed by optimization
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[0:0].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[1:1].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[2:2].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[3:3].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[4:4].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[5:5].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[6:6].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[7:7].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[8:8].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[9:9].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[10:10].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[11:11].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[12:12].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[13:13].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[14:14].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[15:15].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[16:16].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[17:17].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[18:18].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[19:19].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[20:20].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[21:21].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[22:22].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[23:23].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[24:24].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[25:25].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[26:26].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[27:27].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[28:28].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[29:29].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[30:30].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ_cl[31:31].
+@W: CL113 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Feedback mux created for signal DQ[31:31].
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(28) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(27) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(26) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(25) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(24) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(20) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(19) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(18) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(17) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(16) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(12) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(11) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(10) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(9) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(8) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(4) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(3) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(2) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(1) to a constant 0
+@W: CL190 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Optimizing register bit DQ(0) to a constant 0
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(0)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(1)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(2)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(3)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(4)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(8)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(9)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(10)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(11)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(12)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(16)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(17)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(18)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(19)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(20)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(24)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(25)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(26)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(27)  
+@W: CL169 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":78:2:78:3|Pruning register DQ(28)  
+Post processing for work.hyperram_tb.behavior
+@W: CL240 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":8:2:8:13|clk_out_test is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL158 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":37:8:37:11|Inout RWDS is unused
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 73MB)
+
+# Mon Jul 04 09:11:35 2022
+
+###########################################################]
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@I::"C:\lscc\diamond\3.5\synpbase\lib\lucent\ecp5u.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\lucent\pmi_def.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\vlog\hypermods.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\vlog\umr_capim.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\vlog\scemi_objects.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp"
+@I:"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\Config-AC.v"
+@W: Malformed decryption envelope in file 'C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp': No known key found in envelope
+Verilog syntax check successful!
+@N: CG364 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":59:7:59:16|Synthesizing module W958D8NBYA
+
+@W: CG146 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":59:7:59:16|Creating black box for empty module W958D8NBYA
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+# Mon Jul 04 09:11:36 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\synwork\hyperram_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 04 09:11:36 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Mon Jul 04 09:11:36 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":4:7:4:17|Selected library: work cell: hyperram_tb view behavior as top level
+@N: NF107 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":4:7:4:17|Selected library: work cell: hyperram_tb view behavior as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 04 09:11:38 2022
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1176R, Built Apr 20 2015 17:38:44
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\hyperram_scck.rpt 
+Printing clock  summary report in "C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\hyperram_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: BN171 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Found unrecognized driver on top-level tristate port DQ_test[24] -- can't bubble tristates
+@W: BN171 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Found unrecognized driver on top-level tristate port DQ_test[25] -- can't bubble tristates
+@W: BN171 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Found unrecognized driver on top-level tristate port DQ_test[26] -- can't bubble tristates
+@W: BN171 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Found unrecognized driver on top-level tristate port DQ_test[27] -- can't bubble tristates
+@W: BN171 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Found unrecognized driver on top-level tristate port DQ_test[28] -- can't bubble tristates
+@W: BN171 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Found unrecognized driver on top-level tristate port DQ_test[29] -- can't bubble tristates
+@W: BN171 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Found unrecognized driver on top-level tristate port DQ_test[30] -- can't bubble tristates
+@W: BN171 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Found unrecognized driver on top-level tristate port DQ_test[31] -- can't bubble tristates
+@W: MT462 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":87:7:87:44|Net uut.states\.un1_state appears to be an unidentified clock source. Assuming default frequency. 
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=56  set on top level netlist hyperram_tb
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start                       Requested      Requested     Clock        Clock                
+Clock                       Frequency      Period        Type         Group                
+-------------------------------------------------------------------------------------------
+System                      466.6 MHz      2.143         system       system_clkgroup      
+hyperram_tb|clk_in_test     2005.2 MHz     0.499         inferred     Autoconstr_clkgroup_0
+===========================================================================================
+
+@W: MT531 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Found signal identified as System clock which controls 49 sequential elements including uut.DQ_1[31].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"c:\users\damian\desktop\upwork\camilafpga\project\clk_div_2.vhd":23:2:23:3|Found inferred clock hyperram_tb|clk_in_test which controls 52 sequential elements including uut.clk_62_5.clk_aux. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 140MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 04 09:11:39 2022
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1176R, Built Apr 20 2015 17:38:44
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: MT462 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":87:7:87:44|Net uut.states\.un1_state appears to be an unidentified clock source. Assuming default frequency. 
+@N: MT206 |Auto Constrain mode is enabled
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_46,  because it is equivalent to instance uut.un2_state_45
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_45,  because it is equivalent to instance uut.un2_state_43
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_44,  because it is equivalent to instance uut.un2_state_42
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_43,  because it is equivalent to instance uut.un2_state_41
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_42,  because it is equivalent to instance uut.un2_state_40
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_41,  because it is equivalent to instance uut.un2_state_39
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_40,  because it is equivalent to instance uut.un2_state_38
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_39,  because it is equivalent to instance uut.un2_state_37
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_38,  because it is equivalent to instance uut.un2_state_36
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_37,  because it is equivalent to instance uut.un2_state_35
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_1[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_1[30] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_1[29] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_1[23] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_1[23] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_1[22] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_1[22] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_1[21] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_1[21] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_1[15] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_1[15] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_1[14] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_1[14] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_1[13] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_1[13] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_1[7] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_1[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_31[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_31[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_30[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_30[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_29[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_29[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_28[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_28[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_27[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_27[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_26[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_26[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_25[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_25[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_24[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_24[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_23[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_23[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_22[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_22[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_21[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_21[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_20[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_20[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_19[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_19[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_18[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_18[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_17[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_17[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_16[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_16[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_15[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_15[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_14[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_14[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_13[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_13[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_12[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_12[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_11[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_10[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_10[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_9[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_8[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_8[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_7[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_6[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_6[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_5[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_4[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register DQ_cl_4[31] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_3[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_2[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance DQ_cl_1[31] of view:PrimLib.dffre(prim) in hierarchy view:work.hram_interface(arc) because there are no references to its outputs 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[31]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[31] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[30]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[30] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[29]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[29] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[28]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[28] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[27]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[27] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[26]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[26] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[25]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[25] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[24]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[24] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register uut.state_ret[0] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing sequential instance uut.state[0] in hierarchy view:work.hyperram_tb(behavior) because there are no references to its outputs 
+@A: BN291 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Boundary register uut.state[0] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[31]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[31] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[30]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[30] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[29]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[29] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[28]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[28] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[27]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[27] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[26]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[26] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[25]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[25] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[24]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[24] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -0.58ns		  13 /         8
+   2		0h:00m:00s		    -0.58ns		  13 /         8
+@N: FX271 :"c:\users\damian\desktop\upwork\camilafpga\project\clk_div_2.vhd":23:2:23:3|Instance "uut.clk_62_5.clk_ram_i" with 2 loads replicated 1 times to improve timing 
+Timing driven replication report
+Added 0 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+
+
+   3		0h:00m:00s		    -0.54ns		  14 /         8
+
+
+   4		0h:00m:00s		    -0.54ns		  14 /         8
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+Warning: Found 2 combinational loops!
+@W: BN137 :|Found combinational loop during mapping at net I_38.t2
+1) instance I_38.lat_r (view:work.hyperram_tb(behavior)), output net "I_38.t2" in work.hyperram_tb(behavior)
+    net        I_38.t2
+    input  pin I_38.lat/I[0]
+    instance   I_38.lat (cell or)
+    output pin I_38.lat/OUT
+    net        I_38.t1
+    input  pin I_38.lat_r/I[1]
+    instance   I_38.lat_r (cell and)
+    output pin I_38.lat_r/OUT
+    net        I_38.t2
+@W: BN137 :|Found combinational loop during mapping at net CS_n_test_c
+2) instance I_39.lat_s (view:work.hyperram_tb(behavior)), output net "CS_n_test_c" in work.hyperram_tb(behavior)
+    net        CS_n_test_c
+    input  pin I_39.lat/I[0]
+    instance   I_39.lat (cell and)
+    output pin I_39.lat/OUT
+    net        I_39.t1
+    input  pin I_39.lat_s/I[1]
+    instance   I_39.lat_s (cell or)
+    output pin I_39.lat_s/OUT
+    net        CS_n_test_c
+End of loops
+@E: FO139 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|The instance uut.DQ_9[29] needs internal tristate. Can't be mapped. 
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 04 09:11:40 2022
+
+###########################################################]

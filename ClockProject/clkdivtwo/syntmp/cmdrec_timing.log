@@ -1,0 +1,10 @@
+C:\lscc\diamond\3.5\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo   -part LFE5U_25F  -package MG285C  -grade -6    -maxfan 100 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synlog\report\clkdivtwo_timing.xml  -top_level_module  Tb_clock_divider  -ta_num_points  5   -autoconstraint  -freq 1.000   -taquery  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\clkdivtwo.rpt  -inld  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\clkdivtwo.srd  -devicelib  C:\lscc\diamond\3.5\synpbase\lib\lucent\ecp5u.v  -devicelib  C:\lscc\diamond\3.5\synpbase\lib\lucent\pmi_def.v  -osyn  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\clkdivtwo_ta.srm  -prjdir  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\  -prjname  clkdivtwo_syn  -log  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\clkdivtwo_syn.ta 
+rc:0 success:1
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\clkdivtwo.rpt|i|1656858695|178
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\clkdivtwo.srd|i|1656858102|2247
+C:\lscc\diamond\3.5\synpbase\lib\lucent\ecp5u.v|i|1429013174|89974
+C:\lscc\diamond\3.5\synpbase\lib\lucent\pmi_def.v|i|1429013174|40584
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\clkdivtwo_ta.srm|o|1656858696|3110
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\clkdivtwo_syn.ta|o|1656858696|3907
+C:\lscc\diamond\3.5\synpbase\bin\m_gen_lattice.exe|i|1429560970|17277440
+C:\lscc\diamond\3.5\synpbase\bin64\m_gen_lattice.exe|i|1429562608|20520960

@@ -1,0 +1,45 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sun Jul 03 23:32:44 2022 *
+NOTE DESIGN NAME: hyperram_tb *
+NOTE DEVICE NAME: LFE5U-25F-6CSFBGA285 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS DQ_test[30] : N16 : inout *
+NOTE PINS DQ_test[4] : J1 : inout *
+NOTE PINS DQ_test[5] : M16 : inout *
+NOTE PINS DQ_test[6] : M17 : inout *
+NOTE PINS DQ_test[7] : M18 : inout *
+NOTE PINS DQ_test[8] : R18 : inout *
+NOTE PINS DQ_test[9] : N18 : inout *
+NOTE PINS DQ_test[10] : J16 : inout *
+NOTE PINS DQ_test[11] : H15 : inout *
+NOTE PINS reset_test : T18 : in *
+NOTE PINS DQ_test[12] : U18 : inout *
+NOTE PINS clk_in_test : B10 : in *
+NOTE PINS CS_n_test : N15 : out *
+NOTE PINS DQ_test[13] : K18 : inout *
+NOTE PINS estado_test : L16 : out *
+NOTE PINS DQ_test[14] : K16 : inout *
+NOTE PINS clk_out_test : C15 : out *
+NOTE PINS DQ_test[15] : K17 : inout *
+NOTE PINS DQ_test[0] : U17 : inout *
+NOTE PINS DQ_test[16] : L4 : inout *
+NOTE PINS DQ_test[1] : V17 : inout *
+NOTE PINS DQ_test[17] : K4 : inout *
+NOTE PINS DQ_test[2] : H16 : inout *
+NOTE PINS DQ_test[18] : M2 : inout *
+NOTE PINS DQ_test[3] : G15 : inout *
+NOTE PINS DQ_test[19] : K2 : inout *
+NOTE PINS DQ_test[20] : R16 : inout *
+NOTE PINS DQ_test[21] : J18 : inout *
+NOTE PINS DQ_test[22] : K15 : inout *
+NOTE PINS DQ_test[23] : L18 : inout *
+NOTE PINS DQ_test[24] : R17 : inout *
+NOTE PINS DQ_test[25] : T17 : inout *
+NOTE PINS DQ_test[26] : M3 : inout *
+NOTE PINS DQ_test[27] : K3 : inout *
+NOTE PINS DQ_test[28] : J17 : inout *
+NOTE PINS DQ_test[29] : N17 : inout *
+NOTE PINS DQ_test[31] : L15 : inout *
+NOTE CONFIGURATION MODE: JTAG *
+NOTE COMPRESSION: off *

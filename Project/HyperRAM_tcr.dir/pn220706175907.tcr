@@ -1,0 +1,25 @@
+#Start recording tcl command: 7/6/2022 08:07:57
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.ldf"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram -task Lattice_Synthesis
+prj_run Synthesis -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramtestbench/hyperramtestbench.spf"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram -task Lattice_Synthesis
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+#Stop recording: 7/6/2022 17:59:07

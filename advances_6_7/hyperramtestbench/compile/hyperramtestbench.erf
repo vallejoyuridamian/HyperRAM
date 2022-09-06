@@ -1,0 +1,8 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/Damian/Desktop/advances_6_7/hyperram.vhd" 
+MESSAGE "Compile Entity "hram_interface_dbg"" 
+MESSAGE "Compile Architecture "arc" of Entity "hram_interface_dbg"" 
+MESSAGE "File: C:/Users/Damian/Desktop/advances_6_7/hyperram_tb.vhd" 
+MESSAGE "Compile Entity "hyperram_tb"" 
+MESSAGE "Compile Architecture "arc" of Entity "hyperram_tb"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

@@ -1,0 +1,1 @@
+C:/lscc/diamond/3.5/bin/nt/moduleparser.exe -PROJ hyperramplusramsim -pf C:/lscc/diamond/3.5/cae_library/synthesis/vhdl/ecp5u.vhd -lib ecp5u -pkg C:/lscc/diamond/3.5/cae_library/vhdl_packages/vdbs -lst C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/source_files.lst

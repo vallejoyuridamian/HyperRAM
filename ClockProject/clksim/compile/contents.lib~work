@@ -1,0 +1,5 @@
+12
+~E 1 "../../clk_div_2.vhd" 8 clk_div_2
+~A 1 "../../clk_div_2.vhd" 18 arc
+~E 1 "../../clktest.vhd" 4 Tb_clock_divider
+~A 1 "../../clktest.vhd" 12 behavior

@@ -1,0 +1,150 @@
+Results of NGD DRC are available in hyperram_tb_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.5/ispfpga/sa5p00/data/sa5plib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.5/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.5/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.5/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'write_start_test' has no load.
+WARNING - synthesis: input pad net 'write_start_test' has no legal load.
+WARNING - synthesis: logical net 'read_start_test' has no load.
+WARNING - synthesis: input pad net 'read_start_test' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[31]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[31]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[30]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[30]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[29]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[29]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[28]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[28]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[27]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[27]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[26]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[26]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[25]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[25]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[24]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[24]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[23]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[23]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[22]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[22]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[21]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[21]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[20]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[20]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[19]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[19]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[18]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[18]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[17]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[17]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[16]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[16]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[15]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[15]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[14]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[14]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[13]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[13]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[12]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[12]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[11]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[11]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[10]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[10]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[9]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[9]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[8]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[8]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[7]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[7]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[6]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[6]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[5]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[5]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[4]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[4]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[3]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[3]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[2]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[2]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[1]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[1]' has no legal load.
+WARNING - synthesis: logical net 'DQ_in_dbg_test[0]' has no load.
+WARNING - synthesis: input pad net 'DQ_in_dbg_test[0]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[31]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[31]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[30]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[30]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[29]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[29]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[28]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[28]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[27]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[27]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[26]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[26]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[25]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[25]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[24]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[24]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[23]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[23]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[22]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[22]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[21]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[21]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[20]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[20]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[19]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[19]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[18]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[18]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[17]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[17]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[16]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[16]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[15]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[15]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[14]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[14]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[13]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[13]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[12]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[12]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[11]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[11]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[10]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[10]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[9]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[9]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[8]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[8]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[7]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[7]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[6]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[6]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[5]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[5]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[4]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[4]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[3]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[3]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[2]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[2]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[1]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[1]' has no legal load.
+WARNING - synthesis: logical net 'start_address_test[0]' has no load.
+WARNING - synthesis: input pad net 'start_address_test[0]' has no legal load.
+WARNING - synthesis: logical net 'read_fifo_full_test' has no load.
+WARNING - synthesis: input pad net 'read_fifo_full_test' has no legal load.
+WARNING - synthesis: DRC complete with 134 warnings.
+
+Design Results:
+    245 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file HyperRAM_hyperram.ngd.

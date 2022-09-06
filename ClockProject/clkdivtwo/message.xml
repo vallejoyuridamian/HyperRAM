@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="MapVHDLSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clkdivtwo</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/upwork/camilafpga/clockproject/clk_div_2.vhd(8): </Dynamic>
+            <Dynamic>clk_div_2</Dynamic>
+            <Navigation>c:/users/damian/desktop/upwork/camilafpga/clockproject/clk_div_2.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/upwork/camilafpga/clockproject/clk_div_2.vhd(18): </Dynamic>
+            <Dynamic>arc</Dynamic>
+            <Navigation>c:/users/damian/desktop/upwork/camilafpga/clockproject/clk_div_2.vhd</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/upwork/camilafpga/clockproject/clktest.vhd(4): </Dynamic>
+            <Dynamic>tb_clock_divider</Dynamic>
+            <Navigation>c:/users/damian/desktop/upwork/camilafpga/clockproject/clktest.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/upwork/camilafpga/clockproject/clktest.vhd(12): </Dynamic>
+            <Dynamic>behavior</Dynamic>
+            <Navigation>c:/users/damian/desktop/upwork/camilafpga/clockproject/clktest.vhd</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/damian/desktop/upwork/camilafpga/clockproject/clktest.vhd(10): </Dynamic>
+            <Dynamic>Tb_clock_divider</Dynamic>
+            <Dynamic>behavior</Dynamic>
+            <Navigation>c:/users/damian/desktop/upwork/camilafpga/clockproject/clktest.vhd</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+</BaliMessageLog>

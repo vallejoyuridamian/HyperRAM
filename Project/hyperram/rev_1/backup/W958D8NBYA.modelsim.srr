@@ -1,0 +1,49 @@
+Synopsys HDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@I::"C:\lscc\diamond\3.5\synpbase\lib\lucent\ecp5u.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\lucent\pmi_def.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\vlog\hypermods.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\vlog\umr_capim.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\vlog\scemi_objects.v"
+@I::"C:\lscc\diamond\3.5\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp"
+@I:"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\Config-AC.v"
+@W: Malformed decryption envelope in file 'C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp': No known key found in envelope
+Verilog syntax check successful!
+Selecting top level module W958D8NBYA
+@N: CG364 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":59:7:59:16|Synthesizing module W958D8NBYA
+
+@W: CG146 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":59:7:59:16|Creating black box for empty module W958D8NBYA
+
+@N: CG706 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":59:7:59:16|Selected top-level module W958D8NBYA is a black box, ignoring black box ...
+@W: CL158 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":74:24:74:26|Inout adq is unused
+@W: CL159 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":77:7:77:9|Input clk is unused
+@W: CL159 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":78:7:78:11|Input clk_n is unused
+@W: CL159 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":80:7:80:9|Input csb is unused
+@W: CL158 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":83:24:83:27|Inout rwds is unused
+@W: CL159 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":88:7:88:9|Input VCC is unused
+@W: CL159 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":89:7:89:9|Input VSS is unused
+@W: CL159 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":85:8:85:13|Input resetb is unused
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 04 09:22:46 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 04 09:22:46 2022
+
+###########################################################]

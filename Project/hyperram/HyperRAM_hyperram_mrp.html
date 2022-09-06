@@ -1,0 +1,312 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+         Lattice Mapping Report File for Design Module 'hyperram_tb'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a ECP5U -p LFE5U-25F -t CSFBGA285 -s 6 -oc Commercial
+     HyperRAM_hyperram.ngd -o HyperRAM_hyperram_map.ncd -pr
+     HyperRAM_hyperram.prf -mp HyperRAM_hyperram.mrp -lpf C:/Users/Damian/Deskto
+     p/Upwork/CamilaFPGA/Project/hyperram/HyperRAM_hyperram.lpf -lpf
+     C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.lpf -gui -msgset
+     C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LFE5U-25FCSFBGA285
+Target Performance:   6
+Mapper:  sa5p00,  version:  Diamond Version 3.5.0.102
+Mapped on:  07/04/22  10:08:39
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:     39 out of 24642 (0%)
+      PFU registers:           39 out of 24288 (0%)
+      PIO registers:            0 out of   354 (0%)
+   Number of SLICEs:        24 out of 12144 (0%)
+      SLICEs as Logic/ROM:     24 out of 12144 (0%)
+      SLICEs as RAM:            0 out of  9108 (0%)
+      SLICEs as Carry:          0 out of 12144 (0%)
+   Number of LUT4s:         44 out of 24288 (0%)
+      Number of logic LUTs:       44
+      Number of distributed RAM:   0 (0 LUT4s)
+      Number of ripple logic:      0 (0 LUT4s)
+      Number of shift registers:   0
+   Number of PIO sites used: 38 out of 118 (32%)
+   Number of block RAMs:  0 out of 56 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   DTR used :   No
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 4 (0%)
+   Number of Dynamic Bank Controller (BCLVDSOB):  0 out of 4 (0%)
+   Number of DCC:  0 out of 60 (0%)
+   Number of DCS:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DDRDLLs:  0 out of 4 (0%)
+   Number of CLKDIV:  0 out of 4 (0%)
+   Number of ECLKSYNC:  0 out of 10 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+   MULT18X18D          0
+   MULT9X9D            0
+   ALU54B              0
+
+   ALU24B              0
+   PRADD18A            0
+   PRADD9A             0
+   --------------------------------
+   Number of Used DSP MULT Sites:  0 out of 56 (0 %)
+   Number of Used DSP ALU Sites:  0 out of 28 (0 %)
+   Number of Used DSP PRADD Sites:  0 out of 56 (0 %)
+   Number of clocks:  2
+     Net clk_in_test_c: 21 loads, 1 rising, 20 falling (Driver: PIO clk_in_test
+     )
+     Net state: 1 loads, 0 rising, 1 falling (Driver: uut/state_645 )
+   Number of Clock Enables:  2
+     Net uut/clk_system_N_71_enable_4: 3 loads, 3 LSLICEs
+     Net uut/state_N_81: 1 loads, 1 LSLICEs
+   Number of LSRs:  2
+     Net reset_test_c: 21 loads, 21 LSLICEs
+     Net state: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net uut/DQ_3__N_60: 32 loads
+     Net reset_test_c: 22 loads
+     Net uut/n717: 21 loads
+     Net uut/n716: 20 loads
+     Net uut/clk_system_N_71_enable_4: 15 loads
+     Net uut/DQ_31__N_74: 12 loads
+     Net uut/byte_counter_1: 8 loads
+     Net uut/byte_counter_2: 8 loads
+     Net uut/byte_counter_0: 7 loads
+     Net clk_out_test_c: 3 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+   No errors or warnings present.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| DQ_test[4]          | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[5]          | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[6]          | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[7]          | BIDIR     | LVCMOS25  |            |
+
++---------------------+-----------+-----------+------------+
+| DQ_test[8]          | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[9]          | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[10]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[11]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| reset_test          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[12]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clk_in_test         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ready_test          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[13]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| CS_n_test           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| estado_test         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[14]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clk_out_test        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[15]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[0]          | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[16]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[1]          | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[17]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[2]          | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[18]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[3]          | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[19]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[20]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[21]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[22]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[23]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[24]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[25]         | BIDIR     | LVCMOS25  |            |
+
++---------------------+-----------+-----------+------------+
+| DQ_test[26]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[27]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[28]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[29]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[30]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DQ_test[31]         | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block ram/GSR_INST undriven or does not drive anything - clipped.
+Signal clk_system_N_71 was merged into signal clk_in_test_c
+Signal uut/state_N_79 was merged into signal state
+Signal n217 was merged into signal uut/DQ_3__N_60
+Signal GND_net undriven or does not drive anything - clipped.
+Block i624 was optimized away.
+Block uut/i625 was optimized away.
+Block uut/i151_1_lut was optimized away.
+Block i1 was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+
+     
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 36 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

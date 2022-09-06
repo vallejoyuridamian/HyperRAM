@@ -1,0 +1,5 @@
+@E: CD126 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":45:4:45:4|Expecting identifier
+@E: CG103 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":156:13:156:13|Expecting expression
+@E: CD213 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":102:4:102:13|Undefined identifier
+@E|Parse errors encountered - exiting
+

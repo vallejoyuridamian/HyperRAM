@@ -1,0 +1,21 @@
+#Start recording tcl command: 7/3/2022 10:58:24
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject; Project name: clkdivtwo
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clkdivtwo.ldf"
+prj_run Map -impl clkdivtwo
+prj_run PAR -impl clkdivtwo
+prj_run Export -impl clkdivtwo
+prj_run Map -impl clkdivtwo -task MapTrace
+prj_run Map -impl clkdivtwo
+prj_run Map -impl clkdivtwo
+prj_run Synthesis -impl clkdivtwo
+prj_run Synthesis -impl clkdivtwo
+prj_run Synthesis -impl clkdivtwo
+prj_run Synthesis -impl clkdivtwo
+prj_run Synthesis -impl clkdivtwo -forceAll
+prj_run Map -impl clkdivtwo
+prj_run PAR -impl clkdivtwo
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/clksim.spf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/clksim.spf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/clksim.spf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/clksim.spf"
+#Stop recording: 7/3/2022 11:19:01

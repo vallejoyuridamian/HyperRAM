@@ -1,0 +1,38 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+clktest=.\clktest\clktest.lib
+work=.\work\work.lib
+[$LibMap$]
+clktest=.
+work=.
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogDirs]
+Count=0
+[LocalVerilogSets]
+PriorityLibNames=pmi_work
+LibNames=ovi_ecp5u
+[DefineMacro]
+Global=
+[Files]
+/..\..\clk_div_2.vhd=-1
+/..\..\clktest.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+[Files.Data]
+.\..\clk_div_2.vhd=VHDL Source Code
+.\..\clktest.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=tb_clock_divider|behavior|0
+ShowHide=ShowTopLevel
+Selected=

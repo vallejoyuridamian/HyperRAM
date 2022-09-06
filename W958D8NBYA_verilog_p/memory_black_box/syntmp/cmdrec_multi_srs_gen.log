@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.5\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\memory_black_box\synwork\memory_black_box_comp.srs  -osyn  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\memory_black_box\synwork\memory_black_box_mult.srs  -log  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\memory_black_box\synlog\memory_black_box_multi_srs_gen.srr 
+rc:0 success:1
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\memory_black_box\synwork\memory_black_box_comp.srs|i|1656943966|4870
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\memory_black_box\synwork\memory_black_box_mult.srs|o|1656943967|5024
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\memory_black_box\synlog\memory_black_box_multi_srs_gen.srr|o|1656943967|516
+C:\lscc\diamond\3.5\synpbase\bin\syn_nfilter.exe|i|1429558166|3000832
+C:\lscc\diamond\3.5\synpbase\bin64\syn_nfilter.exe|i|1429558358|3967488

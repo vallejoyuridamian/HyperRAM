@@ -1,0 +1,5 @@
+#Start recording tcl command: 7/6/2022 19:11:56
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.ldf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram_clean.vhd"
+#Stop recording: 7/6/2022 20:21:33

@@ -1,0 +1,8 @@
+#Start recording tcl command: 7/2/2022 19:37:08
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+prj_project new -name "HyperRAM" -impl "hyperram" -dev LFE5U-25F-6MG285C -synthesis "lse"
+prj_project save
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram.vhd"
+prj_project save
+prj_project close
+#Stop recording: 7/3/2022 09:56:21

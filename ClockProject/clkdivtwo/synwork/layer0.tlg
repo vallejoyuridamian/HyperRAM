@@ -1,0 +1,8 @@
+@N: CD630 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clktest.vhd":4:7:4:22|Synthesizing work.tb_clock_divider.behavior 
+@W: CD638 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clktest.vhd":21:7:21:9|Signal clk is undriven 
+@W: CD638 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clktest.vhd":22:7:22:11|Signal reset is undriven 
+@N: CD630 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clk_div_2.vhd":8:7:8:15|Synthesizing work.clk_div_2.arc 
+Post processing for work.clk_div_2.arc
+Post processing for work.tb_clock_divider.behavior
+@W: CL240 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clktest.vhd":6:1:6:7|clk_out is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL168 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clktest.vhd":33:0:33:2|Pruning instance uut -- not in use ... 

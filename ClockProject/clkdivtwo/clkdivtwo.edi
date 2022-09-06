@@ -1,0 +1,78 @@
+(edif Tb_clock_divider
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2022 7 3 11 21 43)
+      (author "Synopsys, Inc.")
+      (program "Synplify Pro" (version "J-2015.03L, mapper maplat, Build 1176R"))
+     )
+   )
+  (library LUCENT
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell OB (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port I (direction INPUT))
+           (port O (direction OUTPUT))
+         )
+       )
+    )
+    (cell GSR (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port GSR (direction INPUT))
+         )
+       )
+    )
+    (cell VHI (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Z (direction OUTPUT))
+         )
+       )
+    )
+    (cell VLO (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Z (direction OUTPUT))
+         )
+       )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell Tb_clock_divider (cellType GENERIC)
+       (view behavior (viewType NETLIST)
+         (interface
+           (port clk_out (direction OUTPUT))
+         )
+         (contents
+          (instance GND_0 (viewRef PRIM (cellRef VLO (libraryRef LUCENT)))          )
+          (instance VCC_0 (viewRef PRIM (cellRef VHI (libraryRef LUCENT)))          )
+          (instance GSR_INST (viewRef PRIM (cellRef GSR (libraryRef LUCENT)))
+          )
+          (instance clk_out_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (net GND (joined
+           (portRef Z (instanceRef GND_0))
+           (portRef I (instanceRef clk_out_pad))
+          ))
+          (net VCC (joined
+           (portRef Z (instanceRef VCC_0))
+           (portRef GSR (instanceRef GSR_INST))
+          ))
+          (net clk_out (joined
+           (portRef O (instanceRef clk_out_pad))
+           (portRef clk_out)
+          ))
+         )
+        (property orig_inst_of (string "Tb_clock_divider"))
+       )
+    )
+  )
+  (design Tb_clock_divider (cellRef Tb_clock_divider (libraryRef work))
+	(property PART (string "lfe5u_25f-6") ))
+)

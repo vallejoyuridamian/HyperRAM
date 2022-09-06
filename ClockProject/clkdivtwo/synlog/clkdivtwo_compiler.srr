@@ -1,0 +1,43 @@
+Synopsys HDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.5\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clktest.vhd":4:7:4:22|Top entity is set to Tb_clock_divider.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clktest.vhd":4:7:4:22|Synthesizing work.tb_clock_divider.behavior 
+@W: CD638 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clktest.vhd":21:7:21:9|Signal clk is undriven 
+@W: CD638 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clktest.vhd":22:7:22:11|Signal reset is undriven 
+@N: CD630 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clk_div_2.vhd":8:7:8:15|Synthesizing work.clk_div_2.arc 
+Post processing for work.clk_div_2.arc
+Post processing for work.tb_clock_divider.behavior
+@W: CL240 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clktest.vhd":6:1:6:7|clk_out is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL168 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clktest.vhd":33:0:33:2|Pruning instance uut -- not in use ... 
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Jul 03 11:21:38 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Jul 03 11:21:38 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Jul 03 11:21:38 2022
+
+###########################################################]

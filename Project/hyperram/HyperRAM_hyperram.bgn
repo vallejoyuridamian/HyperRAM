@@ -1,0 +1,73 @@
+BITGEN: Bitstream Generator Diamond Version 3.5.0.102
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+
+Command: bitgen -w -g CfgMode:Disable -g RamCfg:Reset -g DisableUES:FALSE -g ES:No -e -s C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.sec -k C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.bek -gui -msgset C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/promote.xml HyperRAM_hyperram.ncd HyperRAM_hyperram.prf 
+
+Loading design for application Bitgen from file HyperRAM_hyperram.ncd.
+Design name: hyperram_tb
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-25F
+Package:     CSFBGA285
+Performance: 6
+Loading device for application Bitgen from file 'sa5p25.nph' in environment: C:/lscc/diamond/3.5/ispfpga.
+Package Status:                     Advanced       Version 1.25.
+Performance Hardware Data Status:   Preliminary    Version 42.1.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from HyperRAM_hyperram.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                        CfgMode  |                      Disable**  |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                           ON**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                          2.4**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                    CONFIG_MODE  |                         JTAG**  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |                           21**  |
++---------------------------------+---------------------------------+
+|                             ES  |                           No**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                     DisableUES  |                        FALSE**  |
++---------------------------------+---------------------------------+
+|            SLAVE_PARALLEL_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                      DONE_PULL  |                           ON**  |
++---------------------------------+---------------------------------+
+|               CONFIG_IOVOLTAGE  |                          2.5**  |
++---------------------------------+---------------------------------+
+|                        TRANSFR  |                          OFF**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Advanced        Version 10.5.
+ 
+Saving bit stream in "HyperRAM_hyperram.bit".

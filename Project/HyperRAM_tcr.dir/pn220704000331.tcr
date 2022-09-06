@@ -1,0 +1,36 @@
+#Start recording tcl command: 7/3/2022 23:01:46
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.ldf"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/hyperramplusramsim.spf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.modelsim.vp"
+prj_run Map -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/hyperramplusramsim.spf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/Config-AC.v"
+prj_run Synthesis -impl hyperram
+prj_src remove "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/Config-AC.v"
+prj_run Synthesis -impl hyperram
+prj_run Map -impl hyperram
+prj_run PAR -impl hyperram
+prj_run Export -impl hyperram
+prj_run Export -impl hyperram
+prj_run Export -impl hyperram
+prj_run Export -impl hyperram
+prj_run Export -impl hyperram -task IBIS
+prj_run Export -impl hyperram -task TimingSimFileVlg
+prj_run Export -impl hyperram -task TimingSimFileVHD
+prj_run Export -impl hyperram -task Bitgen
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/Config-AC.v"
+prj_run Synthesis -impl hyperram
+prj_src remove "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/Config-AC.v"
+prj_run Synthesis -impl hyperram
+prj_run Map -impl hyperram -task MapVHDLSimFile
+prj_run Map -impl hyperram -task MapVerilogSimFile
+prj_run PAR -impl hyperram
+prj_run Map -impl hyperram -task MapTrace
+prj_src remove "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.modelsim.vp"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.modelsim.v"
+prj_run Synthesis -impl hyperram
+#Stop recording: 7/4/2022 00:03:31

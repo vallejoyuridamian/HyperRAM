@@ -1,0 +1,11 @@
+@W: Malformed decryption envelope in file 'C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp': No known key found in envelope
+@W: CG146 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":59:7:59:16|Creating black box for empty module W958D8NBYA
+@W: CL158 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":74:24:74:26|Inout adq is unused
+@W: CL159 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":77:7:77:9|Input clk is unused
+@W: CL159 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":78:7:78:11|Input clk_n is unused
+@W: CL159 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":80:7:80:9|Input csb is unused
+@W: CL158 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":83:24:83:27|Inout rwds is unused
+@W: CL159 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":88:7:88:9|Input VCC is unused
+@W: CL159 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":89:7:89:9|Input VSS is unused
+@W: CL159 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":85:8:85:13|Input resetb is unused
+

@@ -1,0 +1,44 @@
+----------------------------------------------------------------------
+Report for cell hyperram_tb.TECH
+Register bits:  83 of 24642 (0.337%)
+I/O cells:      74
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3BX         1          100.0
+                            FD1P3DX         1          100.0
+                            FD1S3AX         8          100.0
+                            FD1S3BX        40          100.0
+                            FD1S3DX        33          100.0
+                                GSR         1          100.0
+                                 IB        35          100.0
+                                INV         1          100.0
+                               LUT4       223          100.0
+                                 OB         6          100.0
+                                OBZ        33          100.0
+                              PFUMX         9          100.0
+SUB MODULES
+                          clk_div_2         1
+                     hram_interface         1
+                              TOTAL       393
+----------------------------------------------------------------------
+Report for cell hram_interface.v1
+Instance Path : uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3BX         1          100.0
+                            FD1P3DX         1          100.0
+                            FD1S3AX         8          100.0
+                            FD1S3BX        40          100.0
+                            FD1S3DX        33          100.0
+                               LUT4       219           98.2
+                              PFUMX         9          100.0
+SUB MODULES
+                          clk_div_2         1
+                              TOTAL       312
+----------------------------------------------------------------------
+Report for cell clk_div_2.v1
+Instance Path : uut.clk_62_5
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3DX         1            3.0
+                              TOTAL         1

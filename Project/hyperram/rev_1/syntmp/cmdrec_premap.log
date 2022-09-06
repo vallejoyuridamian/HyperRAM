@@ -1,0 +1,13 @@
+C:\lscc\diamond\3.5\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1   -part LFE5U_25F  -package MG285C  -grade -6    -maxfan 100 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synlog\report\W958D8NBYA.modelsim_premap.xml  -oedif  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\W958D8NBYA.modelsim.edn  -conchk_prepass  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\W958D8NBYA.modelsim_cck_prepass.rpt   -autoconstraint  -freq 1.000   C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synwork\W958D8NBYA.modelsim_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synwork\W958D8NBYA.modelsim_prem.srd  -devicelib  C:\lscc\diamond\3.5\synpbase\lib\lucent\ecp5u.v  -devicelib  C:\lscc\diamond\3.5\synpbase\lib\lucent\pmi_def.v  -ologparam  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\syntmp\W958D8NBYA.modelsim.plg  -osyn  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synwork\W958D8NBYA.modelsim_prem.srd  -prjdir  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\  -prjname  proj_1  -log  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synlog\W958D8NBYA.modelsim_premap.srr 
+rc:0 success:1
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\W958D8NBYA.modelsim.edn|o|0|0
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\W958D8NBYA.modelsim_cck_prepass.rpt|o|0|0
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synwork\W958D8NBYA.modelsim_mult.srs|i|1656937470|4968
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synwork\W958D8NBYA.modelsim_prem.srd|o|1656937470|5063
+C:\lscc\diamond\3.5\synpbase\lib\lucent\ecp5u.v|i|1429013174|89974
+C:\lscc\diamond\3.5\synpbase\lib\lucent\pmi_def.v|i|1429013174|40584
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\syntmp\W958D8NBYA.modelsim.plg|o|1656937470|0
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synwork\W958D8NBYA.modelsim_prem.srd|o|1656937470|5063
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synlog\W958D8NBYA.modelsim_premap.srr|o|1656937470|2294
+C:\lscc\diamond\3.5\synpbase\bin\m_gen_lattice.exe|i|1429560970|17277440
+C:\lscc\diamond\3.5\synpbase\bin64\m_gen_lattice.exe|i|1429562608|20520960

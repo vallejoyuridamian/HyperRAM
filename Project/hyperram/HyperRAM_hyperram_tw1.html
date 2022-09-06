@@ -1,0 +1,397 @@
+<HTML>
+<HEAD><TITLE>Lattice Map TRACE Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Map TRACE Report</big></U></B>
+
+Loading design for application trce from file hyperram_hyperram_map.ncd.
+Design name: hyperram_tb
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-25F
+Package:     CSFBGA285
+Performance: 6
+Loading device for application trce from file 'sa5p25.nph' in environment: C:/lscc/diamond/3.5/ispfpga.
+Package Status:                     Advanced       Version 1.25.
+Performance Hardware Data Status:   Preliminary    Version 42.1.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+<A name="Map_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond Version 3.5.0.102</big></U></B>
+Mon Jul 04 10:08:45 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_set_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o HyperRAM_hyperram.tw1 -gui -msgset C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/promote.xml HyperRAM_hyperram_map.ncd HyperRAM_hyperram.prf 
+Design file:     hyperram_hyperram_map.ncd
+Preference file: hyperram_hyperram.prf
+Device,speed:    LFE5U-25F,6
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+<A name="mtw1_set_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#map_twr_pref_0_0' Target='right'>FREQUENCY NET "clk_in_test_c" 475.964000 MHz (0 errors)</A></LI>            233 items scored, 0 timing errors detected.
+Report:  476.190MHz is the maximum frequency for this preference.
+
+<LI><A href='#map_twr_pref_0_1' Target='right'>FREQUENCY NET "state" 475.964000 MHz (0 errors)</A></LI>            1 item scored, 0 timing errors detected.
+Report:  476.190MHz is the maximum frequency for this preference.
+
+1 potential circuit loop found in timing analysis.
+1 potential circuit loop found in timing analysis.
+1 potential circuit loop found in timing analysis.
+Report Type:     based on TRACE automatically generated preferences
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+<A name="map_twr_pref_0_0"></A>Preference: FREQUENCY NET "clk_in_test_c" 475.964000 MHz ;
+            233 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 0.001ns
+         The internal maximum frequency of the following component is 476.190 MHz
+
+ Logical Details:  Cell type  Pin name       Component name
+
+   Destination:    SLICE      CLK            uut/SLICE_0
+
+   Delay:               2.100ns -- based on Minimum Pulse Width
+
+
+Passed: The following path meets requirements by 0.217ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              uut/state_645  (from clk_in_test_c -)
+   Destination:    FF         Data in        uut/DQ_i21  (to clk_in_test_c -)
+
+   Delay:               2.110ns  (45.6% logic, 54.4% route), 3 logic levels.
+
+ Constraint Details:
+
+      2.110ns physical path delay SLICE_18 to uut/SLICE_10 meets
+      2.101ns delay constraint less
+     -0.226ns DIN_SET requirement (totaling 2.327ns) by 0.217ns
+
+ Physical Path Details:
+
+      Data path SLICE_18 to uut/SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.491   SLICE_18.CLK to    SLICE_18.Q0 SLICE_18 (from clk_in_test_c)
+ROUTE        25   e 0.573    SLICE_18.Q0 to *t/SLICE_22.D0 state
+CTOF_DEL    ---     0.236 *t/SLICE_22.D0 to *t/SLICE_22.F0 uut/SLICE_22
+ROUTE        15   e 0.573 *t/SLICE_22.F0 to *t/SLICE_10.C1 uut/clk_system_N_71_enable_4
+CTOF_DEL    ---     0.236 *t/SLICE_10.C1 to *t/SLICE_10.F1 uut/SLICE_10
+ROUTE         1   e 0.001 *t/SLICE_10.F1 to */SLICE_10.DI1 uut/DQ_31__N_95 (to clk_in_test_c)
+                  --------
+                    2.110   (45.6% logic, 54.4% route), 3 logic levels.
+
+Report:  476.190MHz is the maximum frequency for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_1"></A>Preference: FREQUENCY NET "state" 475.964000 MHz ;
+            1 item scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 0.001ns
+         The internal maximum frequency of the following component is 476.190 MHz
+
+ Logical Details:  Cell type  Pin name       Component name
+
+   Destination:    SLICE      CLK            SLICE_17
+
+   Delay:               2.100ns -- based on Minimum Pulse Width
+
+
+Passed: The following path meets requirements by 0.205ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              uut/state_645  (from clk_in_test_c -)
+   Destination:    FF         Data in        uut/estado_678  (to state -)
+
+   Delay:               1.064ns  (46.1% logic, 53.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      1.064ns physical path delay SLICE_18 to SLICE_17 meets
+      2.101ns delay constraint less
+      0.832ns LSRREC_SET requirement (totaling 1.269ns) by 0.205ns
+
+ Physical Path Details:
+
+      Data path SLICE_18 to SLICE_17:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.491   SLICE_18.CLK to    SLICE_18.Q0 SLICE_18 (from clk_in_test_c)
+ROUTE        25   e 0.573    SLICE_18.Q0 to   SLICE_17.LSR state (to state)
+                  --------
+                    1.064   (46.1% logic, 53.9% route), 1 logic levels.
+
+Report:  476.190MHz is the maximum frequency for this preference.
+
+<A name="mtw1_set_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "clk_in_test_c"           |             |             |
+475.964000 MHz ;                        |  475.964 MHz|  476.190 MHz|   0  
+                                        |             |             |
+FREQUENCY NET "state" 475.964000 MHz ;  |  475.964 MHz|  476.190 MHz|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="mtw1_set_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: clk_in_test_c   Source: clk_in_test.PAD   Loads: 21
+   Covered under: FREQUENCY NET "clk_in_test_c" 475.964000 MHz ;
+
+Clock Domain: state   Source: SLICE_18.Q0   Loads: 25
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: clk_in_test_c   Source: clk_in_test.PAD
+      Covered under: FREQUENCY NET "state" 475.964000 MHz ;   Transfers: 1
+
+
+<A name="mtw1_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 234 paths, 37 nets, and 176 connections (58.67% coverage)
+
+--------------------------------------------------------------------------------
+<A name="Map_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond Version 3.5.0.102</big></U></B>
+Mon Jul 04 10:08:45 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_hold_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o HyperRAM_hyperram.tw1 -gui -msgset C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/promote.xml HyperRAM_hyperram_map.ncd HyperRAM_hyperram.prf 
+Design file:     hyperram_hyperram_map.ncd
+Preference file: hyperram_hyperram.prf
+Device,speed:    LFE5U-25F,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+<A name="mtw1_hold_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#map_twr_pref_1_0' Target='right'>FREQUENCY NET "clk_in_test_c" 475.964000 MHz (0 errors)</A></LI>            233 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_1' Target='right'>FREQUENCY NET "state" 475.964000 MHz (0 errors)</A></LI>            1 item scored, 0 timing errors detected.
+
+1 potential circuit loop found in timing analysis.
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+<A name="map_twr_pref_1_0"></A>Preference: FREQUENCY NET "clk_in_test_c" 475.964000 MHz ;
+            233 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.170ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              uut/byte_counter_31__i1  (from clk_in_test_c -)
+   Destination:    FF         Data in        uut/byte_counter_31__i1  (to clk_in_test_c -)
+
+   Delay:               0.288ns  (79.5% logic, 20.5% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.288ns physical path delay uut/SLICE_20 to uut/SLICE_20 meets
+      0.118ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling 0.118ns) by 0.170ns
+
+ Physical Path Details:
+
+      Data path uut/SLICE_20 to uut/SLICE_20:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.153 */SLICE_20.CLK to *t/SLICE_20.Q1 uut/SLICE_20 (from clk_in_test_c)
+ROUTE         8   e 0.058 *t/SLICE_20.Q1 to *t/SLICE_20.B1 uut/byte_counter_1
+CTOF_DEL    ---     0.076 *t/SLICE_20.B1 to *t/SLICE_20.F1 uut/SLICE_20
+ROUTE         1   e 0.001 *t/SLICE_20.F1 to */SLICE_20.DI1 uut/n641 (to clk_in_test_c)
+                  --------
+                    0.288   (79.5% logic, 20.5% route), 2 logic levels.
+
+
+================================================================================
+<A name="map_twr_pref_1_1"></A>Preference: FREQUENCY NET "state" 475.964000 MHz ;
+            1 item scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.604ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              uut/state_645  (from clk_in_test_c -)
+   Destination:    FF         Data in        uut/estado_678  (to state -)
+
+   Delay:               0.353ns  (43.6% logic, 56.4% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.353ns physical path delay SLICE_18 to SLICE_17 meets
+     -0.251ns LSRREC_HLD and
+      0.000ns delay constraint requirement (totaling -0.251ns) by 0.604ns
+
+ Physical Path Details:
+
+      Data path SLICE_18 to SLICE_17:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.154   SLICE_18.CLK to    SLICE_18.Q0 SLICE_18 (from clk_in_test_c)
+ROUTE        25   e 0.199    SLICE_18.Q0 to   SLICE_17.LSR state (to state)
+                  --------
+                    0.353   (43.6% logic, 56.4% route), 1 logic levels.
+
+<A name="mtw1_hold_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "clk_in_test_c"           |             |             |
+475.964000 MHz ;                        |     0.000 ns|     0.170 ns|   2  
+                                        |             |             |
+FREQUENCY NET "state" 475.964000 MHz ;  |     0.000 ns|     0.604 ns|   1  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="mtw1_hold_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: clk_in_test_c   Source: clk_in_test.PAD   Loads: 21
+   Covered under: FREQUENCY NET "clk_in_test_c" 475.964000 MHz ;
+
+Clock Domain: state   Source: SLICE_18.Q0   Loads: 25
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: clk_in_test_c   Source: clk_in_test.PAD
+      Covered under: FREQUENCY NET "state" 475.964000 MHz ;   Transfers: 1
+
+
+<A name="mtw1_hold_ts"></A><B><U><big>Timing summary (Hold):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 234 paths, 37 nets, and 176 connections (58.67% coverage)
+
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary (Setup and Hold):</big></U></B>
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

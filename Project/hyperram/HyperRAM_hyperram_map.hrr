@@ -1,0 +1,36 @@
+---------------------------------------------------
+Report for cell hyperram_tb
+   Instance path: hyperram_tb
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      24.00        100.0
+                                  LUT4	      44.00        100.0
+                                 IOBUF	         38        100.0
+                                PFUREG	         39        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        hram_interface	          1        91.7
+                            W958D8NBYA	          1         0.0
+---------------------------------------------------
+Report for cell hram_interface
+   Instance path: hyperram_tb/uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.00        91.7
+                                  LUT4	      41.00        93.2
+                                PFUREG	         39        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             clk_div_2	          1         2.1
+---------------------------------------------------
+Report for cell clk_div_2
+   Instance path: hyperram_tb/uut/clk_62_5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         2.1
+                                PFUREG	          1         2.6
+---------------------------------------------------
+Report for cell W958D8NBYA
+   Instance path: hyperram_tb/ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

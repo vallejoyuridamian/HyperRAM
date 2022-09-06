@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="IBIS" build_result="0" update_result="2" update_time="1656901945"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="2" update_time="1656901951"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="2" update_time="1656940701"/>
+            <Task name="Bitgen" build_result="0" update_result="2" update_time="1656901965"/>
+            <Task name="Promgen" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Map" build_result="0" build_time="1656940122">
+            <Task name="Map" build_result="0" update_result="2" update_time="1656940122"/>
+            <Task name="MapTrace" build_result="0" update_result="2" update_time="1656940126"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="2" update_time="1656902333"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="2" update_time="1656902324"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="0" build_time="1656940163">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1656940163"/>
+            <Task name="PARTrace" build_result="0" update_result="2" update_time="1656940166"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="0" build_time="1657117721">
+            <Task name="Lattice_Synthesis" build_result="0" update_result="2" update_time="1657117721"/>
+            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1657115004"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1657149677"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
+            <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
+            <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
+            <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
+        </Milestone>
+        <Report name=".vdbs/HyperRAM_hyperram_map.vdb" last_build_time="1656940122" last_build_size="56498"/>
+        <Report name="HyperRAM_hyperram.bgn" last_build_time="1656901964" last_build_size="4265"/>
+        <Report name="HyperRAM_hyperram.bit" last_build_time="1656901964" last_build_size="582677"/>
+        <Report name="HyperRAM_hyperram.lsedata" last_build_time="1657115004" last_build_size="497594"/>
+        <Report name="HyperRAM_hyperram.ncd" last_build_time="1656940163" last_build_size="86935"/>
+        <Report name="HyperRAM_hyperram.ngd" last_build_time="1657114984" last_build_size="151760"/>
+        <Report name="HyperRAM_hyperram.tw1" last_build_time="1656940126" last_build_size="12673"/>
+        <Report name="HyperRAM_hyperram.twr" last_build_time="1656940166" last_build_size="50983"/>
+        <Report name="HyperRAM_hyperram_map.ncd" last_build_time="1656940120" last_build_size="58958"/>
+        <Report name="HyperRAM_hyperram_mapvho.sdf" last_build_time="1656902324" last_build_size="53832"/>
+        <Report name="HyperRAM_hyperram_mapvho.vho" last_build_time="1656902324" last_build_size="192357"/>
+        <Report name="HyperRAM_hyperram_mapvo.sdf" last_build_time="1656902333" last_build_size="54205"/>
+        <Report name="HyperRAM_hyperram_mapvo.vo" last_build_time="1656902333" last_build_size="41252"/>
+        <Report name="HyperRAM_hyperram_vho.sdf" last_build_time="1656940700" last_build_size="71073"/>
+        <Report name="HyperRAM_hyperram_vho.vho" last_build_time="1656940700" last_build_size="193701"/>
+        <Report name="HyperRAM_hyperram_vo.sdf" last_build_time="1656901951" last_build_size="60281"/>
+        <Report name="HyperRAM_hyperram_vo.vo" last_build_time="1656901950" last_build_size="41251"/>
+        <Report name="IBIS/HyperRAM_hyperram.ibs" last_build_time="1656901945" last_build_size="218160"/>
+    </Strategy>
+</BuildStatus>

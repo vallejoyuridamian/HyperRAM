@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "clkdivtwo_clkdivtwo.log"
+-o "clkdivtwo_clkdivtwo.csv"
+-pr "clkdivtwo_clkdivtwo.prf"

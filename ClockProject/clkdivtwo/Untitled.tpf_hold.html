@@ -1,0 +1,528 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<STYLE type=text/css>
+<!--
+.blink {text-decoration:blink}
+.ms  {font-size: 9pt; font-family: monospace; font-weight: normal}
+.msb {font-size: 9pt; font-family: monospace; font-weight: bold  }
+-->
+</STYLE>
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY><B>
+</B>
+<BR><PRE><A name="Report Header"></A>
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond Version 3.5.0.102
+Sun Jul 03 12:17:13 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design file:     Tb_clock_divider
+Device,speed:    LFE5U-25F,M
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+
+
+</A><A name="FREQUENCY NET 'clk_in_c' 231.000000 MH"></A>================================================================================
+Preference: FREQUENCY NET "clk_in_c" 231.000000 MHz ;
+            10 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.177ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uut/SLICE_34">uut/clk_aux_14</A>  (from <A href="#@net:clk_in_c">clk_in_c</A> +)
+   Destination:    FF         Data in        <A href="#@comp:uut/SLICE_34">uut/clk_aux_14</A>  (to <A href="#@net:clk_in_c">clk_in_c</A> +)
+
+   Delay:               0.296ns  (81.1% logic, 18.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.296ns physical path delay uut/SLICE_34 to uut/SLICE_34 meets
+      0.119ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.119ns) by 0.177ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:REG_DEL, 0.164,R20C70B.CLK,R20C70B.Q0,uut/SLICE_34:ROUTE, 0.056,R20C70B.Q0,R20C70B.D0,clk_out_c:CTOF_DEL, 0.076,R20C70B.D0,R20C70B.F0,uut/SLICE_34:ROUTE, 0.000,R20C70B.F0,R20C70B.DI0,uut/clk_out_N_66">Data path</A> uut/SLICE_34 to uut/SLICE_34:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.164    R20C70B.CLK to     R20C70B.Q0 <A href="#@comp:uut/SLICE_34">uut/SLICE_34</A> (from <A href="#@net:clk_in_c">clk_in_c</A>)
+ROUTE         2     0.056<A href="#@net:clk_out_c:R20C70B.Q0:R20C70B.D0:0.056">     R20C70B.Q0 to R20C70B.D0    </A> <A href="#@net:clk_out_c">clk_out_c</A>
+CTOF_DEL    ---     0.076     R20C70B.D0 to     R20C70B.F0 <A href="#@comp:uut/SLICE_34">uut/SLICE_34</A>
+ROUTE         1     0.000<A href="#@net:uut/clk_out_N_66:R20C70B.F0:R20C70B.DI0:0.000">     R20C70B.F0 to R20C70B.DI0   </A> <A href="#@net:uut/clk_out_N_66">uut/clk_out_N_66</A> (to <A href="#@net:clk_in_c">clk_in_c</A>)
+                  --------
+                    0.296   (81.1% logic, 18.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R20C70B.CLK,clk_in_c">Source Clock Path</A> clk_in to uut/SLICE_34:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R20C70B.CLK:0.745">      B10.PADDI to R20C70B.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R20C70B.CLK,clk_in_c">Destination Clock Path</A> clk_in to uut/SLICE_34:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R20C70B.CLK:0.745">      B10.PADDI to R20C70B.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.275ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:SLICE_10">uut/counter_i12</A>  (from <A href="#@net:clk_in_c">clk_in_c</A> +)
+   Destination:    FF         Data in        <A href="#@comp:SLICE_10">uut/counter_i12</A>  (to <A href="#@net:clk_in_c">clk_in_c</A> +)
+
+   Delay:               0.394ns  (60.7% logic, 39.3% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.394ns physical path delay SLICE_10 to SLICE_10 meets
+      0.119ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.119ns) by 0.275ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:REG_DEL, 0.163,R19C67C.CLK,R19C67C.Q1,SLICE_10:ROUTE, 0.155,R19C67C.Q1,R19C67C.A1,counter_12:CTOF_DEL, 0.076,R19C67C.A1,R19C67C.F1,SLICE_10:ROUTE, 0.000,R19C67C.F1,R19C67C.DI1,counter_31_N_33_12">Data path</A> SLICE_10 to SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.163    R19C67C.CLK to     R19C67C.Q1 <A href="#@comp:SLICE_10">SLICE_10</A> (from <A href="#@net:clk_in_c">clk_in_c</A>)
+ROUTE         2     0.155<A href="#@net:counter_12:R19C67C.Q1:R19C67C.A1:0.155">     R19C67C.Q1 to R19C67C.A1    </A> <A href="#@net:counter_12">counter_12</A>
+CTOF_DEL    ---     0.076     R19C67C.A1 to     R19C67C.F1 <A href="#@comp:SLICE_10">SLICE_10</A>
+ROUTE         1     0.000<A href="#@net:counter_31_N_33_12:R19C67C.F1:R19C67C.DI1:0.000">     R19C67C.F1 to R19C67C.DI1   </A> <A href="#@net:counter_31_N_33_12">counter_31_N_33_12</A> (to <A href="#@net:clk_in_c">clk_in_c</A>)
+                  --------
+                    0.394   (60.7% logic, 39.3% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C67C.CLK,clk_in_c">Source Clock Path</A> clk_in to SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C67C.CLK:0.745">      B10.PADDI to R19C67C.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C67C.CLK,clk_in_c">Destination Clock Path</A> clk_in to SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C67C.CLK:0.745">      B10.PADDI to R19C67C.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.275ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:SLICE_13">uut/counter_i6</A>  (from <A href="#@net:clk_in_c">clk_in_c</A> +)
+   Destination:    FF         Data in        <A href="#@comp:SLICE_13">uut/counter_i6</A>  (to <A href="#@net:clk_in_c">clk_in_c</A> +)
+
+   Delay:               0.394ns  (60.7% logic, 39.3% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.394ns physical path delay SLICE_13 to SLICE_13 meets
+      0.119ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.119ns) by 0.275ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:REG_DEL, 0.163,R19C66D.CLK,R19C66D.Q1,SLICE_13:ROUTE, 0.155,R19C66D.Q1,R19C66D.A1,counter_6:CTOF_DEL, 0.076,R19C66D.A1,R19C66D.F1,SLICE_13:ROUTE, 0.000,R19C66D.F1,R19C66D.DI1,counter_31_N_33_6">Data path</A> SLICE_13 to SLICE_13:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.163    R19C66D.CLK to     R19C66D.Q1 <A href="#@comp:SLICE_13">SLICE_13</A> (from <A href="#@net:clk_in_c">clk_in_c</A>)
+ROUTE         2     0.155<A href="#@net:counter_6:R19C66D.Q1:R19C66D.A1:0.155">     R19C66D.Q1 to R19C66D.A1    </A> <A href="#@net:counter_6">counter_6</A>
+CTOF_DEL    ---     0.076     R19C66D.A1 to     R19C66D.F1 <A href="#@comp:SLICE_13">SLICE_13</A>
+ROUTE         1     0.000<A href="#@net:counter_31_N_33_6:R19C66D.F1:R19C66D.DI1:0.000">     R19C66D.F1 to R19C66D.DI1   </A> <A href="#@net:counter_31_N_33_6">counter_31_N_33_6</A> (to <A href="#@net:clk_in_c">clk_in_c</A>)
+                  --------
+                    0.394   (60.7% logic, 39.3% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C66D.CLK,clk_in_c">Source Clock Path</A> clk_in to SLICE_13:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C66D.CLK:0.745">      B10.PADDI to R19C66D.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C66D.CLK,clk_in_c">Destination Clock Path</A> clk_in to SLICE_13:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C66D.CLK:0.745">      B10.PADDI to R19C66D.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.275ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:SLICE_14">uut/counter_i4</A>  (from <A href="#@net:clk_in_c">clk_in_c</A> +)
+   Destination:    FF         Data in        <A href="#@comp:SLICE_14">uut/counter_i4</A>  (to <A href="#@net:clk_in_c">clk_in_c</A> +)
+
+   Delay:               0.394ns  (60.7% logic, 39.3% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.394ns physical path delay SLICE_14 to SLICE_14 meets
+      0.119ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.119ns) by 0.275ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:REG_DEL, 0.163,R19C66C.CLK,R19C66C.Q1,SLICE_14:ROUTE, 0.155,R19C66C.Q1,R19C66C.A1,counter_4:CTOF_DEL, 0.076,R19C66C.A1,R19C66C.F1,SLICE_14:ROUTE, 0.000,R19C66C.F1,R19C66C.DI1,counter_31_N_33_4">Data path</A> SLICE_14 to SLICE_14:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.163    R19C66C.CLK to     R19C66C.Q1 <A href="#@comp:SLICE_14">SLICE_14</A> (from <A href="#@net:clk_in_c">clk_in_c</A>)
+ROUTE         2     0.155<A href="#@net:counter_4:R19C66C.Q1:R19C66C.A1:0.155">     R19C66C.Q1 to R19C66C.A1    </A> <A href="#@net:counter_4">counter_4</A>
+CTOF_DEL    ---     0.076     R19C66C.A1 to     R19C66C.F1 <A href="#@comp:SLICE_14">SLICE_14</A>
+ROUTE         1     0.000<A href="#@net:counter_31_N_33_4:R19C66C.F1:R19C66C.DI1:0.000">     R19C66C.F1 to R19C66C.DI1   </A> <A href="#@net:counter_31_N_33_4">counter_31_N_33_4</A> (to <A href="#@net:clk_in_c">clk_in_c</A>)
+                  --------
+                    0.394   (60.7% logic, 39.3% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C66C.CLK,clk_in_c">Source Clock Path</A> clk_in to SLICE_14:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C66C.CLK:0.745">      B10.PADDI to R19C66C.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C66C.CLK,clk_in_c">Destination Clock Path</A> clk_in to SLICE_14:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C66C.CLK:0.745">      B10.PADDI to R19C66C.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.275ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:SLICE_2">uut/counter_i22</A>  (from <A href="#@net:clk_in_c">clk_in_c</A> +)
+   Destination:    FF         Data in        <A href="#@comp:SLICE_2">uut/counter_i22</A>  (to <A href="#@net:clk_in_c">clk_in_c</A> +)
+
+   Delay:               0.394ns  (60.7% logic, 39.3% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.394ns physical path delay SLICE_2 to SLICE_2 meets
+      0.119ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.119ns) by 0.275ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:REG_DEL, 0.163,R19C68D.CLK,R19C68D.Q1,SLICE_2:ROUTE, 0.155,R19C68D.Q1,R19C68D.A1,counter_22:CTOF_DEL, 0.076,R19C68D.A1,R19C68D.F1,SLICE_2:ROUTE, 0.000,R19C68D.F1,R19C68D.DI1,counter_31_N_33_22">Data path</A> SLICE_2 to SLICE_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.163    R19C68D.CLK to     R19C68D.Q1 <A href="#@comp:SLICE_2">SLICE_2</A> (from <A href="#@net:clk_in_c">clk_in_c</A>)
+ROUTE         2     0.155<A href="#@net:counter_22:R19C68D.Q1:R19C68D.A1:0.155">     R19C68D.Q1 to R19C68D.A1    </A> <A href="#@net:counter_22">counter_22</A>
+CTOF_DEL    ---     0.076     R19C68D.A1 to     R19C68D.F1 <A href="#@comp:SLICE_2">SLICE_2</A>
+ROUTE         1     0.000<A href="#@net:counter_31_N_33_22:R19C68D.F1:R19C68D.DI1:0.000">     R19C68D.F1 to R19C68D.DI1   </A> <A href="#@net:counter_31_N_33_22">counter_31_N_33_22</A> (to <A href="#@net:clk_in_c">clk_in_c</A>)
+                  --------
+                    0.394   (60.7% logic, 39.3% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C68D.CLK,clk_in_c">Source Clock Path</A> clk_in to SLICE_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C68D.CLK:0.745">      B10.PADDI to R19C68D.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C68D.CLK,clk_in_c">Destination Clock Path</A> clk_in to SLICE_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C68D.CLK:0.745">      B10.PADDI to R19C68D.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.275ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:SLICE_3">uut/counter_i28</A>  (from <A href="#@net:clk_in_c">clk_in_c</A> +)
+   Destination:    FF         Data in        <A href="#@comp:SLICE_3">uut/counter_i28</A>  (to <A href="#@net:clk_in_c">clk_in_c</A> +)
+
+   Delay:               0.394ns  (60.7% logic, 39.3% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.394ns physical path delay SLICE_3 to SLICE_3 meets
+      0.119ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.119ns) by 0.275ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:REG_DEL, 0.163,R19C69C.CLK,R19C69C.Q1,SLICE_3:ROUTE, 0.155,R19C69C.Q1,R19C69C.A1,counter_28:CTOF_DEL, 0.076,R19C69C.A1,R19C69C.F1,SLICE_3:ROUTE, 0.000,R19C69C.F1,R19C69C.DI1,counter_31_N_33_28">Data path</A> SLICE_3 to SLICE_3:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.163    R19C69C.CLK to     R19C69C.Q1 <A href="#@comp:SLICE_3">SLICE_3</A> (from <A href="#@net:clk_in_c">clk_in_c</A>)
+ROUTE         2     0.155<A href="#@net:counter_28:R19C69C.Q1:R19C69C.A1:0.155">     R19C69C.Q1 to R19C69C.A1    </A> <A href="#@net:counter_28">counter_28</A>
+CTOF_DEL    ---     0.076     R19C69C.A1 to     R19C69C.F1 <A href="#@comp:SLICE_3">SLICE_3</A>
+ROUTE         1     0.000<A href="#@net:counter_31_N_33_28:R19C69C.F1:R19C69C.DI1:0.000">     R19C69C.F1 to R19C69C.DI1   </A> <A href="#@net:counter_31_N_33_28">counter_31_N_33_28</A> (to <A href="#@net:clk_in_c">clk_in_c</A>)
+                  --------
+                    0.394   (60.7% logic, 39.3% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C69C.CLK,clk_in_c">Source Clock Path</A> clk_in to SLICE_3:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C69C.CLK:0.745">      B10.PADDI to R19C69C.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C69C.CLK,clk_in_c">Destination Clock Path</A> clk_in to SLICE_3:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C69C.CLK:0.745">      B10.PADDI to R19C69C.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.275ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:SLICE_4">uut/counter_i30</A>  (from <A href="#@net:clk_in_c">clk_in_c</A> +)
+   Destination:    FF         Data in        <A href="#@comp:SLICE_4">uut/counter_i30</A>  (to <A href="#@net:clk_in_c">clk_in_c</A> +)
+
+   Delay:               0.394ns  (60.7% logic, 39.3% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.394ns physical path delay SLICE_4 to SLICE_4 meets
+      0.119ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.119ns) by 0.275ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:REG_DEL, 0.163,R19C69D.CLK,R19C69D.Q1,SLICE_4:ROUTE, 0.155,R19C69D.Q1,R19C69D.A1,counter_30:CTOF_DEL, 0.076,R19C69D.A1,R19C69D.F1,SLICE_4:ROUTE, 0.000,R19C69D.F1,R19C69D.DI1,counter_31_N_33_30">Data path</A> SLICE_4 to SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.163    R19C69D.CLK to     R19C69D.Q1 <A href="#@comp:SLICE_4">SLICE_4</A> (from <A href="#@net:clk_in_c">clk_in_c</A>)
+ROUTE         2     0.155<A href="#@net:counter_30:R19C69D.Q1:R19C69D.A1:0.155">     R19C69D.Q1 to R19C69D.A1    </A> <A href="#@net:counter_30">counter_30</A>
+CTOF_DEL    ---     0.076     R19C69D.A1 to     R19C69D.F1 <A href="#@comp:SLICE_4">SLICE_4</A>
+ROUTE         1     0.000<A href="#@net:counter_31_N_33_30:R19C69D.F1:R19C69D.DI1:0.000">     R19C69D.F1 to R19C69D.DI1   </A> <A href="#@net:counter_31_N_33_30">counter_31_N_33_30</A> (to <A href="#@net:clk_in_c">clk_in_c</A>)
+                  --------
+                    0.394   (60.7% logic, 39.3% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C69D.CLK,clk_in_c">Source Clock Path</A> clk_in to SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C69D.CLK:0.745">      B10.PADDI to R19C69D.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C69D.CLK,clk_in_c">Destination Clock Path</A> clk_in to SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C69D.CLK:0.745">      B10.PADDI to R19C69D.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.275ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:SLICE_6">uut/counter_i20</A>  (from <A href="#@net:clk_in_c">clk_in_c</A> +)
+   Destination:    FF         Data in        <A href="#@comp:SLICE_6">uut/counter_i20</A>  (to <A href="#@net:clk_in_c">clk_in_c</A> +)
+
+   Delay:               0.394ns  (60.7% logic, 39.3% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.394ns physical path delay SLICE_6 to SLICE_6 meets
+      0.119ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.119ns) by 0.275ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:REG_DEL, 0.163,R19C68C.CLK,R19C68C.Q1,SLICE_6:ROUTE, 0.155,R19C68C.Q1,R19C68C.A1,counter_20:CTOF_DEL, 0.076,R19C68C.A1,R19C68C.F1,SLICE_6:ROUTE, 0.000,R19C68C.F1,R19C68C.DI1,counter_31_N_33_20">Data path</A> SLICE_6 to SLICE_6:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.163    R19C68C.CLK to     R19C68C.Q1 <A href="#@comp:SLICE_6">SLICE_6</A> (from <A href="#@net:clk_in_c">clk_in_c</A>)
+ROUTE         2     0.155<A href="#@net:counter_20:R19C68C.Q1:R19C68C.A1:0.155">     R19C68C.Q1 to R19C68C.A1    </A> <A href="#@net:counter_20">counter_20</A>
+CTOF_DEL    ---     0.076     R19C68C.A1 to     R19C68C.F1 <A href="#@comp:SLICE_6">SLICE_6</A>
+ROUTE         1     0.000<A href="#@net:counter_31_N_33_20:R19C68C.F1:R19C68C.DI1:0.000">     R19C68C.F1 to R19C68C.DI1   </A> <A href="#@net:counter_31_N_33_20">counter_31_N_33_20</A> (to <A href="#@net:clk_in_c">clk_in_c</A>)
+                  --------
+                    0.394   (60.7% logic, 39.3% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C68C.CLK,clk_in_c">Source Clock Path</A> clk_in to SLICE_6:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C68C.CLK:0.745">      B10.PADDI to R19C68C.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C68C.CLK,clk_in_c">Destination Clock Path</A> clk_in to SLICE_6:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C68C.CLK:0.745">      B10.PADDI to R19C68C.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.275ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:SLICE_9">uut/counter_i14</A>  (from <A href="#@net:clk_in_c">clk_in_c</A> +)
+   Destination:    FF         Data in        <A href="#@comp:SLICE_9">uut/counter_i14</A>  (to <A href="#@net:clk_in_c">clk_in_c</A> +)
+
+   Delay:               0.394ns  (60.7% logic, 39.3% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.394ns physical path delay SLICE_9 to SLICE_9 meets
+      0.119ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.119ns) by 0.275ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:REG_DEL, 0.163,R19C67D.CLK,R19C67D.Q1,SLICE_9:ROUTE, 0.155,R19C67D.Q1,R19C67D.A1,counter_14:CTOF_DEL, 0.076,R19C67D.A1,R19C67D.F1,SLICE_9:ROUTE, 0.000,R19C67D.F1,R19C67D.DI1,counter_31_N_33_14">Data path</A> SLICE_9 to SLICE_9:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.163    R19C67D.CLK to     R19C67D.Q1 <A href="#@comp:SLICE_9">SLICE_9</A> (from <A href="#@net:clk_in_c">clk_in_c</A>)
+ROUTE         2     0.155<A href="#@net:counter_14:R19C67D.Q1:R19C67D.A1:0.155">     R19C67D.Q1 to R19C67D.A1    </A> <A href="#@net:counter_14">counter_14</A>
+CTOF_DEL    ---     0.076     R19C67D.A1 to     R19C67D.F1 <A href="#@comp:SLICE_9">SLICE_9</A>
+ROUTE         1     0.000<A href="#@net:counter_31_N_33_14:R19C67D.F1:R19C67D.DI1:0.000">     R19C67D.F1 to R19C67D.DI1   </A> <A href="#@net:counter_31_N_33_14">counter_31_N_33_14</A> (to <A href="#@net:clk_in_c">clk_in_c</A>)
+                  --------
+                    0.394   (60.7% logic, 39.3% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C67D.CLK,clk_in_c">Source Clock Path</A> clk_in to SLICE_9:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C67D.CLK:0.745">      B10.PADDI to R19C67D.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C67D.CLK,clk_in_c">Destination Clock Path</A> clk_in to SLICE_9:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C67D.CLK:0.745">      B10.PADDI to R19C67D.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.281ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:SLICE_15">uut/counter_i2</A>  (from <A href="#@net:clk_in_c">clk_in_c</A> +)
+   Destination:    FF         Data in        <A href="#@comp:SLICE_15">uut/counter_i2</A>  (to <A href="#@net:clk_in_c">clk_in_c</A> +)
+
+   Delay:               0.400ns  (59.8% logic, 40.3% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.400ns physical path delay SLICE_15 to SLICE_15 meets
+      0.119ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.119ns) by 0.281ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:REG_DEL, 0.163,R19C66B.CLK,R19C66B.Q1,SLICE_15:ROUTE, 0.161,R19C66B.Q1,R19C66B.B1,counter_2:CTOF_DEL, 0.076,R19C66B.B1,R19C66B.F1,SLICE_15:ROUTE, 0.000,R19C66B.F1,R19C66B.DI1,counter_31_N_33_2">Data path</A> SLICE_15 to SLICE_15:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.163    R19C66B.CLK to     R19C66B.Q1 <A href="#@comp:SLICE_15">SLICE_15</A> (from <A href="#@net:clk_in_c">clk_in_c</A>)
+ROUTE         2     0.161<A href="#@net:counter_2:R19C66B.Q1:R19C66B.B1:0.161">     R19C66B.Q1 to R19C66B.B1    </A> <A href="#@net:counter_2">counter_2</A>
+CTOF_DEL    ---     0.076     R19C66B.B1 to     R19C66B.F1 <A href="#@comp:SLICE_15">SLICE_15</A>
+ROUTE         1     0.000<A href="#@net:counter_31_N_33_2:R19C66B.F1:R19C66B.DI1:0.000">     R19C66B.F1 to R19C66B.DI1   </A> <A href="#@net:counter_31_N_33_2">counter_31_N_33_2</A> (to <A href="#@net:clk_in_c">clk_in_c</A>)
+                  --------
+                    0.400   (59.8% logic, 40.3% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C66B.CLK,clk_in_c">Source Clock Path</A> clk_in to SLICE_15:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C66B.CLK:0.745">      B10.PADDI to R19C66B.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'clk_in_c' 231.000000 MHz ;:ROUTE, 0.745,B10.PADDI,R19C66B.CLK,clk_in_c">Destination Clock Path</A> clk_in to SLICE_15:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     0.745<A href="#@net:clk_in_c:B10.PADDI:R19C66B.CLK:0.745">      B10.PADDI to R19C66B.CLK   </A> <A href="#@net:clk_in_c">clk_in_c</A>
+                  --------
+                    0.745   (0.0% logic, 100.0% route), 0 logic levels.
+
+<A name="Report Summary"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "clk_in_c" 231.000000 MHz |             |             |
+;                                       |     0.000 ns|     0.177 ns|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="Clock Domains Analysis"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: <A href="#@net:clk_in_c">clk_in_c</A>   Source: clk_in.PAD   Loads: 18
+   Covered under: FREQUENCY NET "clk_in_c" 231.000000 MHz ;
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1105 paths, 1 nets, and 168 connections (99.41% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 10 (setup), 0 (hold)
+Score: 6485 (setup), 0 (hold)
+Cumulative negative slack: 6485 (6485+0)

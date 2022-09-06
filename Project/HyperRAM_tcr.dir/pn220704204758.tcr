@@ -1,0 +1,30 @@
+#Start recording tcl command: 7/4/2022 11:09:58
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.ldf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramsim/hyperramsim.spf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramsim/hyperramsim.spf"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramsim/hyperramsim.spf"
+prj_src remove "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram/rev_1/W958D8NBYA.modelsim.edn"
+prj_src add "C:/modeltech64_2020.4/examples/hyperram/_lib.qdb"
+prj_src remove "C:/modeltech64_2020.4/examples/hyperram/_lib.qdb"
+launch_synplify_prj hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.modelsim.vp"
+launch_synplify_prj hyperram
+prj_src remove "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.modelsim.vp"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramsim/hyperramsim.spf"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramtest/hyperramtest.spf"
+#Stop recording: 7/4/2022 20:47:58

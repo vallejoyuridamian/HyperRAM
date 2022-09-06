@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901137</ID>
+            <Severity>Error</Severity>
+            <Dynamic>c:/users/damian/desktop/upwork/camilafpga/w958d8nbya_verilog_p/config-ac.v(7): </Dynamic>
+            <Dynamic>parameter</Dynamic>
+            <Navigation>c:/users/damian/desktop/upwork/camilafpga/w958d8nbya_verilog_p/config-ac.v</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Promgen" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Map" build_result="0" build_time="1656860664">
+            <Task name="Map" build_result="0" update_result="2" update_time="1656860664"/>
+            <Task name="MapTrace" build_result="0" update_result="2" update_time="1656861410"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="2" update_time="1656861416"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="0" build_time="1656861398">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1656861398"/>
+            <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="0" build_time="1656862763">
+            <Task name="Lattice_Synthesis" build_result="0" update_result="2" update_time="1656862763"/>
+            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1656862763"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1656866089"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
+            <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
+            <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
+            <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
+        </Milestone>
+        <Report name=".vdbs/clkdivtwo_clkdivtwo_map.vdb" last_build_time="1656860664" last_build_size="47604"/>
+        <Report name="clkdivtwo_clkdivtwo.lsedata" last_build_time="1656862761" last_build_size="36004"/>
+        <Report name="clkdivtwo_clkdivtwo.ncd" last_build_time="1656861398" last_build_size="54310"/>
+        <Report name="clkdivtwo_clkdivtwo.ngd" last_build_time="1656862763" last_build_size="61638"/>
+        <Report name="clkdivtwo_clkdivtwo.tw1" last_build_time="1656861410" last_build_size="10338"/>
+        <Report name="clkdivtwo_clkdivtwo_map.ncd" last_build_time="1656860661" last_build_size="41140"/>
+        <Report name="clkdivtwo_clkdivtwo_mapvho.sdf" last_build_time="1656861416" last_build_size="34070"/>
+        <Report name="clkdivtwo_clkdivtwo_mapvho.vho" last_build_time="1656861416" last_build_size="35628"/>
+    </Strategy>
+</BuildStatus>

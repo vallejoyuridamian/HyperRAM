@@ -1,0 +1,85 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'C:/Users/Damian/Desktop/advances_6_7/hyperramtestbench/src/hyperramtestbench.awc' connected to 'C:/Users/Damian/Desktop/advances_6_7/hyperramtestbench/src/wave.asdb'.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+hyperram_tb hyperram_tb arc
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work work -2002  $dsn/../hyperram.vhd $dsn/../hyperram_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Damian/Desktop/advances_6_7/hyperram.vhd
+# Compile Entity "hram_interface_dbg"
+# Compile Architecture "arc" of Entity "hram_interface_dbg"
+# File: C:/Users/Damian/Desktop/advances_6_7/hyperram_tb.vhd
+# Compile Entity "hyperram_tb"
+# Compile Architecture "arc" of Entity "hyperram_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6581 kB (elbread=427 elab2=6014 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\advances_6_7\hyperramtestbench\src\wave.asdb
+#  20:25, miércoles, 6 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'C:/Users/Damian/Desktop/advances_6_7/hyperramtestbench/src/hyperramtestbench.awc' connected to 'C:/Users/Damian/Desktop/advances_6_7/hyperramtestbench/src/wave.asdb'.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+hyperram_tb hyperram_tb arc
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6581 kB (elbread=427 elab2=6014 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\advances_6_7\hyperramtestbench\src\wave.asdb
+#  20:25, miércoles, 6 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'C:/Users/Damian/Desktop/advances_6_7/hyperramtestbench/src/hyperramtestbench.awc' connected to 'C:/Users/Damian/Desktop/advances_6_7/hyperramtestbench/src/wave.asdb'.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+# Adding file C:\Users\Damian\Desktop\advances_6_7\hyperramtestbench\src\hyperramtestbench.awc ... Done

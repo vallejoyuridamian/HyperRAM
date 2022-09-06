@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="MapVerilogSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="IBIS">
+        <Message>
+            <ID>1191031</ID>
+            <Severity>Info</Severity>
+        </Message>
+    </Task>
+    <Task name="MapVHDLSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/upwork/camilafpga/project/hyperram.vhd(10): </Dynamic>
+            <Dynamic>hram_interface</Dynamic>
+            <Navigation>c:/users/damian/desktop/upwork/camilafpga/project/hyperram.vhd</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/upwork/camilafpga/project/hyperram.vhd(54): </Dynamic>
+            <Dynamic>arc</Dynamic>
+            <Navigation>c:/users/damian/desktop/upwork/camilafpga/project/hyperram.vhd</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/upwork/camilafpga/project/hyperram_tb.vhd(4): </Dynamic>
+            <Dynamic>hyperram_tb</Dynamic>
+            <Navigation>c:/users/damian/desktop/upwork/camilafpga/project/hyperram_tb.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/upwork/camilafpga/project/hyperram_tb.vhd(30): </Dynamic>
+            <Dynamic>arc</Dynamic>
+            <Navigation>c:/users/damian/desktop/upwork/camilafpga/project/hyperram_tb.vhd</Navigation>
+            <Navigation>30</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/upwork/camilafpga/project/clk_div_2.vhd(8): </Dynamic>
+            <Dynamic>clk_div_2</Dynamic>
+            <Navigation>c:/users/damian/desktop/upwork/camilafpga/project/clk_div_2.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/damian/desktop/upwork/camilafpga/project/clk_div_2.vhd(18): </Dynamic>
+            <Dynamic>arc</Dynamic>
+            <Navigation>c:/users/damian/desktop/upwork/camilafpga/project/clk_div_2.vhd</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35921263</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/damian/desktop/upwork/camilafpga/project/hyperram_tb.vhd(147): </Dynamic>
+            <Navigation>c:/users/damian/desktop/upwork/camilafpga/project/hyperram_tb.vhd</Navigation>
+            <Navigation>147</Navigation>
+        </Message>
+        <Message>
+            <ID>35921296</ID>
+            <Severity>Error</Severity>
+            <Dynamic>c:/users/damian/desktop/upwork/camilafpga/project/hyperram_tb.vhd(154): </Dynamic>
+            <Navigation>c:/users/damian/desktop/upwork/camilafpga/project/hyperram_tb.vhd</Navigation>
+            <Navigation>154</Navigation>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>66011007</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Signal=state loads=25 clock_loads=1</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011007</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Signal=state loads=25 clock_loads=1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="TimingSimFileVHD">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="TimingSimFileVlg">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

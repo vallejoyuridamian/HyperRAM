@@ -1,0 +1,33 @@
+#Build: Synplify Pro J-2015.03L, Build 030R, Apr 20 2015
+#install: C:\lscc\diamond\3.5\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-990B5R6
+
+#Implementation: hyperram
+
+Synopsys HDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.5\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":4:7:4:17|Top entity is set to hyperram_tb.
+Options changed - recompiling
+@E: CD126 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":45:4:45:4|Expecting identifier
+@E: CG103 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd":156:13:156:13|Expecting expression
+2 errors parsing file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd
+@E: CD213 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd":102:4:102:13|Undefined identifier
+3 errors parsing file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd
+@E|Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 04 14:10:50 2022
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 04 14:10:50 2022
+
+###########################################################]

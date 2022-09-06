@@ -1,0 +1,21 @@
+---------------------------------------------------
+Report for cell Tb_clock_divider
+   Instance path: Tb_clock_divider
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      36.00        100.0
+                                  LUT4	       2.00        100.0
+                                 IOBUF	          3        100.0
+                                PFUREG	         33        100.0
+                                RIPPLE	         34        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             clk_div_2	          1        34.7
+---------------------------------------------------
+Report for cell clk_div_2
+   Instance path: Tb_clock_divider/uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.50        34.7
+                                  LUT4	       2.00        100.0
+                                PFUREG	         33        100.0

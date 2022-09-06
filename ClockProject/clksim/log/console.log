@@ -1,0 +1,1002 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/untitled.asdb'.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work work -2002  $dsn/../clktest.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clktest.vhd
+# Compile Entity "Tb_clock_divider"
+# Compile Architecture "behavior" of Entity "Tb_clock_divider"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+#  12:53, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+run 200 ns
+# KERNEL: stopped at time: 600 ns
+run 200 ns
+# KERNEL: stopped at time: 800 ns
+run 200 ns
+# KERNEL: stopped at time: 1 us
+run 200 ns
+# KERNEL: stopped at time: 1200 ns
+run 200 ns
+# KERNEL: stopped at time: 1400 ns
+run 200 ns
+# KERNEL: stopped at time: 1600 ns
+run 200 ns
+# KERNEL: stopped at time: 1800 ns
+run 200 ns
+# KERNEL: stopped at time: 2 us
+run 200 ns
+# KERNEL: stopped at time: 2200 ns
+run 200 ns
+# KERNEL: stopped at time: 2400 ns
+run 200 ns
+# KERNEL: stopped at time: 2600 ns
+# add wave -noreg {/Tb_clock_divider/clk_out_test}
+# Warning: WAVEFORM: Object matching /Tb_clock_divider/clk_out_test not found in C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/untitled.asdb.
+# add wave -noreg {/Tb_clock_divider/clk_out_test}
+# Warning: WAVEFORM: Object matching /Tb_clock_divider/clk_out_test not found in C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/untitled.asdb.
+
+
+# add wave -noreg {/Tb_clock_divider/clk_in_test}
+# Warning: WAVEFORM: Object matching /Tb_clock_divider/clk_in_test not found in C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/untitled.asdb.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  12:55, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# add wave -noreg {/Tb_clock_divider/clk_in_test}
+# add wave -noreg {/Tb_clock_divider/reset_test}
+# add wave -noreg {/Tb_clock_divider/clk_out_test}
+# Warning: WAVEFORM: Object matching /Tb_clock_divider/clk_in_test not found in C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/untitled.asdb.
+# Warning: WAVEFORM: Object matching /Tb_clock_divider/reset_test not found in C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/untitled.asdb.
+# Warning: WAVEFORM: Object matching /Tb_clock_divider/clk_out_test not found in C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/untitled.asdb.
+# add wave -noreg {/Tb_clock_divider/clk_in_test}
+# add wave -noreg {/Tb_clock_divider/reset_test}
+# add wave -noreg {/Tb_clock_divider/clk_out_test}
+# VSIM: 3 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  12:57, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/wave.asdb'.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  12:57, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/untitled.asdb'.
+# Adding file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\untitled.asdb ... Done
+# Adding file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\untitled.awc ... Done
+# Adding file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\untitled.awc ... Done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work work -2002  $dsn/../clk_div_2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clk_div_2.vhd
+# Compile Entity "clk_div_2"
+# Compile Architecture "arc" of Entity "clk_div_2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  12:59, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+#  13:00, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+# Adding file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\untitled.awc ... Done
+acom -O3 -e 100 -work work -2002  $dsn/../clk_div_2.vhd $dsn/../clktest.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clk_div_2.vhd
+# Compile Entity "clk_div_2"
+# Compile Architecture "arc" of Entity "clk_div_2"
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clktest.vhd
+# Compile Entity "Tb_clock_divider"
+# Compile Architecture "behavior" of Entity "Tb_clock_divider"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  13:02, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+# add wave -noreg {/Tb_clock_divider/clk_in_test}
+# add wave -noreg {/Tb_clock_divider/reset_test}
+# add wave -noreg {/Tb_clock_divider/clk_out_test}
+# VSIM: 3 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  13:03, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/wave.asdb'.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+#  13:03, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# Waveform file 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/untitled.asdb'.
+# Adding file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\untitled.asdb ... Done
+# Adding file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\untitled.awc ... Done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  13:04, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+#  13:05, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+#  13:05, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+#  13:05, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+#  13:05, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+#  13:05, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+endsim
+# VSIM: Simulation has finished.
+# Adding file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\untitled.awc ... Done
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+#  13:05, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  13:05, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# add wave -noreg {/Tb_clock_divider/clk_in_test}
+# add wave -noreg {/Tb_clock_divider/reset_test}
+# add wave -noreg {/Tb_clock_divider/clk_out_test}
+# VSIM: 3 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/Tb_clock_divider/clk_in_test" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Tb_clock_divider/reset_test" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Tb_clock_divider/clk_out_test" has already been traced.
+# VSIM: 0 object(s) traced.
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  13:06, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  13:06, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  13:07, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 8 ns
+# KERNEL: stopped at time: 8 ns
+run 8 ns
+# KERNEL: stopped at time: 16 ns
+acom -O3 -e 100 -work work -2002  $dsn/../clk_div_2.vhd $dsn/../clktest.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clk_div_2.vhd
+# Compile Entity "clk_div_2"
+# Compile Architecture "arc" of Entity "clk_div_2"
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clktest.vhd
+# Compile Entity "Tb_clock_divider"
+# Compile Architecture "behavior" of Entity "Tb_clock_divider"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work work -2002  $dsn/../clk_div_2.vhd $dsn/../clktest.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clk_div_2.vhd
+# Compile Entity "clk_div_2"
+# Compile Architecture "arc" of Entity "clk_div_2"
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clktest.vhd
+# Compile Entity "Tb_clock_divider"
+# Compile Architecture "behavior" of Entity "Tb_clock_divider"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  13:09, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work work -2002  $dsn/../clk_div_2.vhd $dsn/../clktest.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clk_div_2.vhd
+# Compile Entity "clk_div_2"
+# Compile Architecture "arc" of Entity "clk_div_2"
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clktest.vhd
+# Compile Entity "Tb_clock_divider"
+# Compile Architecture "behavior" of Entity "Tb_clock_divider"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  13:13, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work work -2002  $dsn/../clk_div_2.vhd $dsn/../clktest.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clk_div_2.vhd
+# Compile Entity "clk_div_2"
+# Compile Architecture "arc" of Entity "clk_div_2"
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clktest.vhd
+# Compile Entity "Tb_clock_divider"
+# Compile Architecture "behavior" of Entity "Tb_clock_divider"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  13:15, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run
+endsim
+# KERNEL: stopped at time: 225252 ns
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  13:15, domingo, 3 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/clk_in
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/clk_in" with formula "0 0fs, 1 4ns -r 8ns".
+# KERNEL: Error: Cannot find signal /Tb_clock_divider/reset
+# VSIM: Error: Cannot force signal "/Tb_clock_divider/reset" with formula "0".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# Waveform file 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clksim/src/untitled.asdb'.
+# Adding file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\untitled.asdb ... Done
+# Adding file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clksim\src\untitled.awc ... Done

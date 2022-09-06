@@ -1,0 +1,13 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":59:7:59:16|Synthesizing module W958D8NBYA
+@N: CG706 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":59:7:59:16|Selected top-level module W958D8NBYA is a black box, ignoring black box ...
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":59:7:59:16|Synthesizing module W958D8NBYA
+@N: CG706 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\W958D8NBYA_verilog_p\W958D8NBYA.modelsim.vp":59:7:59:16|Selected top-level module W958D8NBYA is a black box, ignoring black box ...
+

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.5\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\synwork\hyperram_comp.srs  -osyn  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\synwork\hyperram_mult.srs  -log  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\synlog\hyperram_multi_srs_gen.srr 
+rc:0 success:1
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\synwork\hyperram_comp.srs|i|1656939451|3159
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\synwork\hyperram_mult.srs|o|1656939453|3346
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\synlog\hyperram_multi_srs_gen.srr|o|1656939453|645
+C:\lscc\diamond\3.5\synpbase\bin\syn_nfilter.exe|i|1429558166|3000832
+C:\lscc\diamond\3.5\synpbase\bin64\syn_nfilter.exe|i|1429558358|3967488

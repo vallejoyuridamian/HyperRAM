@@ -1,0 +1,27 @@
+----------------------------------------------------------------------
+Report for cell Tb_clock_divider.TECH
+Register bits:  33 of 24642 (0.134%)
+I/O cells:      3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        34          100.0
+                            FD1S3AX         1          100.0
+                            FD1S3AY         1          100.0
+                            FD1S3IX        31          100.0
+                                GSR         1          100.0
+                                 IB         2          100.0
+                               LUT4         4          100.0
+                                 OB         1          100.0
+SUB MODULES
+                          clk_div_2         1
+                              TOTAL        76
+----------------------------------------------------------------------
+Report for cell clk_div_2.v1
+Instance Path : uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         1          100.0
+                            FD1S3AY         1          100.0
+                            FD1S3IX        31          100.0
+                               LUT4         2           50.0
+                              TOTAL        35

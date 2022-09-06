@@ -1,0 +1,13 @@
+C:\lscc\diamond\3.5\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo   -part LFE5U_25F  -package MG285C  -grade -6    -maxfan 100 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synlog\report\clkdivtwo_premap.xml  -top_level_module  Tb_clock_divider  -oedif  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\clkdivtwo.edi  -conchk_prepass  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\clkdivtwo_cck_prepass.rpt   -autoconstraint  -freq 1.000   C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synwork\clkdivtwo_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synwork\clkdivtwo_prem.srd  -devicelib  C:\lscc\diamond\3.5\synpbase\lib\lucent\ecp5u.v  -devicelib  C:\lscc\diamond\3.5\synpbase\lib\lucent\pmi_def.v  -ologparam  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\syntmp\clkdivtwo.plg  -osyn  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synwork\clkdivtwo_prem.srd  -prjdir  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\  -prjname  clkdivtwo_syn  -log  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synlog\clkdivtwo_premap.srr 
+rc:0 success:1
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\clkdivtwo.edi|o|0|0
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\clkdivtwo_cck_prepass.rpt|o|0|0
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synwork\clkdivtwo_mult.srs|i|1656858100|1746
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synwork\clkdivtwo_prem.srd|o|1656858101|1487
+C:\lscc\diamond\3.5\synpbase\lib\lucent\ecp5u.v|i|1429013174|89974
+C:\lscc\diamond\3.5\synpbase\lib\lucent\pmi_def.v|i|1429013174|40584
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\syntmp\clkdivtwo.plg|o|1656858100|0
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synwork\clkdivtwo_prem.srd|o|1656858101|1487
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synlog\clkdivtwo_premap.srr|o|1656858101|2280
+C:\lscc\diamond\3.5\synpbase\bin\m_gen_lattice.exe|i|1429560970|17277440
+C:\lscc\diamond\3.5\synpbase\bin64\m_gen_lattice.exe|i|1429562608|20520960

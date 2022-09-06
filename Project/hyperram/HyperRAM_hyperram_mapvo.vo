@@ -1,0 +1,980 @@
+
+// Verilog netlist produced by program ldbanno, Version Diamond Version 3.5.0.102
+
+// ldbanno -n Verilog -o HyperRAM_hyperram_mapvo.vo -w -neg -gui -msgset C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/promote.xml HyperRAM_hyperram_map.ncd 
+// Netlist created on Sun Jul 03 23:38:38 2022
+// Netlist written on Sun Jul 03 23:38:53 2022
+// Design is for device LFE5U-25F
+// Design is for package CSFBGA285
+// Design is for performance grade 6
+
+`timescale 1 ns / 1 ps
+
+module hyperram_tb ( clk_in_test, reset_test, clk_out_test, estado_test, 
+                     DQ_test, CS_n_test );
+  input  clk_in_test, reset_test;
+  output clk_out_test, estado_test, CS_n_test;
+  inout  [31:0] DQ_test;
+  wire   DQ_test_out_1, DQ_test_out_0, \uut/DQ_31__N_77 , clk_in_test_c, 
+         DQ_31_N_3_0, DQ_31_N_3_1, DQ_test_out_3, DQ_test_out_2, DQ_31_N_3_2, 
+         DQ_31_N_3_3, DQ_test_out_4, DQ_31_N_3_4, DQ_test_out_6, \uut/n446 , 
+         \uut/n444 , DQ_test_out_5, \uut/DQ_31__N_110 , \uut/DQ_31__N_111 , 
+         DQ_31_N_3_5, DQ_31_N_3_6, DQ_test_out_7, \uut/DQ_31__N_109 , 
+         DQ_31_N_3_7, DQ_test_out_9, DQ_test_out_8, DQ_31_N_3_8, DQ_31_N_3_9, 
+         DQ_test_out_11, DQ_test_out_10, DQ_31_N_3_10, DQ_31_N_3_11, 
+         DQ_test_out_12, DQ_31_N_3_12, DQ_test_out_14, DQ_test_out_13, 
+         \uut/DQ_31__N_102 , \uut/DQ_31__N_103 , DQ_31_N_3_13, DQ_31_N_3_14, 
+         \uut/byte_counter_2 , \uut/byte_counter_1 , DQ_test_out_15, 
+         \uut/DQ_31__N_101 , DQ_31_N_3_15, DQ_test_out_17, DQ_test_out_16, 
+         DQ_31_N_3_16, DQ_31_N_3_17, DQ_test_out_19, DQ_test_out_18, 
+         DQ_31_N_3_18, DQ_31_N_3_19, DQ_test_out_20, DQ_31_N_3_20, 
+         DQ_test_out_22, DQ_test_out_21, \uut/DQ_31__N_94 , \uut/DQ_31__N_95 , 
+         DQ_31_N_3_21, DQ_31_N_3_22, state, \uut/byte_counter_0 , 
+         DQ_test_out_23, \uut/DQ_31__N_93 , DQ_31_N_3_23, DQ_test_out_25, 
+         DQ_test_out_24, DQ_31_N_3_24, DQ_31_N_3_25, DQ_test_out_27, 
+         DQ_test_out_26, DQ_31_N_3_26, DQ_31_N_3_27, DQ_test_out_28, 
+         DQ_31_N_3_28, DQ_test_out_30, DQ_test_out_29, \uut/DQ_31__N_86 , 
+         \uut/DQ_31__N_87 , DQ_31_N_3_29, DQ_31_N_3_30, DQ_test_out_31, 
+         \uut/DQ_31__N_72 , DQ_31_N_3_31, clk_ram, CK_LVDS_N_123, n448, 
+         estado_test_c, \VCC_net\000/BUF1 , \uut/state_N_81 , \uut/n447 , 
+         \uut/DQ_4__N_58 , \uut/clk_system_N_71_enable_3 , \uut/n392 , 
+         \uut/n350 , \uut/n262 , \uut/n358 , reset_test_c, CS_n_test_c, VCCI;
+
+  SLOGICB #(.M0MUX("SIG"), .M1MUX("SIG"), .CLKMUX("INV"), .CEMUX("VHI"), 
+    .LSRMUX("SIG"), .CHECK_M1(1'b1), .CHECK_M0(1'b1), .CHECK_LSR(1'b1)) 
+    \uut/SLICE_0 ( .M1(DQ_test_out_1), .FXA(1'bX), .FXB(1'bX), .A1(1'bX), 
+    .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), .DI0(1'bX), .A0(1'bX), 
+    .B0(1'bX), .C0(1'bX), .D0(1'bX), .M0(DQ_test_out_0), .CE(1'bX), 
+    .CLK(clk_in_test_c), .LSR(\uut/DQ_31__N_77 ), .OFX1(), .F1(), 
+    .Q1(DQ_31_N_3_1), .OFX0(), .F0(), .Q0(DQ_31_N_3_0));
+  SLOGICB #(.M0MUX("SIG"), .M1MUX("SIG"), .CLKMUX("INV"), .CEMUX("VHI"), 
+    .LSRMUX("SIG"), .CHECK_M1(1'b1), .CHECK_M0(1'b1), .CHECK_LSR(1'b1)) 
+    \uut/SLICE_1 ( .M1(DQ_test_out_3), .FXA(1'bX), .FXB(1'bX), .A1(1'bX), 
+    .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), .DI0(1'bX), .A0(1'bX), 
+    .B0(1'bX), .C0(1'bX), .D0(1'bX), .M0(DQ_test_out_2), .CE(1'bX), 
+    .CLK(clk_in_test_c), .LSR(\uut/DQ_31__N_77 ), .OFX1(), .F1(), 
+    .Q1(DQ_31_N_3_3), .OFX0(), .F0(), .Q0(DQ_31_N_3_2));
+  SLOGICB #(.M0MUX("SIG"), .CLKMUX("INV"), .CEMUX("VHI"), .LSRMUX("SIG"), 
+    .CHECK_M0(1'b1), .CHECK_LSR(1'b1)) \uut/SLICE_2 ( .M1(1'bX), .FXA(1'bX), 
+    .FXB(1'bX), .A1(1'bX), .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), 
+    .DI0(1'bX), .A0(1'bX), .B0(1'bX), .C0(1'bX), .D0(1'bX), .M0(DQ_test_out_4), 
+    .CE(1'bX), .CLK(clk_in_test_c), .LSR(\uut/DQ_31__N_77 ), .OFX1(), .F1(), 
+    .Q1(), .OFX0(), .F0(), .Q0(DQ_31_N_3_4));
+  SLOGICB #(.CLKMUX("INV"), .CEMUX("VHI"), .SRMODE("ASYNC"), 
+    .LUT0_INITVAL(16'hDFD0), .LUT1_INITVAL(16'hDFD0), .REG1_SD("VHI"), 
+    .REG0_SD("VHI"), .CHECK_DI1(1'b1), .CHECK_DI0(1'b1)) \uut/SLICE_3 ( 
+    .M1(1'bX), .FXA(1'bX), .FXB(1'bX), .A1(\uut/n444 ), .B1(\uut/n446 ), 
+    .C1(\uut/DQ_31__N_77 ), .D1(DQ_test_out_6), .DI1(\uut/DQ_31__N_110 ), 
+    .DI0(\uut/DQ_31__N_111 ), .A0(\uut/n444 ), .B0(\uut/n446 ), 
+    .C0(\uut/DQ_31__N_77 ), .D0(DQ_test_out_5), .M0(1'bX), .CE(1'bX), 
+    .CLK(clk_in_test_c), .LSR(1'bX), .OFX1(), .F1(\uut/DQ_31__N_110 ), 
+    .Q1(DQ_31_N_3_6), .OFX0(), .F0(\uut/DQ_31__N_111 ), .Q0(DQ_31_N_3_5));
+  SLOGICB #(.CLKMUX("INV"), .CEMUX("VHI"), .SRMODE("ASYNC"), 
+    .LUT0_INITVAL(16'hDFD0), .REG0_SD("VHI"), .CHECK_DI0(1'b1)) \uut/SLICE_4 
+    ( .M1(1'bX), .FXA(1'bX), .FXB(1'bX), .A1(1'bX), .B1(1'bX), .C1(1'bX), 
+    .D1(1'bX), .DI1(1'bX), .DI0(\uut/DQ_31__N_109 ), .A0(\uut/n444 ), 
+    .B0(\uut/n446 ), .C0(\uut/DQ_31__N_77 ), .D0(DQ_test_out_7), .M0(1'bX), 
+    .CE(1'bX), .CLK(clk_in_test_c), .LSR(1'bX), .OFX1(), .F1(), .Q1(), .OFX0(), 
+    .F0(\uut/DQ_31__N_109 ), .Q0(DQ_31_N_3_7));
+  SLOGICB #(.M0MUX("SIG"), .M1MUX("SIG"), .CLKMUX("INV"), .CEMUX("VHI"), 
+    .LSRMUX("SIG"), .CHECK_M1(1'b1), .CHECK_M0(1'b1), .CHECK_LSR(1'b1)) 
+    \uut/SLICE_5 ( .M1(DQ_test_out_9), .FXA(1'bX), .FXB(1'bX), .A1(1'bX), 
+    .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), .DI0(1'bX), .A0(1'bX), 
+    .B0(1'bX), .C0(1'bX), .D0(1'bX), .M0(DQ_test_out_8), .CE(1'bX), 
+    .CLK(clk_in_test_c), .LSR(\uut/DQ_31__N_77 ), .OFX1(), .F1(), 
+    .Q1(DQ_31_N_3_9), .OFX0(), .F0(), .Q0(DQ_31_N_3_8));
+  SLOGICB #(.M0MUX("SIG"), .M1MUX("SIG"), .CLKMUX("INV"), .CEMUX("VHI"), 
+    .LSRMUX("SIG"), .CHECK_M1(1'b1), .CHECK_M0(1'b1), .CHECK_LSR(1'b1)) 
+    \uut/SLICE_6 ( .M1(DQ_test_out_11), .FXA(1'bX), .FXB(1'bX), .A1(1'bX), 
+    .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), .DI0(1'bX), .A0(1'bX), 
+    .B0(1'bX), .C0(1'bX), .D0(1'bX), .M0(DQ_test_out_10), .CE(1'bX), 
+    .CLK(clk_in_test_c), .LSR(\uut/DQ_31__N_77 ), .OFX1(), .F1(), 
+    .Q1(DQ_31_N_3_11), .OFX0(), .F0(), .Q0(DQ_31_N_3_10));
+  SLOGICB #(.M0MUX("SIG"), .CLKMUX("INV"), .CEMUX("VHI"), .LSRMUX("SIG"), 
+    .CHECK_M0(1'b1), .CHECK_LSR(1'b1)) \uut/SLICE_7 ( .M1(1'bX), .FXA(1'bX), 
+    .FXB(1'bX), .A1(1'bX), .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), 
+    .DI0(1'bX), .A0(1'bX), .B0(1'bX), .C0(1'bX), .D0(1'bX), 
+    .M0(DQ_test_out_12), .CE(1'bX), .CLK(clk_in_test_c), 
+    .LSR(\uut/DQ_31__N_77 ), .OFX1(), .F1(), .Q1(), .OFX0(), .F0(), 
+    .Q0(DQ_31_N_3_12));
+  SLOGICB #(.CLKMUX("INV"), .CEMUX("VHI"), .SRMODE("ASYNC"), 
+    .LUT0_INITVAL(16'hDFD0), .LUT1_INITVAL(16'hDFD0), .REG1_SD("VHI"), 
+    .REG0_SD("VHI"), .CHECK_DI1(1'b1), .CHECK_DI0(1'b1)) \uut/SLICE_8 ( 
+    .M1(1'bX), .FXA(1'bX), .FXB(1'bX), .A1(\uut/n444 ), .B1(\uut/n446 ), 
+    .C1(\uut/DQ_31__N_77 ), .D1(DQ_test_out_14), .DI1(\uut/DQ_31__N_102 ), 
+    .DI0(\uut/DQ_31__N_103 ), .A0(\uut/n444 ), .B0(\uut/n446 ), 
+    .C0(\uut/DQ_31__N_77 ), .D0(DQ_test_out_13), .M0(1'bX), .CE(1'bX), 
+    .CLK(clk_in_test_c), .LSR(1'bX), .OFX1(), .F1(\uut/DQ_31__N_102 ), 
+    .Q1(DQ_31_N_3_14), .OFX0(), .F0(\uut/DQ_31__N_103 ), .Q0(DQ_31_N_3_13));
+  SLOGICB #(.CLKMUX("INV"), .CEMUX("VHI"), .SRMODE("ASYNC"), 
+    .LUT0_INITVAL(16'hDFD0), .LUT1_INITVAL(16'h8888), .REG0_SD("VHI"), 
+    .CHECK_DI0(1'b1)) \uut/SLICE_9 ( .M1(1'bX), .FXA(1'bX), .FXB(1'bX), 
+    .A1(\uut/byte_counter_1 ), .B1(\uut/byte_counter_2 ), .C1(1'bX), .D1(1'bX), 
+    .DI1(1'bX), .DI0(\uut/DQ_31__N_101 ), .A0(\uut/n444 ), .B0(\uut/n446 ), 
+    .C0(\uut/DQ_31__N_77 ), .D0(DQ_test_out_15), .M0(1'bX), .CE(1'bX), 
+    .CLK(clk_in_test_c), .LSR(1'bX), .OFX1(), .F1(\uut/n446 ), .Q1(), .OFX0(), 
+    .F0(\uut/DQ_31__N_101 ), .Q0(DQ_31_N_3_15));
+  SLOGICB #(.M0MUX("SIG"), .M1MUX("SIG"), .CLKMUX("INV"), .CEMUX("VHI"), 
+    .LSRMUX("SIG"), .CHECK_M1(1'b1), .CHECK_M0(1'b1), .CHECK_LSR(1'b1)) 
+    \uut/SLICE_10 ( .M1(DQ_test_out_17), .FXA(1'bX), .FXB(1'bX), .A1(1'bX), 
+    .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), .DI0(1'bX), .A0(1'bX), 
+    .B0(1'bX), .C0(1'bX), .D0(1'bX), .M0(DQ_test_out_16), .CE(1'bX), 
+    .CLK(clk_in_test_c), .LSR(\uut/DQ_31__N_77 ), .OFX1(), .F1(), 
+    .Q1(DQ_31_N_3_17), .OFX0(), .F0(), .Q0(DQ_31_N_3_16));
+  SLOGICB #(.M0MUX("SIG"), .M1MUX("SIG"), .CLKMUX("INV"), .CEMUX("VHI"), 
+    .LSRMUX("SIG"), .CHECK_M1(1'b1), .CHECK_M0(1'b1), .CHECK_LSR(1'b1)) 
+    \uut/SLICE_11 ( .M1(DQ_test_out_19), .FXA(1'bX), .FXB(1'bX), .A1(1'bX), 
+    .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), .DI0(1'bX), .A0(1'bX), 
+    .B0(1'bX), .C0(1'bX), .D0(1'bX), .M0(DQ_test_out_18), .CE(1'bX), 
+    .CLK(clk_in_test_c), .LSR(\uut/DQ_31__N_77 ), .OFX1(), .F1(), 
+    .Q1(DQ_31_N_3_19), .OFX0(), .F0(), .Q0(DQ_31_N_3_18));
+  SLOGICB #(.M0MUX("SIG"), .CLKMUX("INV"), .CEMUX("VHI"), .LSRMUX("SIG"), 
+    .CHECK_M0(1'b1), .CHECK_LSR(1'b1)) \uut/SLICE_12 ( .M1(1'bX), .FXA(1'bX), 
+    .FXB(1'bX), .A1(1'bX), .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), 
+    .DI0(1'bX), .A0(1'bX), .B0(1'bX), .C0(1'bX), .D0(1'bX), 
+    .M0(DQ_test_out_20), .CE(1'bX), .CLK(clk_in_test_c), 
+    .LSR(\uut/DQ_31__N_77 ), .OFX1(), .F1(), .Q1(), .OFX0(), .F0(), 
+    .Q0(DQ_31_N_3_20));
+  SLOGICB #(.CLKMUX("INV"), .CEMUX("VHI"), .SRMODE("ASYNC"), 
+    .LUT0_INITVAL(16'hDFD0), .LUT1_INITVAL(16'hDFD0), .REG1_SD("VHI"), 
+    .REG0_SD("VHI"), .CHECK_DI1(1'b1), .CHECK_DI0(1'b1)) \uut/SLICE_13 ( 
+    .M1(1'bX), .FXA(1'bX), .FXB(1'bX), .A1(\uut/n444 ), .B1(\uut/n446 ), 
+    .C1(\uut/DQ_31__N_77 ), .D1(DQ_test_out_22), .DI1(\uut/DQ_31__N_94 ), 
+    .DI0(\uut/DQ_31__N_95 ), .A0(\uut/n444 ), .B0(\uut/n446 ), 
+    .C0(\uut/DQ_31__N_77 ), .D0(DQ_test_out_21), .M0(1'bX), .CE(1'bX), 
+    .CLK(clk_in_test_c), .LSR(1'bX), .OFX1(), .F1(\uut/DQ_31__N_94 ), 
+    .Q1(DQ_31_N_3_22), .OFX0(), .F0(\uut/DQ_31__N_95 ), .Q0(DQ_31_N_3_21));
+  SLOGICB #(.CLKMUX("INV"), .CEMUX("VHI"), .SRMODE("ASYNC"), 
+    .LUT0_INITVAL(16'hDFD0), .LUT1_INITVAL(16'h007F), .REG0_SD("VHI"), 
+    .CHECK_DI0(1'b1)) \uut/SLICE_14 ( .M1(1'bX), .FXA(1'bX), .FXB(1'bX), 
+    .A1(\uut/byte_counter_2 ), .B1(\uut/byte_counter_1 ), 
+    .C1(\uut/byte_counter_0 ), .D1(state), .DI1(1'bX), .DI0(\uut/DQ_31__N_93 ), 
+    .A0(\uut/n444 ), .B0(\uut/n446 ), .C0(\uut/DQ_31__N_77 ), 
+    .D0(DQ_test_out_23), .M0(1'bX), .CE(1'bX), .CLK(clk_in_test_c), .LSR(1'bX), 
+    .OFX1(), .F1(\uut/DQ_31__N_77 ), .Q1(), .OFX0(), .F0(\uut/DQ_31__N_93 ), 
+    .Q0(DQ_31_N_3_23));
+  SLOGICB #(.M0MUX("SIG"), .M1MUX("SIG"), .CLKMUX("INV"), .CEMUX("VHI"), 
+    .LSRMUX("SIG"), .CHECK_M1(1'b1), .CHECK_M0(1'b1), .CHECK_LSR(1'b1)) 
+    \uut/SLICE_15 ( .M1(DQ_test_out_25), .FXA(1'bX), .FXB(1'bX), .A1(1'bX), 
+    .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), .DI0(1'bX), .A0(1'bX), 
+    .B0(1'bX), .C0(1'bX), .D0(1'bX), .M0(DQ_test_out_24), .CE(1'bX), 
+    .CLK(clk_in_test_c), .LSR(\uut/DQ_31__N_77 ), .OFX1(), .F1(), 
+    .Q1(DQ_31_N_3_25), .OFX0(), .F0(), .Q0(DQ_31_N_3_24));
+  SLOGICB #(.M0MUX("SIG"), .M1MUX("SIG"), .CLKMUX("INV"), .CEMUX("VHI"), 
+    .LSRMUX("SIG"), .CHECK_M1(1'b1), .CHECK_M0(1'b1), .CHECK_LSR(1'b1)) 
+    \uut/SLICE_16 ( .M1(DQ_test_out_27), .FXA(1'bX), .FXB(1'bX), .A1(1'bX), 
+    .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), .DI0(1'bX), .A0(1'bX), 
+    .B0(1'bX), .C0(1'bX), .D0(1'bX), .M0(DQ_test_out_26), .CE(1'bX), 
+    .CLK(clk_in_test_c), .LSR(\uut/DQ_31__N_77 ), .OFX1(), .F1(), 
+    .Q1(DQ_31_N_3_27), .OFX0(), .F0(), .Q0(DQ_31_N_3_26));
+  SLOGICB #(.M0MUX("SIG"), .CLKMUX("INV"), .CEMUX("VHI"), .LSRMUX("SIG"), 
+    .CHECK_M0(1'b1), .CHECK_LSR(1'b1)) \uut/SLICE_17 ( .M1(1'bX), .FXA(1'bX), 
+    .FXB(1'bX), .A1(1'bX), .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), 
+    .DI0(1'bX), .A0(1'bX), .B0(1'bX), .C0(1'bX), .D0(1'bX), 
+    .M0(DQ_test_out_28), .CE(1'bX), .CLK(clk_in_test_c), 
+    .LSR(\uut/DQ_31__N_77 ), .OFX1(), .F1(), .Q1(), .OFX0(), .F0(), 
+    .Q0(DQ_31_N_3_28));
+  SLOGICB #(.CLKMUX("INV"), .CEMUX("VHI"), .SRMODE("ASYNC"), 
+    .LUT0_INITVAL(16'hDFD0), .LUT1_INITVAL(16'hDFD0), .REG1_SD("VHI"), 
+    .REG0_SD("VHI"), .CHECK_DI1(1'b1), .CHECK_DI0(1'b1)) \uut/SLICE_18 ( 
+    .M1(1'bX), .FXA(1'bX), .FXB(1'bX), .A1(\uut/n444 ), .B1(\uut/n446 ), 
+    .C1(\uut/DQ_31__N_77 ), .D1(DQ_test_out_30), .DI1(\uut/DQ_31__N_86 ), 
+    .DI0(\uut/DQ_31__N_87 ), .A0(\uut/n444 ), .B0(\uut/n446 ), 
+    .C0(\uut/DQ_31__N_77 ), .D0(DQ_test_out_29), .M0(1'bX), .CE(1'bX), 
+    .CLK(clk_in_test_c), .LSR(1'bX), .OFX1(), .F1(\uut/DQ_31__N_86 ), 
+    .Q1(DQ_31_N_3_30), .OFX0(), .F0(\uut/DQ_31__N_87 ), .Q0(DQ_31_N_3_29));
+  SLOGICB #(.CLKMUX("INV"), .CEMUX("VHI"), .SRMODE("ASYNC"), 
+    .LUT0_INITVAL(16'hDFD0), .LUT1_INITVAL(16'hFEFE), .REG0_SD("VHI"), 
+    .CHECK_DI0(1'b1)) \uut/SLICE_19 ( .M1(1'bX), .FXA(1'bX), .FXB(1'bX), 
+    .A1(\uut/byte_counter_2 ), .B1(\uut/byte_counter_1 ), 
+    .C1(\uut/byte_counter_0 ), .D1(1'bX), .DI1(1'bX), .DI0(\uut/DQ_31__N_72 ), 
+    .A0(\uut/n444 ), .B0(\uut/n446 ), .C0(\uut/DQ_31__N_77 ), 
+    .D0(DQ_test_out_31), .M0(1'bX), .CE(1'bX), .CLK(clk_in_test_c), .LSR(1'bX), 
+    .OFX1(), .F1(\uut/n444 ), .Q1(), .OFX0(), .F0(\uut/DQ_31__N_72 ), 
+    .Q0(DQ_31_N_3_31));
+  SLOGICB #(.CLKMUX("SIG"), .CEMUX("VHI"), .SRMODE("ASYNC"), 
+    .LUT0_INITVAL(16'h5555), .REG0_SD("VHI"), .CHECK_DI0(1'b1)) SLICE_20( 
+    .M1(1'bX), .FXA(1'bX), .FXB(1'bX), .A1(1'bX), .B1(1'bX), .C1(1'bX), 
+    .D1(1'bX), .DI1(1'bX), .DI0(CK_LVDS_N_123), .A0(clk_ram), .B0(1'bX), 
+    .C0(1'bX), .D0(1'bX), .M0(1'bX), .CE(1'bX), .CLK(clk_in_test_c), 
+    .LSR(1'bX), .OFX1(), .F1(), .Q1(), .OFX0(), .F0(CK_LVDS_N_123), 
+    .Q0(clk_ram));
+  SLOGICB #(.CLKMUX("INV"), .CEMUX("VHI"), .LSRMUX("SIG"), .REG0_REGSET("SET"), 
+    .GSR("DISABLED"), .SRMODE("ASYNC"), .LUT0_INITVAL(16'h0000), 
+    .REG0_SD("VHI"), .CHECK_DI0(1'b1), .CHECK_LSR(1'b1)) SLICE_21( .M1(1'bX), 
+    .FXA(1'bX), .FXB(1'bX), .A1(1'bX), .B1(1'bX), .C1(1'bX), .D1(1'bX), 
+    .DI1(1'bX), .DI0(n448), .A0(1'bX), .B0(1'bX), .C0(1'bX), .D0(1'bX), 
+    .M0(1'bX), .CE(1'bX), .CLK(state), .LSR(state), .OFX1(), .F1(), .Q1(), 
+    .OFX0(), .F0(n448), .Q0(estado_test_c));
+  SLOGICB #(.CLKMUX("INV"), .CEMUX("SIG"), .SRMODE("ASYNC"), 
+    .LUT0_INITVAL(16'hFFFF), .REG0_SD("VHI"), .CHECK_DI0(1'b1), 
+    .CHECK_CE(1'b1)) \uut/SLICE_22 ( .M1(1'bX), .FXA(1'bX), .FXB(1'bX), 
+    .A1(1'bX), .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), 
+    .DI0(\VCC_net\000/BUF1 ), .A0(1'bX), .B0(1'bX), .C0(1'bX), .D0(1'bX), 
+    .M0(1'bX), .CE(\uut/state_N_81 ), .CLK(clk_in_test_c), .LSR(1'bX), .OFX1(), 
+    .F1(), .Q1(), .OFX0(), .F0(\VCC_net\000/BUF1 ), .Q0(state));
+  SLOGICB #(.CLKMUX("INV"), .CEMUX("SIG"), .SRMODE("ASYNC"), 
+    .LUT0_INITVAL(16'hF7F7), .LUT1_INITVAL(16'h070F), .REG0_SD("VHI"), 
+    .CHECK_DI0(1'b1), .CHECK_CE(1'b1)) \uut/SLICE_23 ( .M1(1'bX), .FXA(1'bX), 
+    .FXB(1'bX), .A1(\uut/n444 ), .B1(\uut/n446 ), .C1(state), .D1(\uut/n447 ), 
+    .DI1(1'bX), .DI0(\uut/n447 ), .A0(\uut/byte_counter_2 ), 
+    .B0(\uut/byte_counter_1 ), .C0(\uut/byte_counter_0 ), .D0(1'bX), .M0(1'bX), 
+    .CE(\uut/DQ_31__N_77 ), .CLK(clk_in_test_c), .LSR(1'bX), .OFX1(), 
+    .F1(\uut/clk_system_N_71_enable_3 ), .Q1(), .OFX0(), .F0(\uut/n447 ), 
+    .Q0(\uut/DQ_4__N_58 ));
+  SLOGICB #(.CLKMUX("INV"), .CEMUX("SIG"), .LSRMUX("SIG"), 
+    .LUT0_INITVAL(16'h0707), .LUT1_INITVAL(16'h5252), .REG1_SD("VHI"), 
+    .REG0_SD("VHI"), .CHECK_DI1(1'b1), .CHECK_DI0(1'b1), .CHECK_CE(1'b1), 
+    .CHECK_LSR(1'b1)) \uut/SLICE_24 ( .M1(1'bX), .FXA(1'bX), .FXB(1'bX), 
+    .A1(\uut/byte_counter_1 ), .B1(\uut/byte_counter_2 ), 
+    .C1(\uut/byte_counter_0 ), .D1(1'bX), .DI1(\uut/n392 ), .DI0(\uut/n350 ), 
+    .A0(\uut/byte_counter_1 ), .B0(\uut/byte_counter_2 ), 
+    .C0(\uut/byte_counter_0 ), .D0(1'bX), .M0(1'bX), 
+    .CE(\uut/clk_system_N_71_enable_3 ), .CLK(clk_in_test_c), .LSR(\uut/n262 ), 
+    .OFX1(), .F1(\uut/n392 ), .Q1(\uut/byte_counter_1 ), .OFX0(), 
+    .F0(\uut/n350 ), .Q0(\uut/byte_counter_0 ));
+  SLOGICB #(.CLKMUX("INV"), .CEMUX("SIG"), .LSRMUX("SIG"), 
+    .LUT0_INITVAL(16'h6464), .REG0_SD("VHI"), .CHECK_DI0(1'b1), 
+    .CHECK_CE(1'b1), .CHECK_LSR(1'b1)) \uut/SLICE_25 ( .M1(1'bX), .FXA(1'bX), 
+    .FXB(1'bX), .A1(1'bX), .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), 
+    .DI0(\uut/n358 ), .A0(\uut/byte_counter_1 ), .B0(\uut/byte_counter_2 ), 
+    .C0(\uut/byte_counter_0 ), .D0(1'bX), .M0(1'bX), 
+    .CE(\uut/clk_system_N_71_enable_3 ), .CLK(clk_in_test_c), .LSR(\uut/n262 ), 
+    .OFX1(), .F1(), .Q1(), .OFX0(), .F0(\uut/n358 ), .Q0(\uut/byte_counter_2 ));
+  SLOGICB #(.LUT0_INITVAL(16'hFF08), .LUT1_INITVAL(16'h0200)) \uut/SLICE_26 ( 
+    .M1(1'bX), .FXA(1'bX), .FXB(1'bX), .A1(\uut/byte_counter_2 ), .B1(state), 
+    .C1(\uut/byte_counter_0 ), .D1(\uut/byte_counter_1 ), .DI1(1'bX), 
+    .DI0(1'bX), .A0(\uut/byte_counter_2 ), .B0(\uut/byte_counter_1 ), 
+    .C0(\uut/byte_counter_0 ), .D0(state), .M0(1'bX), .CE(1'bX), .CLK(1'bX), 
+    .LSR(1'bX), .OFX1(), .F1(\uut/n262 ), .Q1(), .OFX0(), 
+    .F0(\uut/state_N_81 ), .Q0());
+  SLOGICB #(.LUT0_INITVAL(16'hEEEC)) SLICE_27( .M1(1'bX), .FXA(1'bX), 
+    .FXB(1'bX), .A1(1'bX), .B1(1'bX), .C1(1'bX), .D1(1'bX), .DI1(1'bX), 
+    .DI0(1'bX), .A0(CS_n_test_c), .B0(reset_test_c), .C0(state), .D0(clk_ram), 
+    .M0(1'bX), .CE(1'bX), .CLK(1'bX), .LSR(1'bX), .OFX1(), .F1(), .Q1(), 
+    .OFX0(), .F0(CS_n_test_c), .Q0());
+  DQ_test_30_ \DQ_test[30]_I ( .PADDI(DQ_test_out_30), .PADDO(DQ_31_N_3_30), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest30(DQ_test[30]));
+  DQ_test_4_ \DQ_test[4]_I ( .PADDI(DQ_test_out_4), .PADDO(DQ_31_N_3_4), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest4(DQ_test[4]));
+  DQ_test_5_ \DQ_test[5]_I ( .PADDI(DQ_test_out_5), .PADDO(DQ_31_N_3_5), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest5(DQ_test[5]));
+  DQ_test_6_ \DQ_test[6]_I ( .PADDI(DQ_test_out_6), .PADDO(DQ_31_N_3_6), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest6(DQ_test[6]));
+  DQ_test_7_ \DQ_test[7]_I ( .PADDI(DQ_test_out_7), .PADDO(DQ_31_N_3_7), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest7(DQ_test[7]));
+  DQ_test_8_ \DQ_test[8]_I ( .PADDI(DQ_test_out_8), .PADDO(DQ_31_N_3_8), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest8(DQ_test[8]));
+  DQ_test_9_ \DQ_test[9]_I ( .PADDI(DQ_test_out_9), .PADDO(DQ_31_N_3_9), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest9(DQ_test[9]));
+  DQ_test_10_ \DQ_test[10]_I ( .PADDI(DQ_test_out_10), .PADDO(DQ_31_N_3_10), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest10(DQ_test[10]));
+  DQ_test_11_ \DQ_test[11]_I ( .PADDI(DQ_test_out_11), .PADDO(DQ_31_N_3_11), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest11(DQ_test[11]));
+  reset_test reset_test_I( .PADDI(reset_test_c), .reset_test(reset_test));
+  DQ_test_12_ \DQ_test[12]_I ( .PADDI(DQ_test_out_12), .PADDO(DQ_31_N_3_12), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest12(DQ_test[12]));
+  clk_in_test clk_in_test_I( .PADDI(clk_in_test_c), .clk_in_test(clk_in_test));
+  CS_n_test CS_n_test_I( .PADDO(CS_n_test_c), .CS_n_test(CS_n_test));
+  DQ_test_13_ \DQ_test[13]_I ( .PADDI(DQ_test_out_13), .PADDO(DQ_31_N_3_13), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest13(DQ_test[13]));
+  estado_test estado_test_I( .PADDO(estado_test_c), .estado_test(estado_test));
+  DQ_test_14_ \DQ_test[14]_I ( .PADDI(DQ_test_out_14), .PADDO(DQ_31_N_3_14), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest14(DQ_test[14]));
+  clk_out_test clk_out_test_I( .clk_out_test(clk_out_test));
+  DQ_test_15_ \DQ_test[15]_I ( .PADDI(DQ_test_out_15), .PADDO(DQ_31_N_3_15), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest15(DQ_test[15]));
+  DQ_test_0_ \DQ_test[0]_I ( .PADDI(DQ_test_out_0), .PADDO(DQ_31_N_3_0), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest0(DQ_test[0]));
+  DQ_test_16_ \DQ_test[16]_I ( .PADDI(DQ_test_out_16), .PADDO(DQ_31_N_3_16), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest16(DQ_test[16]));
+  DQ_test_1_ \DQ_test[1]_I ( .PADDI(DQ_test_out_1), .PADDO(DQ_31_N_3_1), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest1(DQ_test[1]));
+  DQ_test_17_ \DQ_test[17]_I ( .PADDI(DQ_test_out_17), .PADDO(DQ_31_N_3_17), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest17(DQ_test[17]));
+  DQ_test_2_ \DQ_test[2]_I ( .PADDI(DQ_test_out_2), .PADDO(DQ_31_N_3_2), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest2(DQ_test[2]));
+  DQ_test_18_ \DQ_test[18]_I ( .PADDI(DQ_test_out_18), .PADDO(DQ_31_N_3_18), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest18(DQ_test[18]));
+  DQ_test_3_ \DQ_test[3]_I ( .PADDI(DQ_test_out_3), .PADDO(DQ_31_N_3_3), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest3(DQ_test[3]));
+  DQ_test_19_ \DQ_test[19]_I ( .PADDI(DQ_test_out_19), .PADDO(DQ_31_N_3_19), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest19(DQ_test[19]));
+  DQ_test_20_ \DQ_test[20]_I ( .PADDI(DQ_test_out_20), .PADDO(DQ_31_N_3_20), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest20(DQ_test[20]));
+  DQ_test_21_ \DQ_test[21]_I ( .PADDI(DQ_test_out_21), .PADDO(DQ_31_N_3_21), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest21(DQ_test[21]));
+  DQ_test_22_ \DQ_test[22]_I ( .PADDI(DQ_test_out_22), .PADDO(DQ_31_N_3_22), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest22(DQ_test[22]));
+  DQ_test_23_ \DQ_test[23]_I ( .PADDI(DQ_test_out_23), .PADDO(DQ_31_N_3_23), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest23(DQ_test[23]));
+  DQ_test_24_ \DQ_test[24]_I ( .PADDI(DQ_test_out_24), .PADDO(DQ_31_N_3_24), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest24(DQ_test[24]));
+  DQ_test_25_ \DQ_test[25]_I ( .PADDI(DQ_test_out_25), .PADDO(DQ_31_N_3_25), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest25(DQ_test[25]));
+  DQ_test_26_ \DQ_test[26]_I ( .PADDI(DQ_test_out_26), .PADDO(DQ_31_N_3_26), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest26(DQ_test[26]));
+  DQ_test_27_ \DQ_test[27]_I ( .PADDI(DQ_test_out_27), .PADDO(DQ_31_N_3_27), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest27(DQ_test[27]));
+  DQ_test_28_ \DQ_test[28]_I ( .PADDI(DQ_test_out_28), .PADDO(DQ_31_N_3_28), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest28(DQ_test[28]));
+  DQ_test_29_ \DQ_test[29]_I ( .PADDI(DQ_test_out_29), .PADDO(DQ_31_N_3_29), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest29(DQ_test[29]));
+  DQ_test_31_ \DQ_test[31]_I ( .PADDI(DQ_test_out_31), .PADDO(DQ_31_N_3_31), 
+    .PADDT(\uut/DQ_4__N_58 ), .DQtest31(DQ_test[31]));
+  GSR_INST GSR_INST( .GSRNET(~reset_test_c));
+  VHI VHI_INST( .Z(VCCI));
+  PUR PUR_INST( .PUR(VCCI));
+endmodule
+
+module DQ_test_30_ ( output PADDI, input PADDO, PADDT, inout DQtest30 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_30( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest30), .PADI(DQtest30));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest30) = (0:0:0,0:0:0);
+    (PADDT => DQtest30) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest30 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest30, 0:0:0);
+    $width (negedge DQtest30, 0:0:0);
+  endspecify
+
+endmodule
+
+module sapiobuf ( input I, T, output Z, PAD, input PADI );
+
+  IBPD INST1( .I(PADI), .O(Z));
+  OBZPD INST2( .I(I), .T(T), .O(PAD));
+endmodule
+
+module inverter ( input I, output Z );
+
+  INV INST1( .A(I), .Z(Z));
+endmodule
+
+module DQ_test_4_ ( output PADDI, input PADDO, PADDT, inout DQtest4 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_4( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), .PAD(DQtest4), 
+    .PADI(DQtest4));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest4) = (0:0:0,0:0:0);
+    (PADDT => DQtest4) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest4 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest4, 0:0:0);
+    $width (negedge DQtest4, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_5_ ( output PADDI, input PADDO, PADDT, inout DQtest5 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_5( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), .PAD(DQtest5), 
+    .PADI(DQtest5));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest5) = (0:0:0,0:0:0);
+    (PADDT => DQtest5) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest5 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest5, 0:0:0);
+    $width (negedge DQtest5, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_6_ ( output PADDI, input PADDO, PADDT, inout DQtest6 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_6( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), .PAD(DQtest6), 
+    .PADI(DQtest6));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest6) = (0:0:0,0:0:0);
+    (PADDT => DQtest6) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest6 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest6, 0:0:0);
+    $width (negedge DQtest6, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_7_ ( output PADDI, input PADDO, PADDT, inout DQtest7 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_7( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), .PAD(DQtest7), 
+    .PADI(DQtest7));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest7) = (0:0:0,0:0:0);
+    (PADDT => DQtest7) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest7 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest7, 0:0:0);
+    $width (negedge DQtest7, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_8_ ( output PADDI, input PADDO, PADDT, inout DQtest8 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_8( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), .PAD(DQtest8), 
+    .PADI(DQtest8));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest8) = (0:0:0,0:0:0);
+    (PADDT => DQtest8) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest8 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest8, 0:0:0);
+    $width (negedge DQtest8, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_9_ ( output PADDI, input PADDO, PADDT, inout DQtest9 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_9( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), .PAD(DQtest9), 
+    .PADI(DQtest9));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest9) = (0:0:0,0:0:0);
+    (PADDT => DQtest9) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest9 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest9, 0:0:0);
+    $width (negedge DQtest9, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_10_ ( output PADDI, input PADDO, PADDT, inout DQtest10 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_10( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest10), .PADI(DQtest10));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest10) = (0:0:0,0:0:0);
+    (PADDT => DQtest10) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest10 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest10, 0:0:0);
+    $width (negedge DQtest10, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_11_ ( output PADDI, input PADDO, PADDT, inout DQtest11 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_11( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest11), .PADI(DQtest11));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest11) = (0:0:0,0:0:0);
+    (PADDT => DQtest11) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest11 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest11, 0:0:0);
+    $width (negedge DQtest11, 0:0:0);
+  endspecify
+
+endmodule
+
+module reset_test ( output PADDI, input reset_test );
+
+  sapiobuf0001 reset_test_pad( .Z(PADDI), .PAD(reset_test));
+
+  specify
+    (reset_test => PADDI) = (0:0:0,0:0:0);
+    $width (posedge reset_test, 0:0:0);
+    $width (negedge reset_test, 0:0:0);
+  endspecify
+
+endmodule
+
+module sapiobuf0001 ( output Z, input PAD );
+
+  IBPD INST1( .I(PAD), .O(Z));
+endmodule
+
+module DQ_test_12_ ( output PADDI, input PADDO, PADDT, inout DQtest12 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_12( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest12), .PADI(DQtest12));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest12) = (0:0:0,0:0:0);
+    (PADDT => DQtest12) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest12 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest12, 0:0:0);
+    $width (negedge DQtest12, 0:0:0);
+  endspecify
+
+endmodule
+
+module clk_in_test ( output PADDI, input clk_in_test );
+
+  sapiobuf0001 clk_in_test_pad( .Z(PADDI), .PAD(clk_in_test));
+
+  specify
+    (clk_in_test => PADDI) = (0:0:0,0:0:0);
+    $width (posedge clk_in_test, 0:0:0);
+    $width (negedge clk_in_test, 0:0:0);
+  endspecify
+
+endmodule
+
+module CS_n_test ( input PADDO, output CS_n_test );
+
+  sapiobuf0002 CS_n_test_pad( .I(PADDO), .PAD(CS_n_test));
+
+  specify
+    (PADDO => CS_n_test) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module sapiobuf0002 ( input I, output PAD );
+
+  OB INST5( .I(I), .O(PAD));
+endmodule
+
+module gnd ( output PWR0 );
+
+  VLO INST1( .Z(PWR0));
+endmodule
+
+module DQ_test_13_ ( output PADDI, input PADDO, PADDT, inout DQtest13 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_13( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest13), .PADI(DQtest13));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest13) = (0:0:0,0:0:0);
+    (PADDT => DQtest13) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest13 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest13, 0:0:0);
+    $width (negedge DQtest13, 0:0:0);
+  endspecify
+
+endmodule
+
+module estado_test ( input PADDO, output estado_test );
+
+  sapiobuf0002 estado_test_pad( .I(PADDO), .PAD(estado_test));
+
+  specify
+    (PADDO => estado_test) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_14_ ( output PADDI, input PADDO, PADDT, inout DQtest14 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_14( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest14), .PADI(DQtest14));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest14) = (0:0:0,0:0:0);
+    (PADDT => DQtest14) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest14 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest14, 0:0:0);
+    $width (negedge DQtest14, 0:0:0);
+  endspecify
+
+endmodule
+
+module clk_out_test ( output clk_out_test );
+  wire   GNDI, VCCI;
+
+  sapiobuf0003 clk_out_test_pad( .I(GNDI), .T(VCCI), .PAD(clk_out_test));
+  gnd DRIVEGND( .PWR0(GNDI));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+  endspecify
+
+endmodule
+
+module sapiobuf0003 ( input I, T, output PAD );
+
+  OBZ INST5( .I(I), .T(T), .O(PAD));
+endmodule
+
+module vcc ( output PWR1 );
+
+  VHI INST1( .Z(PWR1));
+endmodule
+
+module DQ_test_15_ ( output PADDI, input PADDO, PADDT, inout DQtest15 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_15( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest15), .PADI(DQtest15));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest15) = (0:0:0,0:0:0);
+    (PADDT => DQtest15) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest15 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest15, 0:0:0);
+    $width (negedge DQtest15, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_0_ ( output PADDI, input PADDO, PADDT, inout DQtest0 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_0( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), .PAD(DQtest0), 
+    .PADI(DQtest0));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest0) = (0:0:0,0:0:0);
+    (PADDT => DQtest0) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest0 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest0, 0:0:0);
+    $width (negedge DQtest0, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_16_ ( output PADDI, input PADDO, PADDT, inout DQtest16 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_16( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest16), .PADI(DQtest16));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest16) = (0:0:0,0:0:0);
+    (PADDT => DQtest16) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest16 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest16, 0:0:0);
+    $width (negedge DQtest16, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_1_ ( output PADDI, input PADDO, PADDT, inout DQtest1 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_1( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), .PAD(DQtest1), 
+    .PADI(DQtest1));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest1) = (0:0:0,0:0:0);
+    (PADDT => DQtest1) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest1 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest1, 0:0:0);
+    $width (negedge DQtest1, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_17_ ( output PADDI, input PADDO, PADDT, inout DQtest17 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_17( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest17), .PADI(DQtest17));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest17) = (0:0:0,0:0:0);
+    (PADDT => DQtest17) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest17 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest17, 0:0:0);
+    $width (negedge DQtest17, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_2_ ( output PADDI, input PADDO, PADDT, inout DQtest2 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_2( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), .PAD(DQtest2), 
+    .PADI(DQtest2));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest2) = (0:0:0,0:0:0);
+    (PADDT => DQtest2) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest2 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest2, 0:0:0);
+    $width (negedge DQtest2, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_18_ ( output PADDI, input PADDO, PADDT, inout DQtest18 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_18( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest18), .PADI(DQtest18));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest18) = (0:0:0,0:0:0);
+    (PADDT => DQtest18) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest18 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest18, 0:0:0);
+    $width (negedge DQtest18, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_3_ ( output PADDI, input PADDO, PADDT, inout DQtest3 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_3( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), .PAD(DQtest3), 
+    .PADI(DQtest3));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest3) = (0:0:0,0:0:0);
+    (PADDT => DQtest3) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest3 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest3, 0:0:0);
+    $width (negedge DQtest3, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_19_ ( output PADDI, input PADDO, PADDT, inout DQtest19 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_19( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest19), .PADI(DQtest19));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest19) = (0:0:0,0:0:0);
+    (PADDT => DQtest19) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest19 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest19, 0:0:0);
+    $width (negedge DQtest19, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_20_ ( output PADDI, input PADDO, PADDT, inout DQtest20 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_20( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest20), .PADI(DQtest20));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest20) = (0:0:0,0:0:0);
+    (PADDT => DQtest20) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest20 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest20, 0:0:0);
+    $width (negedge DQtest20, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_21_ ( output PADDI, input PADDO, PADDT, inout DQtest21 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_21( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest21), .PADI(DQtest21));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest21) = (0:0:0,0:0:0);
+    (PADDT => DQtest21) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest21 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest21, 0:0:0);
+    $width (negedge DQtest21, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_22_ ( output PADDI, input PADDO, PADDT, inout DQtest22 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_22( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest22), .PADI(DQtest22));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest22) = (0:0:0,0:0:0);
+    (PADDT => DQtest22) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest22 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest22, 0:0:0);
+    $width (negedge DQtest22, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_23_ ( output PADDI, input PADDO, PADDT, inout DQtest23 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_23( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest23), .PADI(DQtest23));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest23) = (0:0:0,0:0:0);
+    (PADDT => DQtest23) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest23 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest23, 0:0:0);
+    $width (negedge DQtest23, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_24_ ( output PADDI, input PADDO, PADDT, inout DQtest24 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_24( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest24), .PADI(DQtest24));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest24) = (0:0:0,0:0:0);
+    (PADDT => DQtest24) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest24 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest24, 0:0:0);
+    $width (negedge DQtest24, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_25_ ( output PADDI, input PADDO, PADDT, inout DQtest25 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_25( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest25), .PADI(DQtest25));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest25) = (0:0:0,0:0:0);
+    (PADDT => DQtest25) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest25 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest25, 0:0:0);
+    $width (negedge DQtest25, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_26_ ( output PADDI, input PADDO, PADDT, inout DQtest26 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_26( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest26), .PADI(DQtest26));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest26) = (0:0:0,0:0:0);
+    (PADDT => DQtest26) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest26 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest26, 0:0:0);
+    $width (negedge DQtest26, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_27_ ( output PADDI, input PADDO, PADDT, inout DQtest27 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_27( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest27), .PADI(DQtest27));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest27) = (0:0:0,0:0:0);
+    (PADDT => DQtest27) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest27 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest27, 0:0:0);
+    $width (negedge DQtest27, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_28_ ( output PADDI, input PADDO, PADDT, inout DQtest28 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_28( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest28), .PADI(DQtest28));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest28) = (0:0:0,0:0:0);
+    (PADDT => DQtest28) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest28 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest28, 0:0:0);
+    $width (negedge DQtest28, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_29_ ( output PADDI, input PADDO, PADDT, inout DQtest29 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_29( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest29), .PADI(DQtest29));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest29) = (0:0:0,0:0:0);
+    (PADDT => DQtest29) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest29 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest29, 0:0:0);
+    $width (negedge DQtest29, 0:0:0);
+  endspecify
+
+endmodule
+
+module DQ_test_31_ ( output PADDI, input PADDO, PADDT, inout DQtest31 );
+  wire   PADDT_NOTIN;
+
+  sapiobuf DQ_test_pad_31( .I(PADDO), .T(PADDT_NOTIN), .Z(PADDI), 
+    .PAD(DQtest31), .PADI(DQtest31));
+  inverter PADDT_INVERTERIN( .I(PADDT), .Z(PADDT_NOTIN));
+
+  specify
+    (PADDO => DQtest31) = (0:0:0,0:0:0);
+    (PADDT => DQtest31) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
+    (DQtest31 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge DQtest31, 0:0:0);
+    $width (negedge DQtest31, 0:0:0);
+  endspecify
+
+endmodule
+
+module GSR_INST ( input GSRNET );
+
+  GSR5MODE GSR_INST_GSRMODE( .GSR(GSRNET));
+
+  specify
+  endspecify
+
+endmodule
+
+module GSR5MODE ( input GSR );
+  wire   GSRMODE;
+
+  INV INST10( .A(GSR), .Z(GSRMODE));
+  GSR INST20( .GSR(GSRMODE));
+endmodule

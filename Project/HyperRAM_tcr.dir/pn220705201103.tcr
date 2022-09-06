@@ -1,0 +1,21 @@
+#Start recording tcl command: 7/5/2022 09:04:04
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.ldf"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+#Stop recording: 7/5/2022 20:11:03

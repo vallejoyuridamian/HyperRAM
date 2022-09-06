@@ -1,0 +1,16 @@
+#Start recording tcl command: 7/4/2022 10:23:05
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p; Project name: memory_black_box
+prj_project new -name "memory_black_box" -impl "memory_black_box" -dev LFE5U-25F-6MG285C -synthesis "lse"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/Config-AC.v" "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.modelsim.vp" "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.nc.vp" "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.vcs.vp"
+prj_project save
+prj_run Synthesis -impl memory_black_box
+launch_synplify_prj memory_black_box
+prj_run Synthesis -impl memory_black_box
+prj_src remove "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/Config-AC.v"
+prj_run Translate -impl memory_black_box
+prj_run Map -impl memory_black_box
+prj_run Translate -impl memory_black_box
+launch_synplify_prj memory_black_box
+prj_project save
+prj_project close
+#Stop recording: 7/4/2022 11:09:58

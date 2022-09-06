@@ -1,0 +1,5 @@
+#Start recording tcl command: 7/4/2022 20:54:42
+#Project Location: C:/Users/Damian/Desktop/advances_4_7; Project name: HyperRAM
+prj_project open "C:/Users/Damian/Desktop/advances_4_7/HyperRAM.ldf"
+prj_run Synthesis -impl hyperram
+#Stop recording: 7/4/2022 20:59:26

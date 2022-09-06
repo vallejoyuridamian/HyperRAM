@@ -1,0 +1,42 @@
+#Start recording tcl command: 7/4/2022 08:35:24
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project; Project name: HyperRAM
+prj_project open "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/HyperRAM.ldf"
+prj_src remove "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/W958D8NBYA_verilog_p/W958D8NBYA.modelsim.v"
+launch_synplify_prj hyperram
+launch_synplify_prj hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram/rev_1/W958D8NBYA.modelsim.edn"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/hyperramplusramsim.spf"
+prj_run Map -impl hyperram
+prj_run Map -impl hyperram -task MapTrace
+prj_run PAR -impl hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/hyperramplusramsim.spf"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/hyperramplusramsim.spf"
+prj_run Synthesis -impl hyperram -task Lattice_Synthesis
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Map -impl hyperram
+prj_run PAR -impl hyperram
+launch_synplify_prj hyperram
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/hyperramplusramsim.spf"
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run PAR -impl hyperram
+prj_run Export -impl hyperram -task TimingSimFileVHD
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/hyperramplusramsim.spf"
+prj_run Export -impl hyperram -task TimingSimFileVHD
+prj_run Export -impl hyperram -task TimingSimFileVHD
+prj_run Export -impl hyperram -task TimingSimFileVHD
+prj_run Export -impl hyperram -task TimingSimFileVHD -forceOne
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram
+prj_run Synthesis -impl hyperram -forceAll
+prj_project save
+prj_project close
+#Stop recording: 7/4/2022 10:23:05

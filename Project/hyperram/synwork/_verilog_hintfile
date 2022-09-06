@@ -1,0 +1,44 @@
+%%% protect protected_file
+#OPTIONS:"|-autotop|-bldtbl|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.5\\synpbase\\bin64\\c_vhdl.exe":1429558330
+#CUR:"C:\\lscc\\diamond\\3.5\\synpbase\\lib\\vhd\\location.map":1429715770
+#CUR:"C:\\lscc\\diamond\\3.5\\synpbase\\lib\\vhd\\std.vhd":1429557914
+#CUR:"C:\\lscc\\diamond\\3.5\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1429557914
+#CUR:"C:\\lscc\\diamond\\3.5\\synpbase\\lib\\vhd\\std1164.vhd":1429557914
+#CUR:"C:\\lscc\\diamond\\3.5\\synpbase\\lib\\vhd\\numeric.vhd":1429557914
+#CUR:"C:\\lscc\\diamond\\3.5\\synpbase\\lib\\vhd\\umr_capim.vhd":1429557914
+#CUR:"C:\\lscc\\diamond\\3.5\\synpbase\\lib\\vhd\\arith.vhd":1429557914
+#CUR:"C:\\lscc\\diamond\\3.5\\synpbase\\lib\\vhd\\unsigned.vhd":1429557914
+#CUR:"C:\\lscc\\diamond\\3.5\\cae_library\\synthesis\\vhdl\\ecp5u.vhd":1424714222
+#CUR:"C:\\Users\\Damian\\Desktop\\Upwork\\CamilaFPGA\\Project\\clk_div_2.vhd":1656864890
+#CUR:"C:\\Users\\Damian\\Desktop\\Upwork\\CamilaFPGA\\Project\\hyperram.vhd":1656894106
+#CUR:"C:\\Users\\Damian\\Desktop\\Upwork\\CamilaFPGA\\Project\\hyperram_tb.vhd":1656900366
+@E8lFkRDCEC$bslsN_
+0LDsHLNRs$I	Fs
+bHMkO0RDH	_MC_0#40R
+bHMks0RC0#C_#0C0
+R4Fbk0kO0RDF	_k00_CR#04k
+F00bkR0C#N_8F00C#RH4
+M0FkR_7T00C#R
+d.Fbk0kB0R1__M00C#RC4
+MF8l8CkD
+8lFkRDCElsN_0HMCNsVODC
+HNLssI$RF
+s	HkMb0DRO	$_##l0CRH4
+M0bkR#sCC40R
+0FkbRk0s8CN$
+R4Fbk0kB0R1R_M4k
+F00bkR_Bip1e7RH4
+M0FkRR7TdH.
+M0FkR7)W1
+R4Fbk0k)0R a1 _4MR
+0FkbRk0CN#084FR
+8CMlkF8DlC
+FD8kCDRO	H_8P
+_.DsHLNRs$I	Fs
+bHMkO0RDH	_M
+R4HkMb0CRs#RC04k
+F00bkR	OD_0FkRC4
+MF8l8CkD
+
+@ 

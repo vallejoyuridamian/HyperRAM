@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.5\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synwork\W958D8NBYA.modelsim_comp.srs  -osyn  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synwork\W958D8NBYA.modelsim_mult.srs  -log  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synlog\W958D8NBYA.modelsim_multi_srs_gen.srr 
+rc:0 success:1
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synwork\W958D8NBYA.modelsim_comp.srs|i|1656937468|4800
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synwork\W958D8NBYA.modelsim_mult.srs|o|1656937470|4968
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\synlog\W958D8NBYA.modelsim_multi_srs_gen.srr|o|1656937470|504
+C:\lscc\diamond\3.5\synpbase\bin\syn_nfilter.exe|i|1429558166|3000832
+C:\lscc\diamond\3.5\synpbase\bin64\syn_nfilter.exe|i|1429558358|3967488

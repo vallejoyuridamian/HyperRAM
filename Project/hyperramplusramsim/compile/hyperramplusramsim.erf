@@ -1,0 +1,5 @@
+MESSAGE "File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram_tb.vhd" 
+MESSAGE "Compile Entity "hyperram_tb"" 
+MESSAGE "Compile Architecture "behavior" of Entity "hyperram_tb"" 
+WARNING ELAB1_0026: "There is no default binding for component "W958D8NBYA". (No entity named "W958D8NBYA" was found)." "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram_tb.vhd" 98 0
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time :  78.0 [ms]" 

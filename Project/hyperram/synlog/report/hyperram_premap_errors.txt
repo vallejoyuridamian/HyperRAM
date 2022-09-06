@@ -1,0 +1,1 @@
+@E: BN521 |EDIF input flow is not supported by the selected technology

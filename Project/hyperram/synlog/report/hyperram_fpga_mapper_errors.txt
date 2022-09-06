@@ -1,0 +1,1 @@
+@E: FO139 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|The instance uut.DQ_9[29] needs internal tristate. Can't be mapped. 

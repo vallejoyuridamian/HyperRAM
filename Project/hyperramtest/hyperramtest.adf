@@ -1,0 +1,40 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+hyperramtest=.\hyperramtest\hyperramtest.lib
+work=.\work\work.lib
+[$LibMap$]
+hyperramtest=.
+work=.
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogDirs]
+Count=0
+[LocalVerilogSets]
+PriorityLibNames=pmi_work
+LibNames=ovi_ecp5u
+[DefineMacro]
+Global=
+[Files]
+/..\..\clk_div_2.vhd=-1
+/..\..\hyperram.vhd=-1
+/..\..\hyperram_tb.vhd=-1
+/setuptest.asdb=-1
+/setuptest.awc=-1
+[Files.Data]
+.\..\clk_div_2.vhd=VHDL Source Code
+.\..\hyperram.vhd=VHDL Source Code
+.\..\hyperram_tb.vhd=VHDL Source Code
+.\src\setuptest.asdb=Accelerated Waveform File
+.\src\setuptest.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=hyperram_tb|behavior|0
+ShowHide=ShowTopLevel
+Selected=

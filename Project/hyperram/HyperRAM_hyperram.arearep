@@ -1,0 +1,25 @@
+----------------------------------------------------------------------
+Report for cell hyperram_tb.TECH
+Register bits:  31 of 24642 (0.126%)
+I/O cells:      102
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3BX        20          100.0
+                            FD1S3DX        11          100.0
+                                GSR         1          100.0
+                                 IB        33          100.0
+                               LUT4       108          100.0
+                                 OB        37          100.0
+                                OBZ        32          100.0
+SUB MODULES
+                     hram_interface         1
+                              TOTAL       243
+----------------------------------------------------------------------
+Report for cell hram_interface.v1
+Instance Path : uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3BX        20          100.0
+                            FD1S3DX        11          100.0
+                               LUT4       107           99.1
+                              TOTAL       138

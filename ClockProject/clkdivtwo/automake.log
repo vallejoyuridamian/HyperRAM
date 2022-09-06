@@ -1,0 +1,176 @@
+
+synthesis -f "clkdivtwo_clkdivtwo_lattice.synproj"
+synthesis:  version Diamond Version 3.5.0.102
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Sun Jul 03 12:39:21 2022
+
+
+Command Line:  synthesis -f clkdivtwo_clkdivtwo_lattice.synproj -gui -msgset C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/promote.xml 
+
+    <postMsg mid="35002000" type="Info"    dynamic="0" navigation="0"  />
+Synthesis options:
+The -a option is ECP5U.
+The -s option is 6.
+The -t option is CSFBGA285.
+The -d option is LFE5U-25F.
+Using package CSFBGA285.
+Using performance grade 6.
+                                                          
+
+##########################################################
+
+### Lattice Family : ECP5U
+
+### Device  : LFE5U-25F
+
+### Package : CSFBGA285
+
+### Speed   : 6
+
+##########################################################
+
+                                                          
+
+Optimization goal = Timing
+Top-level module name = Tb_clock_divider.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/lscc/diamond/3.5/ispfpga/sa5p00/data (searchpath added)
+-p C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clkdivtwo (searchpath added)
+-p C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject (searchpath added)
+VHDL library = work
+VHDL design file = C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clk_div_2.vhd
+VHDL design file = C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clktest.vhd
+NGD file = clkdivtwo_clkdivtwo.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.5/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v. VERI-1482
+Compile design.
+Compile Design Begin
+    <postMsg mid="35921504" type="Info"    dynamic="2" navigation="0" arg0="" arg1="C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clkdivtwo"  />
+Analyzing VHDL file c:/users/damian/desktop/upwork/camilafpga/clockproject/clk_div_2.vhd. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/damian/desktop/upwork/camilafpga/clockproject/clk_div_2.vhd(8): " arg1="clk_div_2" arg2="c:/users/damian/desktop/upwork/camilafpga/clockproject/clk_div_2.vhd" arg3="8"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/damian/desktop/upwork/camilafpga/clockproject/clk_div_2.vhd(18): " arg1="arc" arg2="c:/users/damian/desktop/upwork/camilafpga/clockproject/clk_div_2.vhd" arg3="18"  />
+Analyzing VHDL file c:/users/damian/desktop/upwork/camilafpga/clockproject/clktest.vhd. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/damian/desktop/upwork/camilafpga/clockproject/clktest.vhd(4): " arg1="tb_clock_divider" arg2="c:/users/damian/desktop/upwork/camilafpga/clockproject/clktest.vhd" arg3="4"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/damian/desktop/upwork/camilafpga/clockproject/clktest.vhd(12): " arg1="behavior" arg2="c:/users/damian/desktop/upwork/camilafpga/clockproject/clktest.vhd" arg3="12"  />
+unit Tb_clock_divider is not yet analyzed. VHDL-1485
+c:/users/damian/desktop/upwork/camilafpga/clockproject/clktest.vhd(4): executing Tb_clock_divider(behavior)
+
+    <postMsg mid="35921205" type="Warning" dynamic="3" navigation="2" arg0="c:/users/damian/desktop/upwork/camilafpga/clockproject/clktest.vhd(10): " arg1="Tb_clock_divider" arg2="behavior" arg3="c:/users/damian/desktop/upwork/camilafpga/clockproject/clktest.vhd" arg4="10"  />
+Top module name (VHDL): Tb_clock_divider
+Last elaborated design is Tb_clock_divider(behavior)
+Loading NGL library 'C:/lscc/diamond/3.5/ispfpga/sa5p00/data/sa5plib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.5/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.5/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.5/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'sa5p25.nph' in environment: C:/lscc/diamond/3.5/ispfpga.
+Package Status:                     Advanced       Version 1.25.
+Top-level module name = Tb_clock_divider.
+
+
+
+GSR instance connected to net n177.
+Applying 200.000000 MHz constraint to all clocks
+
+    <postMsg mid="35001611" type="Warning" dynamic="0" navigation="0"  />
+Results of NGD DRC are available in Tb_clock_divider_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.5/ispfpga/sa5p00/data/sa5plib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.5/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.5/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.5/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+DRC complete with no errors or warnings
+
+Design Results:
+     78 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file clkdivtwo_clkdivtwo.ngd.
+
+################### Begin Area Report (Tb_clock_divider)######################
+Number of register bits => 33 of 24642 (0 % )
+CCU2C => 34
+FD1S3AX => 1
+FD1S3AY => 1
+FD1S3IX => 31
+GSR => 1
+IB => 2
+LUT4 => 4
+OB => 1
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 1
+  Net : clk_in_test_c, loads : 33
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : n178, loads : 31
+  Net : n39, loads : 3
+  Net : reset_test_c, loads : 1
+  Net : uut/clk_out_test_c, loads : 1
+  Net : n270, loads : 1
+  Net : uut/counter_31, loads : 1
+  Net : uut/counter_30, loads : 1
+  Net : uut/counter_29, loads : 1
+  Net : uut/counter_28, loads : 1
+  Net : uut/counter_27, loads : 1
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets clk_in_test_c]           |  200.000 MHz|  156.372 MHz|    19 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+
+Peak Memory Usage: 65.262  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 1.563  secs
+--------------------------------------------------------------

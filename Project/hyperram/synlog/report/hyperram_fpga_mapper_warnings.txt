@@ -1,0 +1,45 @@
+@W: MT462 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":87:7:87:44|Net uut.states\.un1_state appears to be an unidentified clock source. Assuming default frequency. 
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_46,  because it is equivalent to instance uut.un2_state_45
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_45,  because it is equivalent to instance uut.un2_state_43
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_44,  because it is equivalent to instance uut.un2_state_42
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_43,  because it is equivalent to instance uut.un2_state_41
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_42,  because it is equivalent to instance uut.un2_state_40
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_41,  because it is equivalent to instance uut.un2_state_39
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_40,  because it is equivalent to instance uut.un2_state_38
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_39,  because it is equivalent to instance uut.un2_state_37
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_38,  because it is equivalent to instance uut.un2_state_36
+@W: BN132 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram.vhd":78:2:78:3|Removing user instance uut.un2_state_37,  because it is equivalent to instance uut.un2_state_35
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[31]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[31] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[30]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[30] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[29]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[29] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[28]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[28] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[27]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[27] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[26]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[26] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[25]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[25] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test[24]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test[24] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[31]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[31] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[30]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[30] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[29]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[29] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[28]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[28] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[27]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[27] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[26]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[26] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[25]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[25] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN219 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Unable to convert tristate instances on net "DQ_test_c[24]" to mux due to driver "ram"
+@W: BN220 :"c:\users\damian\desktop\upwork\camilafpga\project\hyperram_tb.vhd":92:0:92:2|Net DQ_test_c[24] in module hyperram_tb is driven by a non-tristate instance or by a tristate instance in a different module 
+@W: BN137 :|Found combinational loop during mapping at net I_38.t2
+@W: BN137 :|Found combinational loop during mapping at net CS_n_test_c

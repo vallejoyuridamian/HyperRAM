@@ -1,0 +1,35 @@
+Active-HDL 13.0.376.8320 2022-07-03 13:15:13
+
+Elaboration top modules:
+Architecture                  behavior(Tb_clock_divider)
+
+
+---------------------------------------------------------------------------------------------------
+Entity           | Architecture | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------
+Tb_clock_divider | behavior     | work    |      | 13.0.376.8320 (Windows64) | -O3
+clk_div_2        | arc          | work    |      | 13.0.376.8320 (Windows64) | -O3
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+VHDL Package                    | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------
+standard                        | std     |      |                           | <unavailable>
+TEXTIO                          | std     |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                  | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+std_logic_arith                 | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+Library                         | Comment
+---------------------------------------------------------------------------------------------------
+ieee                            | Standard IEEE packages library
+std                             | Standard VHDL library
+work                            | None
+---------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+Tb_clock_divider Tb_clock_divider behavior
+
+
+The performance of simulation is reduced. Version Student Edition

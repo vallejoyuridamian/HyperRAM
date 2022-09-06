@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.5\synpbase\bin64\syn_nfilter.exe  -link  -top  Tb_clock_divider  -multisrs  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synwork\clkdivtwo_comp.srs  -osyn  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synwork\clkdivtwo_mult.srs  -log  C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synlog\clkdivtwo_multi_srs_gen.srr 
+rc:0 success:1
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synwork\clkdivtwo_comp.srs|i|1656858098|1605
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synwork\clkdivtwo_mult.srs|o|1656858100|1746
+C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clkdivtwo\synlog\clkdivtwo_multi_srs_gen.srr|o|1656858100|374
+C:\lscc\diamond\3.5\synpbase\bin\syn_nfilter.exe|i|1429558166|3000832
+C:\lscc\diamond\3.5\synpbase\bin64\syn_nfilter.exe|i|1429558358|3967488

@@ -1,0 +1,81 @@
+sourcing C:\lscc\diamond\3.5\synpbase\lib\message_override.tcl
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.5\synpbase\bin64\mbin\synplify.exe
+Install:     C:\lscc\diamond\3.5\synpbase
+Hostname:    DESKTOP-990B5R6
+Date:        Mon Jul 04 14:07:28 2022
+Version:     J-2015.03L
+
+Arguments:   -product synplify_pro -tcl C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram/launch_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+No project opened.
+auto_infer_blackbox is not supported in current product.
+Removed file: C:\lscc\diamond\3.5\cae_library\synthesis\vhdl\ecp5u.vhd
+Removed file: C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd
+Removed file: C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd
+Removed file: C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\clk_div_2.vhd
+TCL script complete: "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram/launch_synplify.tcl"
+log file: "C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\hyperram.srr"
+Running: hyperram in foreground
+
+Running hyperram_syn|hyperram
+
+Running: compile (Compile) on hyperram_syn|hyperram
+
+Running: compile_flow (Compile Process) on hyperram_syn|hyperram
+
+Running: compiler (Compile Input) on hyperram_syn|hyperram
+compiler exited with errors
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\synlog\hyperram_compiler.srr"
+Return Code: 2
+Run Time:0h:00m:01s
+log file: "C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\hyperram.srr"
+Running: hyperram in foreground
+
+Running hyperram_syn|hyperram
+
+Running: compile (Compile) on hyperram_syn|hyperram
+
+Running: compile_flow (Compile Process) on hyperram_syn|hyperram
+
+Running: compiler (Compile Input) on hyperram_syn|hyperram
+compiler exited with errors
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\synlog\hyperram_compiler.srr"
+Return Code: 2
+Run Time:0h:00m:00s
+log file: "C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\hyperram.srr"
+Running: hyperram in foreground
+
+Running hyperram_syn|hyperram
+
+Running: compile (Compile) on hyperram_syn|hyperram
+
+Running: compile_flow (Compile Process) on hyperram_syn|hyperram
+
+Running: compiler (Compile Input) on hyperram_syn|hyperram
+compiler exited with errors
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\synlog\hyperram_compiler.srr"
+Return Code: 2
+Run Time:0h:00m:01s
+There was a problem to load the filter class: null
+There was a problem to load the filter class: null
+Running: System Designer in background
+
+Running: System Designer
+
+
+Return Code: 75
+Run Time:0h:00m:00s
+exit status=2

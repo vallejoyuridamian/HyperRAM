@@ -1,0 +1,66 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="d0c5d33ee4fb8915c662b525e4561700">wave.asdb</database>
+    </databases>
+    <gridshown/>
+    <signallists>
+        <signallist id="0">
+        <signal>/hyperram_tb/reset_sig</signal>
+        <signal>/hyperram_tb/uut/byte_counter</signal>
+        <signal>/hyperram_tb/state_sig</signal>
+        <signal>/hyperram_tb/clk_ram_sig</signal>
+        <signal>/hyperram_tb/clk_system_sig</signal>
+        <signal>/hyperram_tb/CS_n_sig</signal>
+        <signal>/hyperram_tb/DQ_in_sig</signal>
+        <signal>/hyperram_tb/DQ_out_sig</signal>
+        <signal>/hyperram_tb/rwds_in_sig</signal>
+        <signal>/hyperram_tb/rwds_out_sig</signal>
+        <signal>/hyperram_tb/ready_sig</signal>
+        <signal>/hyperram_tb/write_start_sig</signal>
+        <signal>/hyperram_tb/write_fifo_empty_sig</signal>
+        <signal>/hyperram_tb/write_fifo_data_rd_enable_sig</signal>
+        <signal>/hyperram_tb/write_fifo_data_sig</signal>
+        <signal>/hyperram_tb/start_address_sig</signal>
+        <signal>/hyperram_tb/read_fifo_data_sig</signal>
+        <signal>/hyperram_tb/read_fifo_wr_enable_sig</signal>
+        <signal>/hyperram_tb/read_start_sig</signal>
+        <signal>/hyperram_tb/read_fifo_full_sig</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="2265008" end_time="3038685" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+            <bookmark value="958203"/>
+            <bookmark value="1515071"/>
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="3000000" label="Cursor 1" locked="0" />
+            <cursor value="3000000" label="Cursor 3" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="-1" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>

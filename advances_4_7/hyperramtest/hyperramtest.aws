@@ -1,0 +1,14 @@
+[Version]
+Version=13.0
+[Designs]
+hyperramtest=hyperramtest.adf
+[Settings]
+Active=hyperramtest
+[Expand]
+hyperramtest=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

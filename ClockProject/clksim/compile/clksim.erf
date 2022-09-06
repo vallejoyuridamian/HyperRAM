@@ -1,0 +1,8 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clk_div_2.vhd" 
+MESSAGE "Compile Entity "clk_div_2"" 
+MESSAGE "Compile Architecture "arc" of Entity "clk_div_2"" 
+MESSAGE "File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clktest.vhd" 
+MESSAGE "Compile Entity "Tb_clock_divider"" 
+MESSAGE "Compile Architecture "behavior" of Entity "Tb_clock_divider"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

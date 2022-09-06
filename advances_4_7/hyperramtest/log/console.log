@@ -1,0 +1,266 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/setuptest.asdb'.
+# Waveform file 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/setuptest.awc' connected to 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/setuptest.asdb'.
+# Waveform file 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/setuptest.awc' connected to 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/setuptest.asdbe'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/setuptest.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/setuptest.asdbe'.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+hyperram_tb hyperram_tb behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6559 kB (elbread=427 elab2=5992 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\advances_4_7\hyperramtest\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  13:59, martes, 5 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/setuptest.awc' connected to 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run 370 ns
+# KERNEL: stopped at time: 370 ns
+run 370 ns
+# KERNEL: stopped at time: 740 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+hyperram_tb hyperram_tb behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6559 kB (elbread=427 elab2=5992 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\advances_4_7\hyperramtest\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  14:00, martes, 5 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/setuptest.awc' connected to 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run 370 ns
+# KERNEL: stopped at time: 370 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+hyperram_tb hyperram_tb behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6559 kB (elbread=427 elab2=5992 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\advances_4_7\hyperramtest\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  14:52, martes, 5 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/setuptest.awc' connected to 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/wave.asdb'.
+run 370 ns
+# KERNEL: stopped at time: 370 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+hyperram_tb hyperram_tb behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6559 kB (elbread=427 elab2=5992 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\advances_4_7\hyperramtest\src\wave.asdb
+#  14:52, martes, 5 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/setuptest.awc' connected to 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run 370 ns
+# KERNEL: stopped at time: 370 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+hyperram_tb hyperram_tb behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6559 kB (elbread=427 elab2=5992 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\advances_4_7\hyperramtest\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  14:52, martes, 5 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/setuptest.awc' connected to 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/wave.asdb'.
+run 370 ns
+# KERNEL: stopped at time: 370 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+hyperram_tb hyperram_tb behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6559 kB (elbread=427 elab2=5992 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\advances_4_7\hyperramtest\src\wave.asdb
+#  14:52, martes, 5 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/setuptest.awc' connected to 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run 370 ns
+# KERNEL: stopped at time: 370 ns
+endsim
+# VSIM: Simulation has finished.
+acom -reorder -O3 -e 100 -work work -2002  $dsn/../clk_div_2.vhd $dsn/../hyperram.vhd $dsn/../hyperram_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Damian/Desktop/advances_4_7/clk_div_2.vhd
+# Compile Entity "clk_div_2"
+# Compile Architecture "arc" of Entity "clk_div_2"
+# File: C:/Users/Damian/Desktop/advances_4_7/hyperram.vhd
+# Compile Entity "hram_interface"
+# Compile Architecture "arc" of Entity "hram_interface"
+# File: C:/Users/Damian/Desktop/advances_4_7/hyperram_tb.vhd
+# Compile Entity "hyperram_tb"
+# Compile Architecture "behavior" of Entity "hyperram_tb"
+# Top-level unit(s) detected:
+# Entity => hyperram_tb
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+hyperram_tb hyperram_tb behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.3 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6557 kB (elbread=427 elab2=5991 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\advances_4_7\hyperramtest\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  14:53, martes, 5 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/setuptest.awc' connected to 'C:/Users/Damian/Desktop/advances_4_7/hyperramtest/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run 370 ns
+# KERNEL: stopped at time: 370 ns

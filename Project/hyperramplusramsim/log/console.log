@@ -1,0 +1,136 @@
+# Waveform file 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/src/untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/src/wave.asdb'.
+# Warning: Content of 'wave.asdb' has changed after last modification of AWC file.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_ecp5u
+designverdefinemacro -clear
+addfile C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram/rev_1/W958D8NBYA.modelsim.edn
+# Warning: You do not have valid license to open EDIF Netlist files. Contact Aldec for ordering information - sales@aldec.com.
+# Adding file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram\rev_1\W958D8NBYA.modelsim.edn ... Done
+addfile C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/clk_div_2.vhd
+# Adding file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\clk_div_2.vhd ... Done
+addfile C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram.vhd
+# Adding file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram.vhd ... Done
+addfile C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram_tb.vhd
+# Adding file C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperram_tb.vhd ... Done
+vlib C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/clk_div_2.vhd
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/clk_div_2.vhd
+# Compile Entity "clk_div_2"
+# Compile Architecture "arc" of Entity "clk_div_2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+vcom -dbg -work work C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram.vhd
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram.vhd
+# Compile Entity "hram_interface"
+# Compile Architecture "arc" of Entity "hram_interface"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg -work work C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram_tb.vhd
+# File: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperram_tb.vhd
+# Compile Entity "hyperram_tb"
+# Compile Architecture "behavior" of Entity "hyperram_tb"
+# Warning: ELAB1_0026: hyperram_tb.vhd : (98, 0): There is no default binding for component "W958D8NBYA". (No entity named "W958D8NBYA" was found).
+# Compile success 0 Errors 1 Warnings  Analysis time :  78.0 [ms]
+entity hyperram_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Elaboration time 0.2 [s].
+vsim +access +r hyperram_tb -PL pmi_work -L ovi_ecp5u
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.2 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 hyperram_tb.vhd (98): Component /hyperram_tb/ram : W958D8NBYA not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6564 kB (elbread=427 elab2=5995 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperramplusramsim\src\wave.asdb
+#  10:16, lunes, 4 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/src/untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/src/wave.asdb'.
+add wave *
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/clk_in_test" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/clk_out_test" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/clk_ram" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/clk_ram_n" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/cs_n" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/CS_n_test" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/DQ_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/DQ_test" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/estado_test" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/reset_n" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/reset_test" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/rwds_sig" has already been traced.
+# VSIM: 2 object(s) traced.
+run 1000ns
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 -L ovi_ecp5u -PL pmi_work +access +r +m+hyperram_tb hyperram_tb behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Warning: Cannot find library ovi_ecp5u.
+# ELBREAD: Warning: Cannot find library pmi_work.
+# ELBREAD: Elaboration time 0.2 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 hyperram_tb.vhd (98): Component /hyperram_tb/ram : W958D8NBYA not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6564 kB (elbread=427 elab2=5995 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Damian\Desktop\Upwork\CamilaFPGA\Project\hyperramplusramsim\src\wave.asdb
+#  10:16, lunes, 4 de julio de 2022
+#  Simulation has been initialized
+# Waveform file 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/src/untitled.awc' connected to 'C:/Users/Damian/Desktop/Upwork/CamilaFPGA/Project/hyperramplusramsim/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/clk_in_test" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/clk_out_test" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/clk_ram" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/clk_ram_n" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/cs_n" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/CS_n_test" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/DQ_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/DQ_test" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/estado_test" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/reset_n" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/reset_test" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/hyperram_tb/rwds_sig" has already been traced.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run 100 ns
+# KERNEL: stopped at time: 100 ns

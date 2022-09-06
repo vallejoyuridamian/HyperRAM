@@ -1,0 +1,422 @@
+<HTML>
+<HEAD><TITLE>Lattice Synthesis Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Lattice Synthesis Timing Report</big></U></B>
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Mon Jul 04 20:54:54 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Design:     hyperram_tb
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets clk_in_test_c]
+            4096 items scored, 4095 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 30.426ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \uut/id_register_1474  (from clk_in_test_c +)
+   Destination:    FD1S3DX    D              \uut/DQ_out_dbg_i29_816_817_reset  (to clk_in_test_c -)
+
+   Delay:                  35.601ns  (12.1% logic, 87.9% route), 25 logic levels.
+
+ Constraint Details:
+
+     35.601ns data_path \uut/id_register_1474 to \uut/DQ_out_dbg_i29_816_817_reset violates
+      5.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 5.175ns) by 30.426ns
+
+ Path Details: \uut/id_register_1474 to \uut/DQ_out_dbg_i29_816_817_reset
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \uut/id_register_1474 (from clk_in_test_c)
+Route        14   e 1.647                                  \uut/DQ_out_dbg_31__N_332[24]
+MOFX0       ---     0.179             C0 to Z              \uut/i609
+Route         1   e 1.020                                  \uut/n877
+LUT4        ---     0.166              B to Z              \uut/i1_3_lut_adj_244
+Route         3   e 1.239                                  \uut/state_2__N_95
+LUT4        ---     0.166              B to Z              \uut/i1_4_lut_adj_237
+Route         1   e 1.020                                  \uut/n2512
+LUT4        ---     0.166              D to Z              \uut/i1_4_lut_adj_236
+Route         1   e 1.020                                  \uut/n2518
+LUT4        ---     0.166              B to Z              \uut/i1_4_lut_4_lut
+Route        12   e 1.516                                  \uut/byte_counter_3__N_129
+LUT4        ---     0.166              A to Z              \uut/i2422_4_lut_4_lut_3_lut_4_lut
+Route         2   e 1.158                                  \uut/n3420
+LUT4        ---     0.166              C to Z              \uut/i758_3_lut
+Route        29   e 1.693                                  \uut/byte_counter[2]
+LUT4        ---     0.166              A to Z              \uut/i199_3_lut_3_lut_4_lut
+Route         4   e 1.297                                  \uut/n353
+LUT4        ---     0.166              C to Z              \uut/mux_137_i1_4_lut
+Route         1   e 0.020                                  \uut/n1794
+MUXL5       ---     0.116           ALUT to Z              \uut/i565
+Route         3   e 1.239                                  \uut/n1818
+LUT4        ---     0.166              B to Z              \uut/i2408_4_lut_4_lut_3_lut_4_lut
+Route         2   e 1.158                                  \uut/n3417
+LUT4        ---     0.166              C to Z              \uut/i746_3_lut
+Route        27   e 1.679                                  \uut/byte_counter[0]
+LUT4        ---     0.166              A to Z              \uut/i1_2_lut
+Route         9   e 1.459                                  \uut/n4
+LUT4        ---     0.166              C to Z              \uut/i23_4_lut_4_lut
+Route         4   e 1.297                                  \uut/n130
+MOFX0       ---     0.179             C0 to Z              \uut/i541
+Route         3   e 1.239                                  \uut/byte_counter_3__N_153
+LUT4        ---     0.166              B to Z              \uut/i2417_4_lut_4_lut_3_lut_4_lut
+Route         2   e 1.158                                  \uut/n3414
+LUT4        ---     0.166              C to Z              \uut/i754_3_lut
+Route        34   e 1.725                                  \uut/byte_counter[3]
+LUT4        ---     0.166              B to Z              \uut/i1_3_lut_rep_137_4_lut
+Route         5   e 1.341                                  \uut/n3172
+LUT4        ---     0.166              D to Z              \uut/i1464_3_lut_rep_127_4_lut
+Route         4   e 1.297                                  \uut/n3162
+LUT4        ---     0.166              B to Z              \uut/i1_4_lut
+Route         2   e 1.158                                  \uut/DQ_out_dbg_31__N_336
+LUT4        ---     0.166              A to Z              \uut/DQ_out_dbg_31__I_149_4_lut
+Route         3   e 1.239                                  \uut/DQ_out_dbg_31__N_344
+LUT4        ---     0.166              D to Z              \uut/i2447_4_lut_4_lut_3_lut_4_lut
+Route         5   e 1.341                                  \uut/n1083
+LUT4        ---     0.166              C to Z              \uut/i818_3_lut
+Route         2   e 1.158                                  DQ_out_dbg_31__N_5[29]
+LUT4        ---     0.166              A to Z              \uut/DQ_out_dbg_29__I_0_4_lut
+Route         2   e 1.158                                  \uut/DQ_out_dbg_31__N_230
+                  --------
+                   35.601  (12.1% logic, 87.9% route), 25 logic levels.
+
+
+Error:  The following path violates requirements by 30.426ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \uut/id_register_1474  (from clk_in_test_c +)
+   Destination:    FD1S3DX    D              \uut/DQ_out_dbg_i22_800_801_reset  (to clk_in_test_c -)
+
+   Delay:                  35.601ns  (12.1% logic, 87.9% route), 25 logic levels.
+
+ Constraint Details:
+
+     35.601ns data_path \uut/id_register_1474 to \uut/DQ_out_dbg_i22_800_801_reset violates
+      5.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 5.175ns) by 30.426ns
+
+ Path Details: \uut/id_register_1474 to \uut/DQ_out_dbg_i22_800_801_reset
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \uut/id_register_1474 (from clk_in_test_c)
+Route        14   e 1.647                                  \uut/DQ_out_dbg_31__N_332[24]
+MOFX0       ---     0.179             C0 to Z              \uut/i609
+Route         1   e 1.020                                  \uut/n877
+LUT4        ---     0.166              B to Z              \uut/i1_3_lut_adj_244
+Route         3   e 1.239                                  \uut/state_2__N_95
+LUT4        ---     0.166              B to Z              \uut/i1_4_lut_adj_237
+Route         1   e 1.020                                  \uut/n2512
+LUT4        ---     0.166              D to Z              \uut/i1_4_lut_adj_236
+Route         1   e 1.020                                  \uut/n2518
+LUT4        ---     0.166              B to Z              \uut/i1_4_lut_4_lut
+Route        12   e 1.516                                  \uut/byte_counter_3__N_129
+LUT4        ---     0.166              A to Z              \uut/i2422_4_lut_4_lut_3_lut_4_lut
+Route         2   e 1.158                                  \uut/n3420
+LUT4        ---     0.166              C to Z              \uut/i758_3_lut
+Route        29   e 1.693                                  \uut/byte_counter[2]
+LUT4        ---     0.166              A to Z              \uut/i199_3_lut_3_lut_4_lut
+Route         4   e 1.297                                  \uut/n353
+LUT4        ---     0.166              C to Z              \uut/mux_137_i1_4_lut
+Route         1   e 0.020                                  \uut/n1794
+MUXL5       ---     0.116           ALUT to Z              \uut/i565
+Route         3   e 1.239                                  \uut/n1818
+LUT4        ---     0.166              B to Z              \uut/i2408_4_lut_4_lut_3_lut_4_lut
+Route         2   e 1.158                                  \uut/n3417
+LUT4        ---     0.166              C to Z              \uut/i746_3_lut
+Route        27   e 1.679                                  \uut/byte_counter[0]
+LUT4        ---     0.166              A to Z              \uut/i1_2_lut
+Route         9   e 1.459                                  \uut/n4
+LUT4        ---     0.166              C to Z              \uut/i23_4_lut_4_lut
+Route         4   e 1.297                                  \uut/n130
+MOFX0       ---     0.179             C0 to Z              \uut/i541
+Route         3   e 1.239                                  \uut/byte_counter_3__N_153
+LUT4        ---     0.166              B to Z              \uut/i2417_4_lut_4_lut_3_lut_4_lut
+Route         2   e 1.158                                  \uut/n3414
+LUT4        ---     0.166              C to Z              \uut/i754_3_lut
+Route        34   e 1.725                                  \uut/byte_counter[3]
+LUT4        ---     0.166              B to Z              \uut/i1_3_lut_rep_137_4_lut
+Route         5   e 1.341                                  \uut/n3172
+LUT4        ---     0.166              D to Z              \uut/i1464_3_lut_rep_127_4_lut
+Route         4   e 1.297                                  \uut/n3162
+LUT4        ---     0.166              B to Z              \uut/i1_4_lut
+Route         2   e 1.158                                  \uut/DQ_out_dbg_31__N_336
+LUT4        ---     0.166              A to Z              \uut/DQ_out_dbg_31__I_144_4_lut
+Route         3   e 1.239                                  \uut/DQ_out_dbg_31__N_334
+LUT4        ---     0.166              D to Z              \uut/i2442_4_lut_4_lut_3_lut_4_lut
+Route         5   e 1.341                                  \uut/n1070
+LUT4        ---     0.166              C to Z              \uut/i802_3_lut
+Route         2   e 1.158                                  DQ_out_dbg_31__N_5[22]
+LUT4        ---     0.166              A to Z              \uut/DQ_out_dbg_22__I_0_4_lut
+Route         2   e 1.158                                  \uut/DQ_out_dbg_31__N_251
+                  --------
+                   35.601  (12.1% logic, 87.9% route), 25 logic levels.
+
+
+Error:  The following path violates requirements by 30.426ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \uut/id_register_1474  (from clk_in_test_c +)
+   Destination:    FD1S3DX    D              \uut/DQ_out_dbg_i14_797_798_reset  (to clk_in_test_c -)
+
+   Delay:                  35.601ns  (12.1% logic, 87.9% route), 25 logic levels.
+
+ Constraint Details:
+
+     35.601ns data_path \uut/id_register_1474 to \uut/DQ_out_dbg_i14_797_798_reset violates
+      5.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 5.175ns) by 30.426ns
+
+ Path Details: \uut/id_register_1474 to \uut/DQ_out_dbg_i14_797_798_reset
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \uut/id_register_1474 (from clk_in_test_c)
+Route        14   e 1.647                                  \uut/DQ_out_dbg_31__N_332[24]
+MOFX0       ---     0.179             C0 to Z              \uut/i609
+Route         1   e 1.020                                  \uut/n877
+LUT4        ---     0.166              B to Z              \uut/i1_3_lut_adj_244
+Route         3   e 1.239                                  \uut/state_2__N_95
+LUT4        ---     0.166              B to Z              \uut/i1_4_lut_adj_237
+Route         1   e 1.020                                  \uut/n2512
+LUT4        ---     0.166              D to Z              \uut/i1_4_lut_adj_236
+Route         1   e 1.020                                  \uut/n2518
+LUT4        ---     0.166              B to Z              \uut/i1_4_lut_4_lut
+Route        12   e 1.516                                  \uut/byte_counter_3__N_129
+LUT4        ---     0.166              A to Z              \uut/i2422_4_lut_4_lut_3_lut_4_lut
+Route         2   e 1.158                                  \uut/n3420
+LUT4        ---     0.166              C to Z              \uut/i758_3_lut
+Route        29   e 1.693                                  \uut/byte_counter[2]
+LUT4        ---     0.166              A to Z              \uut/i199_3_lut_3_lut_4_lut
+Route         4   e 1.297                                  \uut/n353
+LUT4        ---     0.166              C to Z              \uut/mux_137_i1_4_lut
+Route         1   e 0.020                                  \uut/n1794
+MUXL5       ---     0.116           ALUT to Z              \uut/i565
+Route         3   e 1.239                                  \uut/n1818
+LUT4        ---     0.166              B to Z              \uut/i2408_4_lut_4_lut_3_lut_4_lut
+Route         2   e 1.158                                  \uut/n3417
+LUT4        ---     0.166              C to Z              \uut/i746_3_lut
+Route        27   e 1.679                                  \uut/byte_counter[0]
+LUT4        ---     0.166              A to Z              \uut/i1_2_lut
+Route         9   e 1.459                                  \uut/n4
+LUT4        ---     0.166              C to Z              \uut/i23_4_lut_4_lut
+Route         4   e 1.297                                  \uut/n130
+MOFX0       ---     0.179             C0 to Z              \uut/i541
+Route         3   e 1.239                                  \uut/byte_counter_3__N_153
+LUT4        ---     0.166              B to Z              \uut/i2417_4_lut_4_lut_3_lut_4_lut
+Route         2   e 1.158                                  \uut/n3414
+LUT4        ---     0.166              C to Z              \uut/i754_3_lut
+Route        34   e 1.725                                  \uut/byte_counter[3]
+LUT4        ---     0.166              B to Z              \uut/i1_3_lut_rep_137_4_lut
+Route         5   e 1.341                                  \uut/n3172
+LUT4        ---     0.166              D to Z              \uut/i1464_3_lut_rep_127_4_lut
+Route         4   e 1.297                                  \uut/n3162
+LUT4        ---     0.166              B to Z              \uut/i1_4_lut
+Route         2   e 1.158                                  \uut/DQ_out_dbg_31__N_336
+LUT4        ---     0.166              A to Z              \uut/DQ_out_dbg_31__I_144_4_lut
+Route         3   e 1.239                                  \uut/DQ_out_dbg_31__N_334
+LUT4        ---     0.166              D to Z              \uut/i2442_4_lut_4_lut_3_lut_4_lut
+Route         5   e 1.341                                  \uut/n1070
+LUT4        ---     0.166              C to Z              \uut/i799_3_lut
+Route         2   e 1.158                                  DQ_out_dbg_31__N_5[14]
+LUT4        ---     0.166              A to Z              \uut/DQ_out_dbg_14__I_0_4_lut
+Route         2   e 1.158                                  \uut/DQ_out_dbg_31__N_275
+                  --------
+                   35.601  (12.1% logic, 87.9% route), 25 logic levels.
+
+Warning: 35.426 ns is the maximum delay for this constraint.
+
+
+<A name="mtw1_rs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets clk_in_test_c]           |     5.000 ns|    35.426 ns|    25 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+\uut/byte_counter[0]                    |      27|    4093|     99.95%
+                                        |        |        |
+\uut/byte_counter[2]                    |      29|    4093|     99.95%
+                                        |        |        |
+\uut/byte_counter[3]                    |      34|    4093|     99.95%
+                                        |        |        |
+\uut/byte_counter_3__N_129              |      12|    4093|     99.95%
+                                        |        |        |
+\uut/byte_counter_3__N_153              |       3|    4093|     99.95%
+                                        |        |        |
+\uut/n130                               |       4|    4093|     99.95%
+                                        |        |        |
+\uut/n353                               |       4|    4093|     99.95%
+                                        |        |        |
+\uut/n1794                              |       1|    4093|     99.95%
+                                        |        |        |
+\uut/n1818                              |       3|    4093|     99.95%
+                                        |        |        |
+\uut/n2518                              |       1|    4093|     99.95%
+                                        |        |        |
+\uut/n3414                              |       2|    4093|     99.95%
+                                        |        |        |
+\uut/n3417                              |       2|    4093|     99.95%
+                                        |        |        |
+\uut/n3420                              |       2|    4093|     99.95%
+                                        |        |        |
+\uut/n4                                 |       9|    2414|     58.95%
+                                        |        |        |
+\uut/DQ_out_dbg_31__N_332[24]           |      14|    2333|     56.97%
+                                        |        |        |
+\uut/n2512                              |       1|    2333|     56.97%
+                                        |        |        |
+DQ_out_dbg_10__N_48                     |      65|    1848|     45.13%
+                                        |        |        |
+\uut/DQ_out_dbg_31__N_630               |       2|    1848|     45.13%
+                                        |        |        |
+\uut/n3426                              |       2|    1848|     45.13%
+                                        |        |        |
+\uut/byte_counter[1]                    |      29|    1760|     42.98%
+                                        |        |        |
+\uut/n3176                              |       1|    1760|     42.98%
+                                        |        |        |
+\uut/n3162                              |       4|    1688|     41.22%
+                                        |        |        |
+\uut/n3186                              |       5|    1679|     41.00%
+                                        |        |        |
+\uut/n877                               |       1|    1649|     40.27%
+                                        |        |        |
+\uut/state_2__N_95                      |       3|    1649|     40.27%
+                                        |        |        |
+\uut/state_2__N_103                     |       9|    1314|     32.09%
+                                        |        |        |
+\uut/n2506                              |      17|    1131|     27.62%
+                                        |        |        |
+\uut/n3172                              |       5|    1006|     24.57%
+                                        |        |        |
+\uut/n1054                              |       1|     880|     21.49%
+                                        |        |        |
+\uut/n1055                              |       1|     880|     21.49%
+                                        |        |        |
+\uut/n2458                              |       7|     784|     19.15%
+                                        |        |        |
+\uut/n3185                              |       3|     714|     17.44%
+                                        |        |        |
+\uut/n881                               |       1|     684|     16.70%
+                                        |        |        |
+\uut/DQ_out_dbg_31__N_510               |      23|     624|     15.24%
+                                        |        |        |
+\uut/n2997                              |       2|     538|     13.14%
+                                        |        |        |
+n3314                                   |      13|     538|     13.14%
+                                        |        |        |
+\uut/n1692                              |      33|     528|     12.89%
+                                        |        |        |
+\uut/n2530                              |       1|     528|     12.89%
+                                        |        |        |
+\uut/n2566                              |       1|     528|     12.89%
+                                        |        |        |
+\uut/n3161                              |       3|     491|     11.99%
+                                        |        |        |
+\uut/n1121                              |       9|     441|     10.77%
+                                        |        |        |
+\uut/n1096                              |       9|     434|     10.60%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary:</big></U></B>
+---------------
+
+Timing errors: 4095  Score: 117377342
+
+Constraints cover  107183 paths, 278 nets, and 816 connections (75.0% coverage)
+
+
+Peak memory: 76070912 bytes, TRCE: 5664768 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

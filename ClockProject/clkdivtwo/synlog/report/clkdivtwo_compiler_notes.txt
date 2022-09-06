@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.5\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clktest.vhd":4:7:4:22|Top entity is set to Tb_clock_divider.
+@N: CD630 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clktest.vhd":4:7:4:22|Synthesizing work.tb_clock_divider.behavior 
+@N: CD630 :"C:\Users\Damian\Desktop\Upwork\CamilaFPGA\ClockProject\clk_div_2.vhd":8:7:8:15|Synthesizing work.clk_div_2.arc 
+@N|Running in 64-bit mode
+

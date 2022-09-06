@@ -1,0 +1,16 @@
+#Start recording tcl command: 7/3/2022 09:56:21
+#Project Location: C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject; Project name: clkdivtwo
+prj_project new -name "clkdivtwo" -impl "clkdivtwo" -dev LFE5U-25F-6MG285C -synthesis "lse"
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clk_div_2.vhd"
+prj_project save
+prj_src add "C:/Users/Damian/Desktop/Upwork/CamilaFPGA/ClockProject/clktest.vhd"
+prj_run Synthesis -impl clkdivtwo
+prj_run Synthesis -impl clkdivtwo
+rvl_project new
+rvl_project close -force
+prj_run Synthesis -impl clkdivtwo
+prj_run Synthesis -impl clkdivtwo
+prj_run Map -impl clkdivtwo
+prj_run PAR -impl clkdivtwo
+prj_run Map -impl clkdivtwo
+#Stop recording: 7/3/2022 10:23:31
